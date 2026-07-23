@@ -1,7 +1,6 @@
-F<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <title>CESFAM N°5 — Guía de Orientación Usuaria</title>
@@ -654,61 +653,7 @@ F<!DOCTYPE html>
 <script>
 const BASE_URL = "https://sites.google.com/view/guiadeorientacionusuaria";
 
-// ════════════════════════════════════════════════════════════════
-// DESCARGAR PÁGINA COMO PDF
-// ════════════════════════════════════════════════════════════════
-function descargarPDF(paginaId, titulo) {
-  const elemento = document.getElementById('paginaBody');
-  
-  // Crear un elemento temporal para copiar solo el contenido sin botones
-  const elementoTemporal = elemento.cloneNode(true);
-  
-  // Remover el botón PDF del temporal (para no incluirlo en el PDF)
-  const botónPDF = elementoTemporal.querySelector('div[style*="F5F5F5"]');
-  if (botónPDF) {
-    botónPDF.remove();
-  }
-  
-  // Remover la barra de utilidad (¿Te fue útil?)
-  const utilBar = elementoTemporal.querySelector('.util-bar');
-  if (utilBar) {
-    utilBar.remove();
-  }
-  
-  // Remover el mensaje de gracias
-  const utilGracias = elementoTemporal.querySelector('.util-gracias');
-  if (utilGracias) {
-    utilGracias.remove();
-  }
-  
-  // Opciones del PDF
-  const opciones = {
-    margin: [15, 15, 15, 15],
-    filename: `${paginaId}.pdf`,
-    image: { type: 'jpeg', quality: 0.98 },
-    html2canvas: { 
-      scale: 2,
-      useCORS: true,
-      allowTaint: true
-    },
-    jsPDF: { 
-      orientation: 'portrait', 
-      unit: 'mm', 
-      format: 'a4',
-      compress: true
-    },
-    pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
-  };
-  
-  // Generar y descargar PDF
-  html2pdf()
-    .set(opciones)
-    .from(elementoTemporal)
-    .save();
-  
-  console.log(`✓ PDF descargado: ${paginaId}.pdf`);
-}
-  
+
 // Mapa de GES con contenido disponible
 const GES_CON_CONTENIDO = new Set([6, 7, 21, 38, 39, 60, 61, 76, 90, 34, 53, 85, 23, 46, 47, 66, 86]);
 
@@ -735,6 +680,7 @@ function tieneContenidoGES(nombre) {
   }
   return false;
 }
+
 
 const TEMAS = [
   {letra:"A",nombre:"Acompañamiento psicosocial, Programa",url:"/a/acompanamiento-psicosocial",categoria:"Programa",tags:"acompañamiento psicosocial apoyo familiar vulnerabilidad riesgo social salud mental programa",pagina:"acompanamiento-psicosocial"},
@@ -793,11 +739,10 @@ const TEMAS = [
   {letra:"E",nombre:"EMPAM — Examen de Medicina Preventiva del Adulto Mayor",url:"/e/empam",categoria:"Examen",tags:"empam examen preventivo adulto mayor anciano control anual",pagina:"empam"},
   {letra:"E",nombre:"Enfermedades de Transmisión Sexual, ETS",url:"/i/infecciones-de-transmisión-sexual-its",categoria:"Programa",tags:"ETS ITS sífilis gonorrea herpes sexual transmisión infección",pagina:"its"},
   {letra:"E",nombre:"Enfermera/o",url:"/e/enfermera",categoria:"Profesional",tags:"enfermera enfermero atención procedimiento curación inyectable",pagina:"enfermera"},
-  {letra:"E",nombre:"Epilepsia",url:"/e/epilepsia",categoria:"GES",ges:22, ges:60, tags:"epilepsia no refractaria convulsión crisis GES medicamento antiepiléptico",pagina:"epilepsia"},
+  {letra:"E",nombre:"Epilepsia",url:"/e/epilepsia",categoria:"GES",ges:9,tags:"epilepsia convulsión crisis GES medicamento antiepiléptico",pagina:"epilepsia"},
   {letra:"E",nombre:"Enfermedad Pulmonar Obstructiva Crónica, <strong>EPOC</strong>",url:"/e/epoc",categoria:"GES",ges:38,tags:"EPOC enfermedad pulmonar obstructiva crónica asma bronquitis respiratorio pulmón GES tratamiento",pagina:"epoc"},
   {letra:"E",nombre:"Equipo de Cabecera",url:"/e/equipo-de-cabecera",categoria:"Información",tags:"equipo cabecera médico enfermera sector asignado familia",pagina:"equipo-cabecera"},
   {letra:"E",nombre:"ERA — Sala de Enfermedades Respiratorias",url:"/e/era-sala",categoria:"Servicio",tags:"era asma bronquitis respiratorio inhalador nebulización EPOC pulmón",pagina:"sala-era"},
-  {letra:"E",nombre:"Esquizofrenia",url:"/e/esquizofrenia",categoria:"GES",ges:15,tags:"esquizofrenia trastorno mental EQZ alteracion",pagina:"esquizofrenia"},
   {letra:"E",nombre:"Esquema de vacunas",url:"/v/vacunatorio",categoria:"Servicio",tags:"esquema vacunas calendario vacunación dosis niño adulto",pagina:"vacunatorio"},
   {letra:"E",nombre:"Estimulación Temprana, Sala",url:"/e/estimulación-temprana-sala-de",categoria:"Servicio",tags:"estimulación temprana bebé niño desarrollo motor lenguaje terapia",pagina:"estimulacion-temprana"},
   {letra:"E",nombre:"Examen Citológico",url:"/p/pap",categoria:"Examen",tags:"examen citológico papanicolau pap cuello uterino cáncer cervicouterino",pagina:"pap"},
@@ -1613,7 +1558,7 @@ const PAGINAS = {
     categoria: "Programa",
     actualizacion: "",
     revision: "01/01/2026",
-    nav: ["Descripción","Síntomas","Prestaciones","Requisitos","Acceder","GES","Saber +"],
+    nav: ["Descripción","Síntomas","Prestaciones","Requisitos","Acceder","GES"],
     contenido: () => `
       <div class="pagina-seccion" id="sec-Descripción">
         <div class="pagina-seccion-titulo-principal">Descripción</div>
@@ -1676,48 +1621,17 @@ const PAGINAS = {
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Cobertura:</strong> Diagnóstico, tratamiento farmacológico, evaluación de control, educación sobre el manejo de la enfermedad y plan de acción ante crisis.</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Plazo garantizado:</strong> 30 días (sospecha de asma) / 15 días (confirmación diagnóstica).</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Copago:</strong> Sin costo si tienes FONASA.</span></div>
+        <p class="pagina-texto" style="margin-top:10px;"><a href="https://www.superdesalud.gob.cl/orientacion-en-salud/asma-bronquial-moderada-y-grave-en-personas-menores-de-15-anos/" target="_blank" rel="noopener" style="color:var(--verde); text-decoration:none; font-weight:500; border-bottom:1px solid var(--verde);">Ver detalles en Superintendencia de Salud →</a></p>
         
         <p class="pagina-texto" style="margin-top:14px; font-weight:600; color:var(--verde);">Asma en mayores de 15 años — GES Nº 61</p>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Cobertura:</strong> Diagnóstico, tratamiento farmacológico, evaluación de control, educación sobre el manejo de la enfermedad y plan de acción ante crisis.</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Plazo garantizado:</strong> 30 días (sospecha de asma) / 15 días (confirmación diagnóstica).</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Copago:</strong> Sin costo si tienes FONASA.</span></div>
-        </div>
+        <p class="pagina-texto" style="margin-top:10px;"><a href="https://www.superdesalud.gob.cl/orientacion-en-salud/asma-bronquial-en-personas-de-15-anos-y-mas/" target="_blank" rel="noopener" style="color:var(--verde); text-decoration:none; font-weight:500; border-bottom:1px solid var(--verde);">Ver detalles en Superintendencia de Salud →</a></p>
         
-        <div class="pagina-seccion" id="sec-Saber +">
-        <div class="pagina-seccion-titulo-principal">Saber +</div>
-       <table style="width: 100%; border-collapse: collapse;">
-  <thead>
-    <tr>
-      <th style="border: 1px solid #ccc; padding: 8px; text-align: left;">N° GES</th>
-      <th style="border: 1px solid #ccc; padding: 8px; text-align: left;">Descripción</th>
-      <th style="border: 1px solid #ccc; padding: 8px; text-align: left;">Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: middle;">39</td>
-      <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: middle;">Asma en menores de 15 años</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">
-<a href="https://www.superdesalud.gob.cl/orientacion-en-salud/asma-bronquial-moderada-y-grave-en-personas-menores-de-15-anos/" target="_blank">Superintendencia de Salud</a>
-</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 8px;">
-<a href="https://auge.minsal.cl/problemasdesalud/lep/39" target="_blank">MINSAL</a></td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: middle;">61</td>
-      <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: middle;">Asma en mayores de 15 años</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">
-<a href="https://www.superdesalud.gob.cl/orientacion-en-salud/asma-bronquial-en-personas-de-15-anos-y-mas/" target="_blank">Superintendencia de Salud</a></td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 8px;">
-<a href="https://auge.minsal.cl/problemasdesalud/lep/61" target="_blank">MINSAL</a>
-</td>
-    </tr>
-  </tbody>
-</table>
+        <div style="background:var(--verde-claro); padding:12px; border-radius:var(--radio-sm); margin-top:14px;">
+          <p class="pagina-texto" style="margin:0; font-size:13px; color:var(--verde);">📌 <strong>¿Qué significa GES?</strong> Son garantías que obliga a FONASA a cubrir estas enfermedades con tiempos de espera máximos, sin costo para FONASA.</p>
+        </div>
       </div>
     `
   },
@@ -3300,12 +3214,12 @@ const PAGINAS = {
 
 "epilepsia": {
     id: "epilepsia",
-    nombre: "Epilepsia",
-    titulo: "Epilepsia",
+    nombre: "Epilepsia, Programa",
+    titulo: "Programa de Epilepsia",
     categoria: "Programa",
     actualizacion: "",
     revision: "01/01/2026",
-    nav: ["Descripción","Síntomas","Tipos","Prestaciones","Requisitos","Acceso","GES","Saber +"],
+    nav: ["Descripción","Síntomas","Prestaciones","Requisitos","Acceder","GES"],
     contenido: () => `
       <div class="pagina-seccion" id="sec-Descripción">
         <div class="pagina-seccion-titulo-principal">Descripción</div>
@@ -3323,13 +3237,6 @@ const PAGINAS = {
         <p class="pagina-texto" style="margin-top:14px; font-size:13px; color:#9ab0a6; font-style:italic;"><strong>Nota:</strong> Una sola crisis no implica necesariamente epilepsia. El diagnóstico requiere evaluación médica especializada. Si presencia una crisis por primera vez, llame al 131.</p>
       </div>
 
-<div class="pagina-seccion" id="sec-Tipos">
-        <div class="pagina-seccion-titulo-principal">Tipos</div>
-        <p class="pagina-texto">La epilepsia se clasifica principalmente según el área del cerebro donde se originan las descargas eléctricas:</p>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Crisis Focales:</strong> empiezan en una parte del cerebro.</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Crisis Generalizadas:</strong> afectan a ambos hemisferios desde el inicio</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Síndromes Epilépticos:</strong> de inicio desconocido</span></div
-
       <div class="pagina-seccion" id="sec-Prestaciones">
         <div class="pagina-seccion-titulo-principal">Prestaciones</div>
         <p class="pagina-texto">El CESFAM N°5 ofrece atención integral para el manejo de la epilepsia:</p>
@@ -3346,7 +3253,7 @@ const PAGINAS = {
         <div class="pagina-requisito"><span class="pagina-req-check">✓</span><span class="pagina-req-texto">Estar inscrita/o en el CESFAM N°5.</span></div>
       </div>
 
-      <div class="pagina-seccion" id="sec-Acceso">
+      <div class="pagina-seccion" id="sec-Acceder">
         <div class="pagina-seccion-titulo-principal">Acceder</div>
         <p class="pagina-texto"><strong>Si está en medio de una crisis o presencia una crisis por primera vez:</strong> llame al SAMU.</p>
         ${enlaceTarjeta('samu','SAMU — Urgencia 131','Para crisis epilépticas en curso o primera crisis')}
@@ -3357,61 +3264,17 @@ const PAGINAS = {
 
       <div class="pagina-seccion" id="sec-GES">
         <div class="pagina-seccion-titulo-principal">Garantías Explícitas en Salud (GES)</div>
-        <p class="pagina-texto">La epilepsia está incluida en el sistema de <strong>Garantías Explícitas en Salud (GES)</strong>, lo que significa que tienes garantías de <strong>Acceso</strong>, <strong>Oportunidad</strong>, <strong>Calidad</strong> y <strong>Protección económica</strong>.</p>
-        <p class="pagina-texto" style="margin-top:14px; font-weight:600; color:var(--verde);"><strong>Epilepsia no refractaria en personas desde 1 año y menores de 15 años, GES N° 22</strong></p>
-        <p class="pagina-texto" style="margin-top:14px; font-weight:600; color:var(--verde);"><strong>Epilepsia no refractaria en personas de 15 años y más, GES N° 60</strong></p>
+        <p class="pagina-texto">La epilepsia está incluida en el sistema de <strong>Garantías Explícitas en Salud (GES)</strong>, lo que significa que tienes derecho a acceso, plazo, calidad y protección económica garantizados.</p>
 
+        <p class="pagina-texto" style="margin-top:14px; font-weight:600; color:var(--verde);">Epilepsia no refractaria en personas desde 1 año — GES N°9</p>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Cobertura:</strong> diagnóstico, tratamiento farmacológico con fármacos antiepilépticos, seguimiento y educación al paciente y su familia.</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Plazo garantizado:</strong> inicio de tratamiento dentro de 30 días desde la confirmación diagnóstica.</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Copago:</strong> sin costo si tienes FONASA.</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Profesionales:</strong> médico/a de APS, neurólogo/a en caso de derivación.</span></div>
+        <p class="pagina-texto" style="margin-top:10px;"><a href="https://www.superdesalud.gob.cl/orientacion-en-salud/epilepsia-no-refractaria-en-personas-de-15-anos-y-mas/" target="_blank" rel="noopener" style="color:var(--verde); text-decoration:none; font-weight:500; border-bottom:1px solid var(--verde);">Ver detalles en Superintendencia de Salud →</a></p>
 
- <p class="pagina-texto" style="font-weight:600; color:var(--verde); margin-bottom:6px; margin-top:12px;">1. Garantía de Acceso</p>
-        <p class="pagina-texto" style="font-size:13px; color:var(--texto-suave);">Tienes derecho a diagnóstico, tratamiento farmacológico con fármacos antiepilépticos, seguimiento y educación al paciente y su familia.</p>
-        
-        <p class="pagina-texto" style="font-weight:600; color:var(--verde); margin-bottom:6px; margin-top:12px;">2. Garantía de Oportunidad (Plazos máximos)</p>
-        <p class="pagina-texto" style="font-size:13px; color:var(--texto-suave);">Tienes derecho a diagnóstico, tratamiento farmacológico con fármacos antiepilépticos, seguimiento y educación al paciente y su familia.</p>
-        
-        <p class="pagina-texto" style="font-weight:600; color:var(--verde); margin-bottom:6px; margin-top:12px;">3. Garantía de Calidad</p>
-        <p class="pagina-texto" style="font-size:13px; color:var(--texto-suave);">asegura que las prestaciones médicas para las enfermedades cubiertas sean otorgadas por profesionales y centros de salud registrados o acreditados. Esto garantiza que la atención cumple con los estándares técnicos, clínicos y de seguridad exigidos por el Ministerio de Salud (MINSAL).</p>
-        
-        <p class="pagina-texto" style="font-weight:600; color:var(--verde); margin-bottom:6px; margin-top:12px;">4. Garantía de Protección Financiera</p>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>FONASA A, B, C, D:</strong> 0% — Completamente gratuito</span></div>
-
-      <div class="pagina-seccion" id="sec-Saber +">
-        <div class="pagina-seccion-titulo-principal">Saber +</div>
-        
-        <table style="width: 100%; border-collapse: collapse;">
-  <thead>
-    <tr>
-      <th style="border: 1px solid #ccc; padding: 8px; text-align: left;">N° GES</th>
-      <th style="border: 1px solid #ccc; padding: 8px; text-align: left;">Descripción</th>
-      <th style="border: 1px solid #ccc; padding: 8px; text-align: left;">Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: middle;">22</td>
-      <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: middle;">Epilepsia no refractaria en personas desde 1 año y menores de 15 años</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">
-        <a href="https://www.superdesalud.gob.cl/orientacion-en-salud/epilepsia-no-refractaria-en-personas-desde-1-ano-y-menores-de-15-anos/" target="_blank">SuperdeSalud</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 8px;">
-        <a href="https://auge.minsal.cl/problemasdesalud/index/22" target="_blank">AUGE MINSAL</a>
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: middle;">60</td>
-      <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: middle;">Epilepsia no refractaria en personas de 15 años y más años</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">
-        <a href="https://www.superdesalud.gob.cl/orientacion-en-salud/epilepsia-no-refractaria-en-personas-de-15-anos-y-mas/" target="_blank">SuperdeSalud</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 8px;">
-        <a href="https://auge.minsal.cl/problemasdesalud/index/60/" target="_blank">AUGE MINSAL</a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+        <div style="background:var(--verde-claro); padding:12px; border-radius:var(--radio-sm); margin-top:14px;">
+          <p class="pagina-texto" style="margin:0; font-size:13px; color:var(--verde);">📌 <strong>¿Qué significa GES?</strong> Son garantías que obliga a FONASA a cubrir estas enfermedades. Si te diagnostican una patología GES, tienes derecho a: acceso asegurado, plazo máximo de atención, prestadores autorizados y protección económica.</p>
         </div>
       </div>
     `
@@ -3424,7 +3287,7 @@ const PAGINAS = {
     categoria: "Programa",
     actualizacion: "",
     revision: "01/01/2026",
-    nav: ["Descripción","Tipos","Síntomas","Prestaciones","Requisitos","Acceder","GES","Saber +"],
+    nav: ["Descripción","Tipos","Síntomas","Prestaciones","Requisitos","Acceder","GES"],
     contenido: () => `
       <div class="pagina-seccion" id="sec-Descripción">
         <div class="pagina-seccion-titulo-principal">Descripción</div>
@@ -3487,37 +3350,9 @@ const PAGINAS = {
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Plazo garantizado:</strong> Acceso dentro de 45 días desde la sospecha diagnóstica y 30 días desde la confirmación.</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Copago:</strong> Sin costo si tienes FONASA.</span></div>
         <p class="pagina-texto" style="margin-top:10px;"><a href="https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-2/" target="_blank" rel="noopener" style="color:var(--verde); text-decoration:none; font-weight:500; border-bottom:1px solid var(--verde);">Ver detalles en Superintendencia de Salud →</a></p>
-
-      <div class="pagina-seccion" id="sec-Saber +">
-        <div class="pagina-seccion-titulo-principal">Saber +</div>      
-
-       <table style="width: 100%; border-collapse: collapse;">
-  <thead>
-    <tr>
-      <th style="border: 1px solid #ccc; padding: 8px; text-align: left;">N° GES</th>
-      <th style="border: 1px solid #ccc; padding: 8px; text-align: left;">Descripción</th>
-      <th style="border: 1px solid #ccc; padding: 8px; text-align: left;">Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: middle;">6</td>
-      <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: middle;">Diabetes Mellitus Tipo 1</td>
-      <td style="border: 1px solid #ccc; padding: 8px;"><a href="https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-1/" target="_blank">Superintendencia de Salud</a></td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 8px;"><a href="https://auge.minsal.cl/problemasdesalud/lep/6" target="_blank">MINSAL</a></td>
-    </tr>
-    <tr>
-      <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: middle;">7</td>
-      <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: middle;">Diabetes Mellitus Tipo 2</td>
-      <td style="border: 1px solid #ccc; padding: 8px;"><a href="https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-2/" target="_blank">Superintendencia de Salud</a></td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; padding: 8px;"><a href="https://auge.minsal.cl/problemasdesalud/lep/7" target="_blank">MINSAL</a></td>
-    </tr>
-  </tbody>
-</table>
+        
+        <div style="background:var(--verde-claro); padding:12px; border-radius:var(--radio-sm); margin-top:14px;">
+          <p class="pagina-texto" style="margin:0; font-size:13px; color:var(--verde);">📌 <strong>¿Qué significa GES?</strong> Son garantías que obliga a FONASA a cubrir estas enfermedades. Si te diagnostican una patología GES, tienes derecho a: acceso asegurado, plazo máximo de atención, prestadores autorizados y protección económica.</p>
         </div>
       </div>
     `
@@ -6640,88 +6475,6 @@ const PAGINAS = {
     `
   },
 
-  "esquizofrenia": {
-    id: "esquizofrenia",
-    nombre: "Esquizofrenia",
-    titulo: "Esquizofrenia",
-    categoria: "Programa",
-    actualizacion: "22/06/2026",
-    revision: "01/01/2026",
-    nav: ["Descripción","Síntomas","Tipos","Prestaciones","Requisitos","Acceso","GES","Saber +"],
-    contenido: () => `
-      <div class="pagina-seccion" id="sec-Descripción">
-        <div class="pagina-seccion-titulo-principal">Descripción</div>
-        <p class="pagina-texto">Se denomina esquizofrenia a un conjunto de trastornos mentales  caracterizados  por alteraciones de la percepción, del pensamiento y de las emociones, que comprometen las funciones esenciales que dan a la persona la vivencia de su individualidad, singularidad  y dominio de sí misma, y suelen, por tanto, alterar de forma muy importante la vida de las personas que las padecen y también la de sus familiares y  amigos.</p>
-        <p class="pagina-texto">El CESFAM N°5 participa activamente en la detección, tratamiento y seguimiento de personas con esquizofrenia, coordinando con la red especializada cuando es necesario.</p>
-      </div>
-
-      <div class="pagina-seccion" id="sec-Síntomas">
-        <div class="pagina-seccion-titulo-principal">Síntomas</div>
-        <p class="pagina-texto">Las manifestaciones de la enfermedad se clasifican en dos grandes tipos de síntomas:</p>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Síntomas Positivos (alteraciones que se añaden a la conducta normal):</strong> Alucinaciones: Percepciones falsas donde la persona ve, escucha, huele o siente cosas que no están presentes en la realidad (las más comunes son las alucinaciones auditivas, como escuchar voces).
-Ideas delirantes: Creencias falsas o irracionales que la persona mantiene firmemente a pesar de la evidencia que demuestra lo contrario (ej. creer que es perseguido, vigilado o controlado por otros). Trastornos del pensamiento: Ideas incoherentes, discurso desorganizado o pérdida del hilo lógico de las conversaciones.</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Síntomas Negativos (funciones normales que disminuyen o desaparecen):</strong> Desmotivación profunda y apatía.
-Reducción de la expresión emocional (rostro inexpresivo, tono de voz monótono).
-Aislamiento social y retraimiento</span></div>
-      </div>
-
-       <div class="pagina-seccion" id="sec-Tipos">
-        <div class="pagina-seccion-titulo-principal">Tipos</div>
-         <p class="pagina-texto">Los principales tipos de esta condición de salud son:</p>
-        <p class="pagina-texto">• <strong>Esquizofrenia paranoide:</strong> incluye además los términos trastorno delirante no orgánico, bouffée delirante con síntomas de esquizofrenia, estado delirante no orgánico, estado paranoide
-• <strong>Esquizofrenia hebefrénica:</strong> incluye además los términos esquizofrenia desorganizada, hebefrenia
-• <strong>Esquizofrenia catatónica:</strong> incluye además los términos catatonia esquizofrénica
-• <strong>Esquizofrenia indiferenciada:</strong> incluye además los términos esquizofrenia aguda, • esquizofrenia crónica, estado esquizofrénico
-• <strong>Esquizofrenia residual:</strong> incluye además los  términos  depresión  posesquizofrénica, estado esquizofrénico residual
-• <strong>Esquizofrenia simple</strong>
-• <strong>Otra esquizofrenia:</strong> incluye además los términos esquizofrenia atípica, esquizofrenia latente, esquizofrenia pseudoneurótica, esquizofrenia pseudopsicopática, trastorno  de ideas delirantes inducidas con síntomas de esquizofrenia, Folie a deux con síntomas de esquizofrenia, trastorno esquizoafectivo, trastorno psicótico agudo con síntomas de esquizofrenia, psicosis esquizofreniforme, trastorno esquizofreniforme, reacción esquizofrénica, trastorno esquizotípico, trastorno psicótico agudo con síntomas de esquizofrenia.</p>
-
-      <div class="pagina-seccion" id="sec-Prestaciones">
-        <div class="pagina-seccion-titulo-principal">Prestaciones</div>
-        <p class="pagina-texto">En CESFAM N°5 disponemos:</p>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>En la etapa de diagnóstico y referencia a especialista:</strong> Evaluación médica y diagnóstico, Indicaciones terapéuticas y prescripción farmacológica, Información al paciente y familiares, Psicoeducación Interconsulta a Psiquiatra.</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Tratamiento farmacológico:</strong> Farmacoterapia para alivio sintomático en espera de atención de especialidad.</span></div>
-         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Apoyo psicosocial:</strong> derivación a psicología o trabajo social cuando el impacto en la calidad de vida, el estigma o las limitaciones laborales/educativas lo requieran.</span></div>
-      </div>
-
-      <div class="pagina-seccion" id="sec-Requisitos">
-        <div class="pagina-seccion-titulo-principal">Requisitos</div>
-        <div class="pagina-requisito"><span class="pagina-req-check">✓</span><span class="pagina-req-texto">Estar inscrita/o en el CESFAM N°5.</span></div>
-        ${enlaceTarjeta('inscripcion','Inscripción','¿Cómo inscribirse en CESFAM N° 5?')}
-      </div>
-
-      <div class="pagina-seccion" id="sec-Acceder">
-        <div class="pagina-seccion-titulo-principal">Acceder</div>
-        <p class="pagina-texto" style="margin-top:14px;"><strong>Si no tienes diagnóstico confirmado:</strong> Para acceder a una atención por médico debe solicitar una hora de Medicina general en el SOME del CESFAM, de lunes a viernes desde las 07:30 hrs.</p>
-        ${enlaceTarjeta('some','SOME — Sacar hora','Solicitar hora de atención médica')}
-        ${enlaceTarjeta('hora-presentacion','Hora de presentación','Llegar 15 minutos antes de la cita')}
-        ${enlaceTarjeta('farmacia','Farmacia','Retiro de medicamentos')}
-      </div>
-
-      <div class="pagina-seccion" id="sec-GES">
-        <div class="pagina-seccion-titulo-principal">Garantías Explícitas en Salud (GES)</div>
-        <p class="pagina-texto">La esquizofrenia está incluida en el sistema de <strong>Garantías Explícitas en Salud (GES)</strong>, lo que significa que tienes derecho a acceso, plazo, calidad y protección económica garantizados.</p>
-
-        <p class="pagina-texto" style="margin-top:14px; font-weight:600; color:var(--verde);">Esquizofrenia en personas mayores de 15 años — GES N° 15</p>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Garantías de Acceso:</strong> Todo beneﬁciario con sospecha de esquizofrenia que maniﬁesta por primera vez los síntomas tendrá garantizado el acceso a:
-• Con sospecha tendrá acceso a evaluación inicial, conﬁrmación diagnóstica y tratamiento.
-• Con conﬁrmación diagnóstica tendrá acceso a continuar su tratamiento.
-• En tratamiento tendrá acceso a continuarlo.
-.</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Garantías de Oportunidad:</strong> Se otorgará atención por médico especialista dentro de 20 días desde la derivació.</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Protección financiera:</strong> Cotizantes de FONASA reciben el beneficio de Copago 0% para grupos A ,B , C y D.</span></div>
-    
-      <div class="pagina-seccion" id="sec-Saber +">
-        <div class="pagina-seccion-titulo-principal">Saber +</div>
-
-        <p class="pagina-texto" style="margin-top:10px;"><a href="https://www.superdesalud.gob.cl/orientacion-en-salud/esquizofrenia/" target="_blank" rel="noopener" style="color:var(--verde); text-decoration:none; font-weight:500; border-bottom:1px solid var(--verde);">Ver detalles en Superintendencia de Salud →</a></p>
-        <p class="pagina-texto" style="margin-top:10px;"><a href="https://www.minsal.cl/wp-content/uploads/2018/06/prio-6.pdf" target="_blank" rel="noopener" style="color:var(--verde); text-decoration:none; font-weight:500; border-bottom:1px solid var(--verde);">Ver detalles en Ministerio de Salud, MINSAL →</a></p>
-
-        </div>
-      </div>
-    `
-  },
-
   "estimulacion-temprana": {
     id: "estimulacion-temprana",
     nombre: "Estimulación Temprana",
@@ -7393,25 +7146,29 @@ function handleItemClick(e, el) {
 
 /* ── Abrir / cerrar página ── */
 /* ── Abrir / cerrar página ── */
-  
 let paginaOrigen = 'buscar';
+
 function abrirPagina(id) {
   const pagina = PAGINAS[id];
   if (!pagina) return;
+
   // Detectar origen
   const tabActiva = document.querySelector('.tab.active');
   if (tabActiva) {
     const txt = tabActiva.textContent.trim();
     paginaOrigen = txt.includes('Índice') ? 'indice' : 'buscar';
   }
+
   // Renderizar header
   document.getElementById('paginaHeaderTitulo').textContent =
     paginaOrigen === 'indice' ? 'Índice A–Z' : 'Buscar';
+
   // Renderizar body
   const nav = pagina.nav.map(s =>
     `<button class="pagina-nav-pill" onclick="irSeccion('sec-${s}')">${s}</button>`
   ).join('');
-  // ══════════ Verificar si es condición GES ══════════
+
+  // ══════════ NUEVO: Verificar si es condición GES ══════════
   const esGES = verificarSiEsGES(id);
   let badgeGES = '';
   if (esGES) {
@@ -7429,44 +7186,32 @@ function abrirPagina(id) {
       </div>
     `;
   }
+  // ══════════ FIN NUEVO ══════════
 
-  // ════════════ NUEVO: Botón PDF ════════════
-  let botónPDF = '';
-  if (pagina.categoria === 'GES') {  // Solo mostrar para GES
-    botónPDF = `
-      <div style="background: #F5F5F5; border-top: 1px solid #DDD; margin-top: 24px; padding: 16px; border-radius: 8px; text-align: center;">
-        <button onclick="descargarPDF('${id}', '${pagina.titulo}')" style="background: var(--verde); color: white; border: none; padding: 12px 24px; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 14px; transition: background 0.2s;">
-          📥 Descargar como PDF
-        </button>
-      </div>
-    `;
-  }
-  // ════════════ FIN NUEVO ════════════
-
-  document.getElementById('paginaBody').innerHTML = `
-    <span class="pagina-categoria">${pagina.categoria}</span>
-    <h1 class="pagina-titulo">${pagina.titulo}</h1>
-    <p class="pagina-fecha">
-      Actualización: ${pagina.actualizacion}${pagina.revision ? ` • Última revisión: ${pagina.revision}` : ''}
-    </p>
-    <div class="pagina-nav">${nav}</div>
-    ${badgeGES}
-    ${pagina.contenido()}
-    ${botónPDF}
-    <div class="util-bar" id="util-bar-${id}">
-      <p>¿Te fue útil esta página?</p>
-      <button class="util-btn" onclick="votarUtil('${id}',1)" id="util-si-${id}">👍</button>
-      <button class="util-btn" onclick="votarUtil('${id}',-1)" id="util-no-${id}">👎</button>
-    </div>
-    <p class="util-gracias" id="util-gracias-${id}">¡Gracias por tu opinión!</p>
+document.getElementById('paginaBody').innerHTML = `
+  <span class="pagina-categoria">${pagina.categoria}</span>
+  <h1 class="pagina-titulo">${pagina.titulo}</h1>
+  <p class="pagina-fecha">
+    Actualización: ${pagina.actualizacion}${pagina.revision ? ` • Última revisión: ${pagina.revision}` : ''}
+  </p>
+  <div class="pagina-nav">${nav}</div>
+  ${badgeGES}
+  ${pagina.contenido()}
+  <div class="util-bar" id="util-bar-${id}">
+    <p>¿Te fue útil esta página?</p>
+    <button class="util-btn" onclick="votarUtil('${id}',1)" id="util-si-${id}">👍</button>
+    <button class="util-btn" onclick="votarUtil('${id}',-1)" id="util-no-${id}">👎</button>
+  </div>
+  <p class="util-gracias" id="util-gracias-${id}">¡Gracias por tu opinión!</p>
   `;
+
   // Mostrar
   const vista = document.getElementById('view-pagina');
   vista.classList.add('visible');
   vista.scrollTop = 0;
   history.pushState({vista:'pagina', id}, '');
 }
-  
+
 function cerrarPagina() {
   document.getElementById('view-pagina').classList.remove('visible');
   history.pushState({vista:'buscar'}, '');
@@ -7582,52 +7327,33 @@ function cerrarNPS() {
 
 const CONDICIONES_GES = {
   'enfermedades-cronicas': {
-    titulo: 'Enfermedades crónicas y otras',
+    titulo: 'Enfermedades Crónicas',
     icono: '💊',
     items: [
-      { nombre: 'Nº 1: Insuficiencia renal crónica terminal', numero: 1, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-1/', enGuia: true },
-      { nombre: 'N° 6: Diabetes Mellitus tipo 1', numero: 6, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-1/', enGuia: true },
-      { nombre: 'Nº 7: Diabetes mellitus tipo 2', numero: 7, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-2/', enGuia: true },
-      { nombre: 'Nº 18: Síndrome de Inmunodeficiencia Adquirida (VIH/SIDA)', numero: 18, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/sindrome-de-inmunodeficiencia-adquirida-vih-sida/', enGuia: true },
-      { nombre: 'Nº 21: Hipertensión arterial primaria o esencial en personas de 15 años y más', numero: 21, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/hipertension-arterial-primaria-o-esencial-en-personas-de-15-anos-y-mas/', enGuia: true },
-      { nombre: 'Nº 22: Epilepsia no refractaria en personas desde 1 año y menores de 15 años', numero: 22, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/epilepsia-no-refractaria-en-personas-desde-1-ano-y-menores-de-15-anos/', enGuia: true },
-      { nombre: 'Nº 33: Hemofilia', numero: 33, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/hemofilia/', enGuia: true },
-      { nombre: 'Nº 51: Fibrosis Quística', numero: 51, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/fibrosis-quistica/', enGuia: true },
-      { nombre: 'Nº 52: Artritis Reumatoídea', numero: 52, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/artritis-reumatoidea/', enGuia: true },
-      { nombre: 'Nº 60: Epilepsia no refractaria en personas de 15 años y más', numero: 60, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/epilepsia-no-refractaria-en-personas-de-15-anos-y-mas/', enGuia: false },
-      { nombre: 'Nº 62: Enfermedad de Parkinson', numero: 62, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/enfermedad-de-parkinson/', enGuia: true },
-      { nombre: 'Nº 63: Artritis idiopática juvenil', numero: 63, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/enfermedad-de-parkinson/', enGuia: true },
-      { nombre: 'Nº 64: Prevención secundaria enfermedad renal crónica terminal', numero: 64, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/prevencion-secundaria-enfermedad-renal-cronica-terminal/', enGuia: false },
-      { nombre: 'Nº 67: Esclerosis múltiple remitente recurrente', numero: 67, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/esclerosis-multiple-remitente-recurrente/', enGuia: true },
-      { nombre: 'Nº 68: Hepatitis crónica por Virus Hepatitis B', numero: 68, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/hepatitis-cronica-por-virus-hepatitis-b/', enGuia: true },
-      { nombre: 'Nº 69: Hepatitis crónica por Virus Hepatitis C', numero: 69, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/hepatitis-cronica-por-virus-hepatitis-c/', enGuia: true },
-      { nombre: 'Nº 76: Hipotiroidismo en personas de 15 años y más', numero: 76, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/hipotiroidismo-en-personas-de-15-anos-y-mas/', enGuia: true },
-      { nombre: 'Nº 78: Lupus Eritematoso Sistémico', numero: 78, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/lupus-eritematoso-sistemico/', enGuia: true },
-      { nombre: 'Nº 80: Tratamiento de erradicación del Helicobacter Pylori', numero: 80, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-de-erradicacion-del-helicobacter-pylori/', enGuia: true },
-      { nombre: 'Nº 88: Tratamiento farmacológico tras alta hospitalaria por cirrosis hepática', numero: 88, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-farmacologico-tras-alta-hospitalaria-por-cirrosis-hepatica/', enGuia: true },
-      { nombre: 'Nº 90: Cesación del consumo de tabaco en personas de 25 años y más', numero: 90, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/cesacion-del-consumo-de-tabaco-en-personas-de-25-anos-y-mas/', enGuia: true },
+      { nombre: 'Diabetes mellitus tipo 1', numero: 6, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-1/', enGuia: true },
+      { nombre: 'Diabetes mellitus tipo 2', numero: 7, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-2/', enGuia: true },
+      { nombre: 'Hipertensión arterial', numero: 21, url: 'https://www.superdesalud.gob.cl/', enGuia: true },
+      { nombre: 'Asma bronquial', numero: 22, url: 'https://www.superdesalud.gob.cl/', enGuia: true },
+      { nombre: 'Epilepsia no refractaria', numero: 24, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
+      { nombre: 'Enfermedad pulmonar obstructiva crónica', numero: 31, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
+      { nombre: 'Hipotiroidismo primario congénito', numero: 33, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
+      { nombre: 'Insuficiencia renal crónica', numero: 39, url: 'https://www.superdesalud.gob.cl/', enGuia: false }
     ]
   },
   'canceres': {
-    titulo: 'Tratamiento de Cánceres',
+    titulo: 'Cánceres',
     icono: '🏥',
     items: [
-      { nombre: 'Nº 3: Cáncer cervicouterino', numero: 3, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-cervicouterino/', enGuia: true },
-      { nombre: 'Nº 4: Alivio del dolor y cuidados paliativos por cáncer avanzado', numero: 4, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/alivio-del-dolor-y-cuidados-paliativos-por-cancer-avanzado/', enGuia: true },
-      { nombre: 'Nº 8: Cáncer de mama', numero: 8, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-mama/', enGuia: true },
-      { nombre: 'Nº 14: Cáncer en personas menores de 15 años', numero: 14, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-en-personas-menores-de-15-anos/', enGuia: true },
-      { nombre: 'Nº 16: Cáncer de testículo en personas de 15 años y más', numero: 16, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-testiculo-en-personas-de-15-anos-y-mas/', enGuia: true },
-      { nombre: 'Nº 17: Linfomas en personas de 15 años y más', numero: 17, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/linfomas-en-personas-de-15-anos-y-mas/', enGuia: true },
-      { nombre: 'Nº 27: Cáncer gástrico', numero: 27, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-gastrico/', enGuia: true },
-      { nombre: 'Nº 28: Cáncer de próstata en personas de 15 años y más', numero: 28, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-prostata-en-personas-de-15-anos-y-mas/', enGuia: true },
-      { nombre: 'Nº 45: Leucemia en personas de 15 años y más', numero: 45, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/leucemia-en-personas-de-15-anos-y-mas/', enGuia: true },
-      { nombre: 'Nº 70: Cáncer Colorectal en personas de 15 años y más', numero: 70, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-colorectal-en-personas-de-15-anos-y-mas/', enGuia: true, paginaId: 'cancer-gastrico' }
-      { nombre: 'Nº 71: Cáncer de Ovario Epitelial', numero: 71, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-ovario-epitelial/', enGuia: true },
-      { nombre: 'Nº 72: Cáncer Vesical en personas de 15 años y más', numero: 72, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-vesical-en-personas-de-15-anos-y-mas/', enGuia: true },
-      { nombre: 'Nº 73: Osteosarcoma en personas de 15 años y más', numero: 72, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/osteosarcoma-en-personas-de-15-anos-y-mas/', enGuia: true },
-      { nombre: 'Nº 81: Cáncer de pulmón en personas de 15 años y más', numero: 81, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-pulmon-en-personas-de-15-anos-y-mas-2/', enGuia: true },
-      { nombre: 'Nº 82: Cáncer de Tiroides en personas de 15 años y más', numero: 82, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-tiroides-en-personas-de-15-anos-y-mas/', enGuia: true },
-      { nombre: 'Nº 84: Mieloma Múltiple en personas de 15 años y más', numero: 84, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/mieloma-multiple-en-personas-de-15-anos-y-mas/', enGuia: true },
+      { nombre: 'Cáncer cervicouterino, GES N° 4', numero: 4, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
+      { nombre: 'Cáncer de mama', numero: 5, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
+      { nombre: 'Cáncer de pulmón', numero: 8, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
+      { nombre: 'Cáncer colorrectal', numero: 9, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
+      { nombre: 'Cáncer testicular', numero: 11, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
+      { nombre: 'Linfomas', numero: 12, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
+      { nombre: 'Cáncer de próstata', numero: 13, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
+      { nombre: 'Leucemia linfoide aguda en menores de 15 años', numero: 14, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
+      { nombre: 'Cáncer ovárico', numero: 15, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
+      { nombre: 'Cáncer gástrico', numero: 27, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-gastrico/', enGuia: true, paginaId: 'cancer-gastrico' }
     ]
   },
   'salud-mental': {
@@ -7635,7 +7361,7 @@ const CONDICIONES_GES = {
     icono: '🧠',
     items: [
       { nombre: 'Alzheimer y otras Demencias', numero: 85, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/enfermedad-de-alzheimer-y-otras-demencias-2/', enGuia: false },
-      { nombre: 'Esquizofrenia', numero: 15, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/esquizofrenia/', enGuia: false },
+      { nombre: 'Esquizofrenia', numero: 25, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
       { nombre: 'Depresión grave en menores de 15 años', numero: 26, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
       { nombre: 'Depresión grave en personas de 15 años y más', numero: 27, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
       { nombre: 'Trastorno bipolar', numero: 28, url: 'https://www.superdesalud.gob.cl/', enGuia: false }
@@ -7771,9 +7497,7 @@ const MAPEO_GES_PAGINA = {
   'Atención de urgencias odontológicas': 'urgencia-odontologica',
   'Cesación del Tabaco': 'cesacion-tabaquica',
   'Cataratas': 'cataratas',
-  'Alzheimer y otras Demencias': 'alzheimer-demencias',
-  'Esquizofrenia': 'esquizofrenia'
-
+  'Alzheimer y otras Demencias': 'alzheimer-demencias'
 };
   // ═══════════════════════════════════════════════════════════════
 // FUNCIONES AUXILIARES PARA GES - COPIA/PEGA TODO ESTO
@@ -7888,7 +7612,7 @@ function renderizarGES() {
     </iframe>
   </div>
 </div>
-  
+
 <script>
 const MAPA_URL = "https://www.google.com/maps/d/viewer?hl=es&mid=1MfzH4twW_AuMyQHuFUpkV8IPV0s&ll=-33.472058328180225%2C-70.7272748876531&z=12";
 
