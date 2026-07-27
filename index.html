@@ -1103,7 +1103,8 @@ const PAGINAS = {
     categoria: "Programa",
     actualizacion: "18/06/2025",
     revision: "01/01/2026",
-    nav: ["Descripción","Prestaciones","Requisitos","Acceder","Saber +"],
+    palabrasClave:
+    nav: ["Descripción","¿Quiénes pueden acceder?","Prestaciones","¿Cómo acceder?","Garantías GES","Preguntas frecuentes","Saber más"],
     contenido: () => `
       <div class="pagina-seccion" id="sec-Descripción">
         <div class="pagina-seccion-titulo-principal">Descripción</div>
@@ -1111,7 +1112,22 @@ const PAGINAS = {
         <p class="pagina-texto">Así mismo, es relevante la coordinación y articulación de una red de servicios, por cuanto sus necesidades deben ser abordadas en forma integrada, posibilitando cuando sea necesario, la intervención simultánea de los distintos niveles de atención y distintos equipos intra e intersectoriales, particularmente cuando se trata de poblaciones de adolescentes y jóvenes en situación de vulneración de derechos y en conflicto con la justicia.</p>
       </div>
 
-      <div class="pagina-seccion" id="sec-Prestaciones">
+      <div class="pagina-seccion" id="sec-¿Quiénes pueden acceder?">
+        <div class="pagina-seccion-titulo-principal">¿Quiénes pueden acceder?</div>
+        <div class="pagina-¿Quiénes pueden acceder?">
+          <span class="pagina-req-check">✓</span>
+          <span class="pagina-req-texto">Estar inscrita/o en el CESFAM
+          ${enlaceTarjeta('inscripcion','Inscripción','¿Cómo inscribirse en CESFAM N° 5?')}
+          </span>
+        </div>
+
+        <div class="pagina-¿Quiénes pueden acceder?">
+          <span class="pagina-req-check">✓</span>
+          <span class="pagina-req-texto">Tener entre 10 y 19 años de edad.</span>
+        </div>
+      </div>
+
+            <div class="pagina-seccion" id="sec-Prestaciones">
         <div class="pagina-seccion-titulo-principal">Prestaciones</div>
         <p class="pagina-texto">Es una prestación de salud <strong>gratuita</strong>, dirigida a la población de 10 a 19 años.</p>
         <p class="pagina-texto">Se define como la atención integral de adolescentes que permite evaluar el estado de salud, el crecimiento y desarrollo, fomentando los factores y conductas protectores e identificando aquellas de riesgo y otros problemas o necesidades en salud, con objeto de intervenir en forma oportuna, integrada e integral.</p>
@@ -1130,22 +1146,8 @@ const PAGINAS = {
         ${enlaceTarjeta('control-salud-adolescente','Control de Salud Integral','Evaluación integral gratuita de tu salud — Gratuito y confidencial')}
       </div>
 
-      <div class="pagina-seccion" id="sec-Requisitos">
-        <div class="pagina-seccion-titulo-principal">Requisitos</div>
-        <div class="pagina-requisito">
-          <span class="pagina-req-check">✓</span>
-          <span class="pagina-req-texto">Estar inscrita/o en el CESFAM
-          ${enlaceTarjeta('inscripcion','Inscripción','¿Cómo inscribirse en CESFAM N° 5?')}
-          </span>
-        </div>
-        <div class="pagina-requisito">
-          <span class="pagina-req-check">✓</span>
-          <span class="pagina-req-texto">Tener entre 10 y 19 años de edad.</span>
-        </div>
-      </div>
-
-      <div class="pagina-seccion" id="sec-Acceder">
-        <div class="pagina-seccion-titulo-principal">Acceder</div>
+      <div class="pagina-seccion" id="sec-¿Cómo acceder?">
+        <div class="pagina-seccion-titulo-principal">¿Cómo acceder?</div>
         <p class="pagina-texto">Para acceder a las prestaciones debe solicitar hora para <strong>Control de Salud Integral de Adolescentes y Jóvenes</strong> en el SOME Satélite de su sector.</p>
         ${enlaceTarjeta('some','SOME — Sacar hora','Solicitar hora para control de adolescentes')}
         ${enlaceTarjeta('hora-presentacion','Hora de presentación','Llegar 15 minutos antes de la cita')}
