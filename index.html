@@ -7389,42 +7389,48 @@ const CONDICIONES_GES = {
     ]
   },
   'salud-ocular': {
-    titulo: 'Problemas Oculares',
+    titulo: 'Enfermedades de la visión',
     icono: '👁️',
     items: [
-      { nombre: 'Cataratas', numero: 11, url: 'https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-cataratas/', enGuia: false },
-      { nombre: 'Retinopatía diabética', numero: 32, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Estrabismo en menores de 9 años', numero: 35, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Baja visión', numero: 36, url: 'https://www.superdesalud.gob.cl/', enGuia: false }
+      { numero: 11, nombre: 'Nº 11: <strong>Tratamiento quirúrgico de cataratas</strong>', id: 'cataratas', enGuia: true},
+      { numero: 30, nombre: 'Nº 30: <strong>Estrabismo en personas menores de 9 años</strong>', id: 'estrabismo', enGuia: true},
+      { numero: 31, nombre: 'Nº 31: <strong>Retinopatía diabética</strong>', id: 'retinopatia-diabetica', enGuia: true},
+      { numero: 32, nombre: 'Nº 32: <strong>Desprendimiento de retina regmatógeno no traumático</strong>', id: 'desprendimiento-retina', enGuia: true},
     ]
   },
   'salud-oral': {
     titulo: 'Salud Oral',
     icono: '🦷',
     items: [
-      { nombre: 'Atención de urgencias odontológicas', numero: 37, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Salud oral integral en menores de 20 años', numero: 40, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Salud oral integral en gestantes', numero: 48, url: 'https://www.superdesalud.gob.cl/', enGuia: false }
+      { numero: 23, nombre: 'Nº 23: <strong>Salud oral integral para niños y niñas de 6 años</strong>', id: 'salud-oral-6años', enGuia: true},
+      { numero: 46, nombre: 'Nº 46: <strong>Urgencia Odontológica Ambulatoria</strong>', id: 'urgencia-odontologica', enGuia: true},
+      { numero: 47, nombre: 'Nº 47: <strong>Salud Oral Integral de personas de 60 años</strong>', id: 'salud-oral-60años', enGuia: true},
+      { numero: 66, nombre: 'Nº 66: <strong>Salud oral integral de la persona gestante</strong>', id: 'salud-oral-gestante', enGuia: true},
     ]
   },
-  'infecciones': {
-    titulo: 'Enfermedades Infecciosas',
-    icono: '🦠',
+  'cardiopatias': {
+    titulo: 'Enfermedades del corazón y cerebrovasculares',
+    icono: '❤️',
     items: [
-      { nombre: 'VIH/SIDA', numero: 1, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Tuberculosis', numero: 2, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Hepatitis C', numero: 3, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Infección respiratoria aguda en menores de 5 años', numero: 19, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Enfermedad de Chagas', numero: 29, url: 'https://www.superdesalud.gob.cl/', enGuia: false }
+      { numero: 2, nombre: 'Nº 2: <strong>Cardiopatías congénitas operables</strong>', id: 'cardiopatias-congenitas', enGuia: true},
+      { numero: 5, nombre: 'Nº 5: <strong>Infarto al corazón</strong>', id: 'infarto-corazon', enGuia: true},
+      { numero: 25, nombre: 'Nº 25: <strong>Trastornos de generación de impulsos y conducción en personas de 15 años y más, que requieren marcapaso</strong>', id: 'marcapaso', enGuia: true},
+      { numero: 37, nombre: 'Nº 37: <strong>Ataque Cerebrovascular Isquémico en personas de 15 años y más</strong>', id: 'ataque-cerebrovascular', enGuia: true},
     ]
   },
-  'musculoesqueletico': {
-    titulo: 'Problemas Musculoesqueléticos',
+  'cirugias': {
+    titulo: 'Intervenciones quirúrgicas',
     icono: '🦴',
     items: [
-      { nombre: 'Artrosis de cadera y rodilla', numero: 34, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Artritis reumatoídea', numero: 38, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Fractura de cadera en mayores de 60 años', numero: 43, url: 'https://www.superdesalud.gob.cl/', enGuia: false }
+      { numero: 9, nombre: 'Nº 9: <strong>Disrafias espinales</strong>', id: 'disrafias-espinales', enGuia: true},
+      { numero: 10, nombre: 'Nº 10: <strong>Tratamiento quirúrgico de escoliosis en personas menores de 25 años</strong>', id: 'escoliosis', enGuia: true},
+      { numero: 13, nombre: 'Nº 13: <strong>Fisura labiopalatina</strong>', id: 'fisura-labiopalatina', enGuia: true},
+      { numero: 26, nombre: 'Nº 26: <strong>Colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años</strong>', id: 'colecistectomia-preventiva', enGuia: true},
+      { numero: 35, nombre: 'Nº 35: <strong>Tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas</strong>', id: 'hiperplasia-prostata', enGuia: true},
+      { numero: 43, nombre: 'Nº 43: <strong>Tumores Primarios del Sistema Nervioso Central en personas de 15 años o más</strong>', id: 'tumores-primarios-snc', enGuia: true},
+      { numero: 44, nombre: 'Nº 44: <strong>Tratamiento Quirúrgico de Hernia del Núcleo Pulposo Lumbar</strong>', id: 'tratamiento-quirurgico-hernia', enGuia: true},
+      { numero: 74, nombre: 'Nº 74: <strong>Tratamiento Quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más</strong>', id: 'tratamiento-valvula-aortica', enGuia: true},
+      { numero: 79, nombre: 'Nº 79: <strong>Tratamiento Quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más</strong>', id: 'tratamiento-valvulas', enGuia: true},
     ]
   },
   'maternidad': {
