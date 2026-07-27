@@ -7410,17 +7410,18 @@ const CONDICIONES_GES = {
   },
   'cardiopatias': {
     titulo: 'Enfermedades del corazón y cerebrovasculares',
-    icono: '❤️',
+    icono: '🫀',
     items: [
       { numero: 2, nombre: 'Nº 2: <strong>Cardiopatías congénitas operables</strong>', id: 'cardiopatias-congenitas', enGuia: true},
       { numero: 5, nombre: 'Nº 5: <strong>Infarto al corazón</strong>', id: 'infarto-corazon', enGuia: true},
       { numero: 25, nombre: 'Nº 25: <strong>Trastornos de generación de impulsos y conducción en personas de 15 años y más, que requieren marcapaso</strong>', id: 'marcapaso', enGuia: true},
       { numero: 37, nombre: 'Nº 37: <strong>Ataque Cerebrovascular Isquémico en personas de 15 años y más</strong>', id: 'ataque-cerebrovascular', enGuia: true},
+      { numero: 42, nombre: 'Nº 42: <strong>Hemorragia Subaracnoidea secundaria a ruptura de Aneurismas cerebrales</strong>', id: 'hemorragia-subaracnoidea', enGuia: true}     
     ]
   },
   'cirugias': {
     titulo: 'Intervenciones quirúrgicas',
-    icono: '🦴',
+    icono: '🏥',
     items: [
       { numero: 9, nombre: 'Nº 9: <strong>Disrafias espinales</strong>', id: 'disrafias-espinales', enGuia: true},
       { numero: 10, nombre: 'Nº 10: <strong>Tratamiento quirúrgico de escoliosis en personas menores de 25 años</strong>', id: 'escoliosis', enGuia: true},
@@ -7433,25 +7434,30 @@ const CONDICIONES_GES = {
       { numero: 79, nombre: 'Nº 79: <strong>Tratamiento Quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más</strong>', id: 'tratamiento-valvulas', enGuia: true},
     ]
   },
-  'maternidad': {
-    titulo: 'Salud Materna y Perinatal',
-    icono: '👶',
+  'persona-mayor': {
+    titulo: 'Enfermedades de la persona mayor',
+    icono: '👴',
     items: [
-      { nombre: 'Protección, promoción y apoyo a la lactancia materna', numero: 41, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Parto prematuro y complicaciones del embarazo', numero: 42, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Cáncer de mama gestacional y posgestacional', numero: 47, url: 'https://www.superdesalud.gob.cl/', enGuia: false }
+      { numero: 12, nombre: 'Nº 12: <strong>Endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa</strong>', id: 'artrosis-endoprotesis', enGuia: true},
+      { numero: 29, nombre: 'Nº 29: <strong>Vicios de refracción en personas de 65 años y más</strong>', id: 'vicios-refraccion', enGuia: true},
+      { numero: 36, nombre: 'Nº 36: <strong>Ayudas técnicas para personas de 65 años y más</strong>', id: 'ayudas-tecnicas', enGuia: true},
+      { numero: 41, nombre: 'Nº 41: <strong>Tratamiento Médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderada</strong>', id: 'artrosis-tratamiento-medico', enGuia: true},
+      { numero: 56, nombre: 'Nº 56: <strong>Hipoacusia bilateral en personas de 65 años y más que requieren uso de audífon</strong>', id: 'hipoacusia-mayores65', enGuia: true},
+      { numero: 85, nombre: 'Nº 85: <strong>Enfermedad de Alzheimer y otras demencias</strong>', id: 'enfermedad-alzheimer', enGuia: true},
     ]
   },
-  'pediatria': {
-    titulo: 'Condiciones Pediátricas',
-    icono: '👧',
+  'repiratorio': {
+    titulo: 'Enfermedades Respiratorias',
+    icono: '🫁',
     items: [
-      { nombre: 'Dislipidemias en menores de 20 años', numero: 10, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Fibrosis quística', numero: 16, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Displasia broncopulmonar', numero: 17, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Cardiopatía congénita operativa', numero: 18, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Labio y paladar hendido', numero: 20, url: 'https://www.superdesalud.gob.cl/', enGuia: false },
-      { nombre: 'Fenilcetonuria', numero: 23, url: 'https://www.superdesalud.gob.cl/', enGuia: false }
+      { numero: 19, nombre: 'Nº 19: <strong>Infección respiratoria aguda (IRA) de manejo ambulatorio en personas menores de 5 años</strong>', id: 'infeccion-respiratoria', enGuia: true},
+      { numero: 20, nombre: 'Nº 20: <strong>Neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más</strong>', id: 'neumonia', enGuia: true},
+      { numero: 38, nombre: 'Nº 38: <strong>Enfermedad Pulmonar Obstructiva Crónica de tratamiento ambulatorio</strong>', id: 'epoc', enGuia: true},
+      { numero: 39, nombre: 'Nº 39: <strong>Asma bronquial moderada y grave en personas menores de 15 años</strong>', id: 'asma-menores', enGuia: true},
+      { numero: 40, nombre: 'Nº 40: <strong>Síndrome de Dificultad Respiratoria en el recién nacido/a</strong>', id: 'sindrome-dificultad-respiratoria', enGuia: true},
+      { numero: 58, nombre: 'Nº 58: <strong>Displasia broncopulmonar del prematuro/a</strong>', id: 'displasia-broncopulmonar', enGuia: true},
+      { numero: 61, nombre: 'Nº 61: <strong>Asma bronquial en personas de 15 años y más</strong>', id: 'asma-mayores', enGuia: true},
+      { numero: 87, nombre: 'Nº 87: <strong>Rehabilitación SARS COV-2</strong>', id: 'rehabilitacion-sars', enGuia: true},
     ]
   },
   'otros': {
