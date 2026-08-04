@@ -983,11 +983,11 @@ function irLetra(l){ document.getElementById('sec-'+l)?.scrollIntoView({behavior
 /* ── Estado dinámico ── */
 const SERVICIOS=[
   {nombre:"CESFAM N°5 — Atención general",
-   horario:"Lunes a viernes: 08:00 – 20:00\nSábado: 08:00 – 14:00\nDomingos y festivos: Cerrado",
+   horario:"Lunes a viernes: 08:00 – 20:00\nSábado: 08:00 – 13:00\nDomingos y festivos: Cerrado",
    soloHora:false,
    estaAbierto(h,m,d){if(d>=1&&d<=5)return h>=8&&h<20;if(d===6)return h>=8&&h<14;return false;}},
   {nombre:"SOME — Sacar y anular horas",
-   horario:"Lunes a viernes: 08:00 – 20:00\nSábado: 08:00 – 14:00",
+   horario:"Lunes a viernes: 08:00 – 20:00\nSábado: 08:00 – 13:00",
    soloHora:false,
    estaAbierto(h,m,d){if(d>=1&&d<=5)return h>=8&&h<20;if(d===6)return h>=8&&h<14;return false;}},
   {nombre:"Farmacia",
@@ -5663,7 +5663,7 @@ const PAGINAS = {
         
         <p class="pagina-texto"><strong>SOME Central</strong> — Primer piso, mesón de atención principal.</p>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Lunes a viernes:</strong> 08:00 – 20:00 hrs.</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Sábado:</strong> 08:00 – 14:00 hrs.</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Sábado:</strong> 08:00 – 13:00 hrs.</span></div>
         <p class="pagina-texto" style="margin-top:10px;">También existen <strong>SOME Satélite</strong> en cada sector del CESFAM para trámites con tu equipo de cabecera.</p>
         ${enlaceTarjeta('equipo-cabecera','Equipo de Cabecera','Conoce tu sector y equipo asignado')}
       </div>
@@ -5725,7 +5725,8 @@ const PAGINAS = {
       <div class="pagina-seccion" id="sec-Horario">
         <div class="pagina-seccion-titulo-principal">Horario</div>
         
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Lunes a viernes:</strong> 08:30 – 16:30 hrs.</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Lunes a jueves:</strong> 09:00 – 15:30 hrs.</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Viernes:</strong> 09:00 – 14:30 hrs.</span></div>
         <p class="pagina-texto" style="font-size:13px; color:var(--texto-suave); margin-top:8px;">Sin necesidad de hora previa para vacunas del calendario oficial.</p>
         
       </div>
@@ -6584,11 +6585,11 @@ const PAGINAS = {
         
         <p class="pagina-texto" style="font-weight:600; margin-bottom:6px;">CESFAM — Atención general</p>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Lunes a viernes:</strong> 08:00 – 20:00 hrs.</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Sábado:</strong> 08:00 – 14:00 hrs.</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Sábado:</strong> 08:00 – 13:00 hrs.</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Domingos y festivos:</strong> Cerrado.</span></div>
         <p class="pagina-texto" style="font-weight:600; margin-top:12px; margin-bottom:6px;">SOME — Sacar hora</p>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Lunes a viernes:</strong> 08:00 – 20:00 hrs.</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Sábado:</strong> 08:00 – 14:00 hrs.</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Sábado:</strong> 08:00 – 13:00 hrs.</span></div>
         <p class="pagina-texto" style="font-weight:600; margin-top:12px; margin-bottom:6px;">Farmacia</p>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Lunes a viernes:</strong> 08:00 – 18:00 hrs.</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Sábado:</strong> 08:00 – 13:00 hrs.</span></div>
