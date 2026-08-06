@@ -1,3 +1,12 @@
+// Cargar datos GES
+let DATOS_GES = {};
+fetch('./data/ges-patologias.json')
+  .then(r => r.json())
+  .then(data => {
+    data.forEach(patologia => {
+      DATOS_GES[patologia.id] = patologia;
+    });
+  });
 <!DOCTYPE html>
 <html lang="es">
 <head>
