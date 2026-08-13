@@ -1,1 +1,1929 @@
-
+[
+  {
+    "ges_numero": 1,
+    "id": "insuficiencia-renal-cronica-terminal",
+    "nombre_completo": "Insuficiencia Renal Crónica Terminal",
+    "nombre_corto": "Insuficiencia Renal Crónica",
+    "categoria": "Enfermedad Crónica",
+    "grupo_edad": "0+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Enfermedad renal grave en etapa terminal que requiere diálisis o trasplante.",
+    "secciones": {
+      "ges": {
+        "plazo_confirmacion": "Según protocolo",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/insuficiencia-renal-cronica-terminal-2/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja", "grupo_edad": "0+"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 2,
+    "id": "cardiopatias-congenitas-operables",
+    "nombre_completo": "Cardiopatías Congénitas Operables",
+    "nombre_corto": "Cardiopatías Congénitas",
+    "categoria": "Quirúrgico",
+    "grupo_edad": "1-14",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Malformaciones cardiacas congénitas que requieren intervención quirúrgica.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cardiopatias-congenitas-operables/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 3,
+    "id": "cancer-cervicouterino",
+    "nombre_completo": "Cáncer Cervicouterino",
+    "nombre_corto": "Cáncer Cervicouterino",
+    "categoria": "Cáncer",
+    "grupo_edad": "15+",
+    "es_oncologico": true,
+    "en_cesfam": true,
+    "descripcion_breve": "Cáncer del cuello del útero, prevenible con vacuna VPH y tamizaje.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-cervicouterino/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 4,
+    "id": "alivio-dolor-cuidados-paliativos-cancer",
+    "nombre_completo": "Alivio del Dolor y Cuidados Paliativos por Cáncer Avanzado",
+    "nombre_corto": "Cuidados Paliativos Cáncer",
+    "categoria": "Soporte",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Atención paliativa para pacientes con cáncer avanzado con foco en control del dolor.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/alivio-del-dolor-y-cuidados-paliativos-por-cancer-avanzado/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 5,
+    "id": "infarto-corazon",
+    "nombre_completo": "Infarto al Corazón",
+    "nombre_corto": "Infarto",
+    "categoria": "Urgencia Cardiovascular",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Necrosis del músculo cardíaco por obstrucción arterial. Requiere atención inmediata.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/infarto-al-corazon/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 6,
+    "id": "diabetes-mellitus-tipo-1",
+    "nombre_completo": "Diabetes Mellitus Tipo 1",
+    "nombre_corto": "Diabetes Tipo 1",
+    "categoria": "Enfermedad Crónica Metabólica",
+    "grupo_edad": "0+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Enfermedad autoinmune que impide la producción de insulina. Requiere inyecciones diarias.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-1/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 7,
+    "id": "diabetes-mellitus-tipo-2",
+    "nombre_completo": "Diabetes Mellitus Tipo 2",
+    "nombre_corto": "Diabetes Tipo 2",
+    "categoria": "Enfermedad Crónica Metabólica",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Enfermedad metabólica por resistencia a insulina. Muy prevalente. Prevenible con estilos de vida.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-2/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 8,
+    "id": "cancer-mama",
+    "nombre_completo": "Cáncer de Mama",
+    "nombre_corto": "Cáncer de Mama",
+    "categoria": "Cáncer",
+    "grupo_edad": "15+",
+    "es_oncologico": true,
+    "en_cesfam": true,
+    "descripcion_breve": "Cáncer más frecuente en mujeres. Tamizaje y detección temprana mejoran pronóstico.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-mama/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 9,
+    "id": "disrafias-espinales",
+    "nombre_completo": "Disrafias Espinales",
+    "nombre_corto": "Disrafias Espinales",
+    "categoria": "Congénito-Neurológico",
+    "grupo_edad": "0+",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Malformaciones congénitas de la médula espinal. Requiere manejo multidisciplinario.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/disrafias-espinales/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 10,
+    "id": "escoliosis-cirugia",
+    "nombre_completo": "Tratamiento Quirúrgico de Escoliosis en Menores de 25 Años",
+    "nombre_corto": "Escoliosis Quirúrgica",
+    "categoria": "Quirúrgico Ortopédico",
+    "grupo_edad": "1-24",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Corrección quirúrgica de curvatura anormal de la columna en jóvenes.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-escoliosis-en-personas-menores-de-25-anos/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 11,
+    "id": "cataratas-cirugia",
+    "nombre_completo": "Tratamiento Quirúrgico de Cataratas",
+    "nombre_corto": "Cataratas",
+    "categoria": "Quirúrgico Oftalmológico",
+    "grupo_edad": "55+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Opacidad del cristalino que afecta visión. Requiere cirugía para recuperar vista.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-cataratas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 12,
+    "id": "cadera-protesis-artrosis",
+    "nombre_completo": "Endoprótesis Total de Cadera en Personas de 65+ con Artrosis Severa",
+    "nombre_corto": "Prótesis de Cadera",
+    "categoria": "Quirúrgico Ortopédico",
+    "grupo_edad": "65+",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Reemplazo quirúrgico de cadera destruida por artrosis avanzada.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/endoprotesis-total-de-cadera-en-personas-de-65-anos-y-mas-con-artrosis-de-cadera-con-limitacion-funcional-severa/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 13,
+    "id": "fisura-labiopalatina",
+    "nombre_completo": "Fisura Labiopalatina",
+    "nombre_corto": "Fisura Labiopalatina",
+    "categoria": "Congénito-Quirúrgico",
+    "grupo_edad": "0+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Malformación congénita del paladar y labio. Requiere tratamiento quirúrgico multifásico.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/fisura-labiopalatina/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 14,
+    "id": "cancer-menores-15",
+    "nombre_completo": "Cáncer en Personas Menores de 15 Años",
+    "nombre_corto": "Cáncer Pediátrico",
+    "categoria": "Cáncer Infantil",
+    "grupo_edad": "0-14",
+    "es_oncologico": true,
+    "en_cesfam": true,
+    "descripcion_breve": "Cánceres pediátricos con mejor pronóstico con tratamiento oportuno.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-en-personas-menores-de-15-anos/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 15,
+    "id": "esquizofrenia",
+    "nombre_completo": "Esquizofrenia",
+    "nombre_corto": "Esquizofrenia",
+    "categoria": "Salud Mental",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Trastorno psicótico grave que requiere manejo integral con fármacos y psicoterapia.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/esquizofrenia/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 16,
+    "id": "cancer-testiculo",
+    "nombre_completo": "Cáncer de Testículo en Personas de 15+ Años",
+    "nombre_corto": "Cáncer Testicular",
+    "categoria": "Cáncer",
+    "grupo_edad": "15+",
+    "es_oncologico": true,
+    "en_cesfam": true,
+    "descripcion_breve": "Cáncer de testículo con buena respuesta a tratamiento si se detecta tempranamente.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-testiculo-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 17,
+    "id": "linfomas",
+    "nombre_completo": "Linfomas en Personas de 15+ Años",
+    "nombre_corto": "Linfomas",
+    "categoria": "Cáncer Hematológico",
+    "grupo_edad": "15+",
+    "es_oncologico": true,
+    "en_cesfam": true,
+    "descripcion_breve": "Cánceres del sistema linfático con variabilidad en pronóstico según subtipo.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/linfomas-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 18,
+    "id": "vih-sida",
+    "nombre_completo": "Síndrome de Inmunodeficiencia Adquirida (VIH/SIDA)",
+    "nombre_corto": "VIH/SIDA",
+    "categoria": "Infeccioso",
+    "grupo_edad": "0+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Infección viral que afecta inmunidad. Controlable con antirretrovirales modernos.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/sindrome-de-inmunodeficiencia-adquirida-vih-sida/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 19,
+    "id": "ira-menores-5",
+    "nombre_completo": "Infección Respiratoria Aguda (IRA) de Manejo Ambulatorio en Menores de 5 Años",
+    "nombre_corto": "IRA Pediátrica",
+    "categoria": "Infeccioso Respiratorio",
+    "grupo_edad": "0-4",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Infecciones respiratorias agudas frecuentes en menores. Manejo ambulatorio cuando lo permite.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/infeccion-respiratoria-aguda-ira-de-manejo-ambulatorio-en-personas-menores-de-5-anos/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 20,
+    "id": "neumonia-adultos-mayores",
+    "nombre_completo": "Neumonía Adquirida en la Comunidad de Manejo Ambulatorio en Personas de 65+",
+    "nombre_corto": "Neumonía Adultos Mayores",
+    "categoria": "Infeccioso Respiratorio",
+    "grupo_edad": "65+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Infección pulmonar en adultos mayores con riesgo elevado. Requiere evaluación oportuna.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/neumonia-adquirida-en-la-comunidad-de-manejo-ambulatorio-en-personas-de-65-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 21,
+    "id": "hipertension-primaria",
+    "nombre_completo": "Hipertensión Arterial Primaria o Esencial en Personas de 15+ Años",
+    "nombre_corto": "Hipertensión Arterial",
+    "categoria": "Enfermedad Crónica Cardiovascular",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Aumento sostenido de presión arterial. Muy prevalente. Prevenible con modificaciones de estilo de vida.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "45 días para diagnóstico",
+        "plazo_confirmacion": "30 días para inicio tratamiento",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hipertension-arterial-primaria-o-esencial-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 22,
+    "id": "epilepsia-no-refractaria-menores-15",
+    "nombre_completo": "Epilepsia No Refractaria en Personas desde 1 Año y Menores de 15 Años",
+    "nombre_corto": "Epilepsia Infantil",
+    "categoria": "Neurológico",
+    "grupo_edad": "1-14",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Trastorno neurológico con crisis convulsivas en niños. Controlable con medicamentos.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/epilepsia-no-refractaria-en-personas-desde-1-ano-y-menores-de-15-anos/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 23,
+    "id": "salud-oral-ninos-6-anos",
+    "nombre_completo": "Salud Oral Integral para Niños y Niñas de 6 Años",
+    "nombre_corto": "Salud Oral Pediátrica",
+    "categoria": "Odontológico",
+    "grupo_edad": "6",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Atención odontológica integral para niños de 6 años. Prevención de caries.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/salud-oral-integral-para-ninos-y-ninas-de-6-anos/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 24,
+    "id": "prevension-parto-prematuro",
+    "nombre_completo": "Prevención del Parto Prematuro",
+    "nombre_corto": "Prevención Parto Prematuro",
+    "categoria": "Materno-Neonatal",
+    "grupo_edad": "Gestantes",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Prevención de nacimiento prematuro en embarazos de riesgo.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/prevencion-del-parto-prematuro/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 25,
+    "id": "marcapasos-arritmias",
+    "nombre_completo": "Trastornos de Generación de Impulsos y Conducción en Personas de 15+ que Requieren Marcapasos",
+    "nombre_corto": "Marcapasos",
+    "categoria": "Cardiovascular Quirúrgico",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Arritmias cardíacas que requieren implante de marcapasos.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/trastornos-de-generacion-de-impulsos-y-conduccion-en-personas-de-15-anos-y-mas-que-requieren-marcapaso/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 26,
+    "id": "colecistectomia-cancer-vesicula",
+    "nombre_completo": "Colecistectomía Preventiva del Cáncer de Vesícula en Personas de 35-49 Años",
+    "nombre_corto": "Prevención Cáncer Vesícula",
+    "categoria": "Quirúrgico Preventivo",
+    "grupo_edad": "35-49",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Extirpación preventiva de vesícula biliar en alto riesgo de cáncer.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/colecistectomia-preventiva-del-cancer-de-vesicula-en-personas-de-35-a-49-anos/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 27,
+    "id": "cancer-gastrico",
+    "nombre_completo": "Cáncer Gástrico",
+    "nombre_corto": "Cáncer Gástrico",
+    "categoria": "Cáncer",
+    "grupo_edad": "15+",
+    "es_oncologico": true,
+    "en_cesfam": true,
+    "descripcion_breve": "Cáncer del estómago. Detección temprana mejora pronóstico significativamente.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-gastrico/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 28,
+    "id": "cancer-prostata",
+    "nombre_completo": "Cáncer de Próstata en Personas de 15+ Años",
+    "nombre_corto": "Cáncer Prostático",
+    "categoria": "Cáncer",
+    "grupo_edad": "15+",
+    "es_oncologico": true,
+    "en_cesfam": true,
+    "descripcion_breve": "Cáncer más frecuente en hombres adultos. Tamizaje controvertido pero tratamiento efectivo.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-prostata-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 29,
+    "id": "vicios-refraccion-adultos-mayores",
+    "nombre_completo": "Vicios de Refracción en Personas de 65+ Años",
+    "nombre_corto": "Vicios de Refracción",
+    "categoria": "Oftalmológico",
+    "grupo_edad": "65+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Problemas de refracción (miopia, hipermetropía, astigmatismo) en adultos mayores.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/vicios-de-refraccion-en-personas-de-65-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 30,
+    "id": "estrabismo-menores-9",
+    "nombre_completo": "Estrabismo en Personas Menores de 9 Años",
+    "nombre_corto": "Estrabismo Pediátrico",
+    "categoria": "Oftalmológico",
+    "grupo_edad": "0-8",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Desalineación ocular en niños. Tratamiento oportuno previene ambliopía.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/estrabismo-en-personas-menores-de-9-anos/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 31,
+    "id": "retinopatia-diabetica",
+    "nombre_completo": "Retinopatía Diabética",
+    "nombre_corto": "Retinopatía Diabética",
+    "categoria": "Oftalmológico",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Complicación ocular de la diabetes. Control de diabetes previene progresión.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/retinopatia-diabetica/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 32,
+    "id": "desprendimiento-retina",
+    "nombre_completo": "Desprendimiento de Retina Regmatógeno No Traumático",
+    "nombre_corto": "Desprendimiento Retina",
+    "categoria": "Oftalmológico Urgencia",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Separación de retina que requiere urgencia quirúrgica para preservar visión.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/desprendimiento-de-retina-regmatogeno-no-traumatico/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 33,
+    "id": "hemofilia",
+    "nombre_completo": "Hemofilia",
+    "nombre_corto": "Hemofilia",
+    "categoria": "Hematológico",
+    "grupo_edad": "0+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Trastorno hereditario de coagulación. Requiere manejo multidisciplinario especializado.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hemofilia/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 34,
+    "id": "depresion",
+    "nombre_completo": "Depresión en Personas de 15+ Años",
+    "nombre_corto": "Depresión",
+    "categoria": "Salud Mental",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Trastorno mental frecuente. Altamente tratable con medicamentos y psicoterapia.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/depresion-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 35,
+    "id": "hiperplasia-prostatica",
+    "nombre_completo": "Tratamiento de Hiperplasia Benigna de la Próstata en Personas Sintomáticas",
+    "nombre_corto": "Hiperplasia Prostática",
+    "categoria": "Urológico",
+    "grupo_edad": "55+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Agrandamiento benigno de próstata con síntomas miccionales.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-de-la-hiperplasia-benigna-de-la-prostata-en-personas-sintomaticas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 36,
+    "id": "ayudas-tecnicas-adultos-mayores",
+    "nombre_completo": "Ayudas Técnicas para Personas de 65+ Años",
+    "nombre_corto": "Ayudas Técnicas",
+    "categoria": "Rehabilitación",
+    "grupo_edad": "65+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Dispositivos y equipamiento para mejorar funcionalidad en adultos mayores.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/ayudas-tecnicas-para-personas-de-65-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 37,
+    "id": "acv-isquemico",
+    "nombre_completo": "Ataque Cerebrovascular Isquémico en Personas de 15+ Años",
+    "nombre_corto": "ACV Isquémico",
+    "categoria": "Neurológico Urgencia",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Accidente cerebrovascular por obstrucción arterial. Urgencia médica que requiere atención inmediata.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/ataque-cerebrovascular-isquemico-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 38,
+    "id": "epoc",
+    "nombre_completo": "Enfermedad Pulmonar Obstructiva Crónica de Tratamiento Ambulatorio",
+    "nombre_corto": "EPOC",
+    "categoria": "Respiratorio Crónico",
+    "grupo_edad": "40+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Enfermedad pulmonar crónica progresiva. Principalmente por tabaquismo. Requiere manejo integral.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/enfermedad-pulmonar-obstructiva-cronica-de-tratamiento-ambulatorio/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 39,
+    "id": "asma-menores-15",
+    "nombre_completo": "Asma Bronquial Moderada y Grave en Personas Menores de 15 Años",
+    "nombre_corto": "Asma Infantil",
+    "categoria": "Respiratorio",
+    "grupo_edad": "0-14",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Asma moderada a grave en niños. Controlable con medicamentos preventivos.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/asma-bronquial-moderada-y-grave-en-personas-menores-de-15-anos/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 40,
+    "id": "sindrome-dificultad-respiratoria-rn",
+    "nombre_completo": "Síndrome de Dificultad Respiratoria en el Recién Nacido/a",
+    "nombre_corto": "Síndrome Distress RN",
+    "categoria": "Neonatal",
+    "grupo_edad": "RN",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Dificultad respiratoria en recién nacidos. Requiere cuidados intensivos neonatales.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/sindrome-de-dificultad-respiratoria-en-el-recien-nacido-a/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 41,
+    "id": "artrosis-cadera-rodilla",
+    "nombre_completo": "Tratamiento Médico en Personas de 55+ con Artrosis de Cadera y/o Rodilla Leve o Moderada",
+    "nombre_corto": "Artrosis Cadera-Rodilla",
+    "categoria": "Ortopédico",
+    "grupo_edad": "55+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Artrosis leve a moderada. Manejo médico para ralentizar progresión.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-medico-en-personas-de-55-anos-y-mas-con-artrosis-de-cadera-y-o-rodilla-leve-o-moderada/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 42,
+    "id": "hemorragia-subaracnoidea",
+    "nombre_completo": "Hemorragia Subaracnoidea Secundaria a Ruptura de Aneurismas Cerebrales",
+    "nombre_corto": "Hemorragia Subaracnoidea",
+    "categoria": "Neurológico Urgencia",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Sangrado cerebral por ruptura de aneurisma. Urgencia neuroquirúrgica.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hemorragia-subaracnoidea-secundaria-a-ruptura-de-aneurismas-cerebrales/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 43,
+    "id": "tumores-sn-central",
+    "nombre_completo": "Tumores Primarios del Sistema Nervioso Central en Personas de 15+ Años",
+    "nombre_corto": "Tumores SNC",
+    "categoria": "Cáncer Neurológico",
+    "grupo_edad": "15+",
+    "es_oncologico": true,
+    "en_cesfam": false,
+    "descripcion_breve": "Tumores cerebrales primarios. Requiere manejo neuroquirúrgico y oncológico.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tumores-primarios-del-sistema-nervioso-central-en-personas-de-15-anos-o-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 44,
+    "id": "hernia-disco-lumbar",
+    "nombre_completo": "Tratamiento Quirúrgico de Hernia del Núcleo Pulposo Lumbar",
+    "nombre_corto": "Hernia Disco Lumbar",
+    "categoria": "Quirúrgico Neurológico",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Hernia discal lumbar sintomática que requiere intervención quirúrgica.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-hernia-del-nucleo-pulposo-lumbar/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 45,
+    "id": "leucemia",
+    "nombre_completo": "Leucemia en Personas de 15+ Años",
+    "nombre_corto": "Leucemia",
+    "categoria": "Cáncer Hematológico",
+    "grupo_edad": "15+",
+    "es_oncologico": true,
+    "en_cesfam": true,
+    "descripcion_breve": "Cáncer de la sangre. Tratamiento quimioterapéutico intensivo.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/leucemia-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 46,
+    "id": "urgencia-odontologica",
+    "nombre_completo": "Urgencia Odontológica Ambulatoria",
+    "nombre_corto": "Urgencia Dental",
+    "categoria": "Odontológico",
+    "grupo_edad": "0+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Atención urgente de problemas odontológicos agudos.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/urgencia-odontologica-ambulatoria/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 47,
+    "id": "salud-oral-60-anos",
+    "nombre_completo": "Salud Oral Integral de Personas de 60 Años",
+    "nombre_corto": "Salud Oral Adulto Mayor",
+    "categoria": "Odontológico",
+    "grupo_edad": "60",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Atención odontológica integral para personas de 60 años.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/salud-oral-integral-de-personas-de-60-anos/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 48,
+    "id": "politraumatizado-grave",
+    "nombre_completo": "Politraumatizado Grave",
+    "nombre_corto": "Politraumatismo Grave",
+    "categoria": "Trauma Urgencia",
+    "grupo_edad": "0+",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Traumatismo múltiple grave. Requiere cuidados intensivos.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/politraumatizado-grave/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 49,
+    "id": "tce-moderado-grave",
+    "nombre_completo": "Traumatismo Cráneo Encefálico Moderado o Grave",
+    "nombre_corto": "TCE",
+    "categoria": "Trauma Neurológico",
+    "grupo_edad": "0+",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Trauma craneoencefálico de moderado a grave.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/traumatismo-craneo-encefalico-moderado-o-grave/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 50,
+    "id": "trauma-ocular-grave",
+    "nombre_completo": "Trauma Ocular Grave",
+    "nombre_corto": "Trauma Ocular",
+    "categoria": "Trauma Oftalmológico",
+    "grupo_edad": "0+",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Trauma ocular grave que amenaza la visión.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/trauma-ocular-grave/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 51,
+    "id": "fibrosis-quistica",
+    "nombre_completo": "Fibrosis Quística",
+    "nombre_corto": "Fibrosis Quística",
+    "categoria": "Genético-Pulmonar",
+    "grupo_edad": "0+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Enfermedad genética que afecta pulmones y páncreas. Requiere manejo multidisciplinario intensivo.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/fibrosis-quistica/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 52,
+    "id": "artritis-reumatoidea",
+    "nombre_completo": "Artritis Reumatoídea",
+    "nombre_corto": "Artritis Reumatoídea",
+    "categoria": "Inmunológico Articular",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Enfermedad autoinmune que causa inflamación articular crónica.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/artritis-reumatoidea/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 53,
+    "id": "alcohol-drogas-adolescentes",
+    "nombre_completo": "Consumo Perjudicial o Dependencia de Riesgo Bajo a Moderado de Alcohol y Drogas en Menores de 20 Años",
+    "nombre_corto": "Alcohol-Drogas Adolescentes",
+    "categoria": "Salud Mental Adictología",
+    "grupo_edad": "0-19",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Tratamiento de consumo problemático de alcohol y drogas en adolescentes.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/consumo-perjudicial-o-dependencia-de-riesgo-bajo-a-moderado-de-alcohol-y-drogas-en-personas-menores-de-20-anos/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 54,
+    "id": "analgesia-parto",
+    "nombre_completo": "Analgesia del Parto",
+    "nombre_corto": "Analgesia Parto",
+    "categoria": "Materno-Neonatal",
+    "grupo_edad": "Gestantes",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Control del dolor durante el parto.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/analgesia-del-parto/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 55,
+    "id": "gran-quemado",
+    "nombre_completo": "Gran Quemado",
+    "nombre_corto": "Gran Quemado",
+    "categoria": "Trauma Urgencia",
+    "grupo_edad": "0+",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Quemaduras extensas que requieren hospitalización especializada.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/gran-quemado/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 56,
+    "id": "hipoacusia-adultos-mayores",
+    "nombre_completo": "Hipoacusia Bilateral en Personas de 65+ que Requieren Audífono",
+    "nombre_corto": "Hipoacusia Adultos Mayores",
+    "categoria": "Audiológico",
+    "grupo_edad": "65+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Sordera bilateral en adultos mayores. Cobertura de audífonos.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hipoacusia-bilateral-en-personas-de-65-anos-y-mas-que-requieren-uso-de-audifono/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 57,
+    "id": "retinopatia-prematuro",
+    "nombre_completo": "Retinopatía del Prematuro",
+    "nombre_corto": "Retinopatía Prematuro",
+    "categoria": "Neonatal Oftalmológico",
+    "grupo_edad": "RN Prematuro",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Complicación oftalmológica en prematuros que requiere manejo urgente.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/retinopatia-del-prematuro/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 58,
+    "id": "displasia-broncopulmonar",
+    "nombre_completo": "Displasia Broncopulmonar del Prematuro/a",
+    "nombre_corto": "Displasia Broncopulmonar",
+    "categoria": "Neonatal Pulmonar",
+    "grupo_edad": "RN Prematuro",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Enfermedad pulmonar crónica en prematuros.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/displasia-broncopulmonar-del-prematuro-a/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 59,
+    "id": "hipoacusia-prematuro",
+    "nombre_completo": "Hipoacusia Neurosensorial Bilateral del Prematuro/a",
+    "nombre_corto": "Hipoacusia Prematuro",
+    "categoria": "Neonatal Audiológico",
+    "grupo_edad": "RN Prematuro",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Sordera congénita en prematuros.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hipoacusia-neurosensorial-bilateral-del-prematuro-a/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 60,
+    "id": "epilepsia-adultos",
+    "nombre_completo": "Epilepsia No Refractaria en Personas de 15+ Años",
+    "nombre_corto": "Epilepsia Adultos",
+    "categoria": "Neurológico",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Epilepsia controlable en adultos con medicamentos anticonvulsivos.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/epilepsia-no-refractaria-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 61,
+    "id": "asma-mayores-15",
+    "nombre_completo": "Asma Bronquial en Personas de 15+ Años",
+    "nombre_corto": "Asma Adultos",
+    "categoria": "Respiratorio",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Asma en adultos. Controlable con medicamentos preventivos.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/asma-bronquial-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 62,
+    "id": "parkinson",
+    "nombre_completo": "Enfermedad de Parkinson",
+    "nombre_corto": "Parkinson",
+    "categoria": "Neurológico Degenerativo",
+    "grupo_edad": "55+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Enfermedad neurodegenerativa progresiva. Tratamiento sintomático disponible.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/enfermedad-de-parkinson/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 63,
+    "id": "artritis-idiopatica-juvenil",
+    "nombre_completo": "Artritis Idiopática Juvenil",
+    "nombre_corto": "Artritis Juvenil",
+    "categoria": "Reumatológico Infantil",
+    "grupo_edad": "0-17",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Artritis crónica en niños. Requiere manejo reumatológico especializado.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/artritis-idiopatica-juvenil/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 64,
+    "id": "prevencion-secundaria-insuficiencia-renal",
+    "nombre_completo": "Prevención Secundaria de Enfermedad Renal Crónica Terminal",
+    "nombre_corto": "Prevención Secundaria IRC",
+    "categoria": "Nefrológico Preventivo",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Prevención de progresión en enfermedad renal crónica.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/prevencion-secundaria-enfermedad-renal-cronica-terminal/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 65,
+    "id": "displasia-luxante-caderas",
+    "nombre_completo": "Displasia Luxante de Caderas",
+    "nombre_corto": "Displasia Caderas",
+    "categoria": "Ortopédico Neonatal",
+    "grupo_edad": "RN-2 años",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Luxación de cadera congénita. Detección temprana mejora resultado.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/displasia-luxante-de-caderas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 66,
+    "id": "salud-oral-gestante",
+    "nombre_completo": "Salud Oral Integral de la Persona Gestante",
+    "nombre_corto": "Salud Oral Gestante",
+    "categoria": "Odontológico Materno",
+    "grupo_edad": "Gestantes",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Atención odontológica integral durante el embarazo.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/salud-oral-integral-de-la-persona-gestante/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 67,
+    "id": "esclerosis-multiple",
+    "nombre_completo": "Esclerosis Múltiple Remitente Recurrente",
+    "nombre_corto": "Esclerosis Múltiple",
+    "categoria": "Neurológico Inmunológico",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Enfermedad neurológica autoinmune. Tratamientos modificadores disponibles.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/esclerosis-multiple-remitente-recurrente/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 68,
+    "id": "hepatitis-b-cronica",
+    "nombre_completo": "Hepatitis Crónica por Virus Hepatitis B",
+    "nombre_corto": "Hepatitis B Crónica",
+    "categoria": "Hepatológico Infeccioso",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Infección crónica por hepatitis B. Tratamiento antiviral disponible.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hepatitis-cronica-por-virus-hepatitis-b/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 69,
+    "id": "hepatitis-c-cronica",
+    "nombre_completo": "Hepatitis Crónica por Virus Hepatitis C",
+    "nombre_corto": "Hepatitis C Crónica",
+    "categoria": "Hepatológico Infeccioso",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Infección crónica por hepatitis C. Tratamiento curativo disponible.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hepatitis-cronica-por-virus-hepatitis-c/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 70,
+    "id": "cancer-colorrectal",
+    "nombre_completo": "Cáncer Colorrectal en Personas de 15+ Años",
+    "nombre_corto": "Cáncer Colorrectal",
+    "categoria": "Cáncer",
+    "grupo_edad": "15+",
+    "es_oncologico": true,
+    "en_cesfam": true,
+    "descripcion_breve": "Cáncer del colon y recto. Prevenible con tamizaje y polipectomía.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-colorrectal-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 71,
+    "id": "cancer-ovario",
+    "nombre_completo": "Cáncer de Ovario Epitelial",
+    "nombre_corto": "Cáncer Ovárico",
+    "categoria": "Cáncer",
+    "grupo_edad": "15+",
+    "es_oncologico": true,
+    "en_cesfam": true,
+    "descripcion_breve": "Cáncer ovárico. Detección tardía frecuente pero tratamiento disponible.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-ovario-epitelial/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 72,
+    "id": "cancer-vesical",
+    "nombre_completo": "Cáncer Vesical en Personas de 15+ Años",
+    "nombre_corto": "Cáncer Vesical",
+    "categoria": "Cáncer",
+    "grupo_edad": "15+",
+    "es_oncologico": true,
+    "en_cesfam": true,
+    "descripcion_breve": "Cáncer de vejiga. Presentación frecuente con hematuria.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-vesical-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 73,
+    "id": "osteosarcoma",
+    "nombre_completo": "Osteosarcoma en Personas de 15+ Años",
+    "nombre_corto": "Osteosarcoma",
+    "categoria": "Cáncer Óseo",
+    "grupo_edad": "15+",
+    "es_oncologico": true,
+    "en_cesfam": false,
+    "descripcion_breve": "Cáncer óseo maligno. Diagnóstico y tratamiento multidisciplinario.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/osteosarcoma-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 74,
+    "id": "valvula-aortica-cirugia",
+    "nombre_completo": "Tratamiento Quirúrgico de Lesiones Crónicas de la Válvula Aórtica en Personas de 15+ Años",
+    "nombre_corto": "Válvula Aórtica Quirúrgica",
+    "categoria": "Cardiovascular Quirúrgico",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Reemplazo o reparación quirúrgica de válvula aórtica dañada.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-lesiones-cronicas-de-la-valvula-aortica-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 75,
+    "id": "trastorno-bipolar",
+    "nombre_completo": "Trastorno Bipolar en Personas de 15+ Años",
+    "nombre_corto": "Trastorno Bipolar",
+    "categoria": "Salud Mental",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Enfermedad mental con episodios maníacos y depresivos. Tratable con medicamentos.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/trastorno-bipolar-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 76,
+    "id": "hipotiroidismo",
+    "nombre_completo": "Hipotiroidismo en Personas de 15+ Años",
+    "nombre_corto": "Hipotiroidismo",
+    "categoria": "Endocrinológico",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Deficiencia de tiroxina. Fácil diagnóstico y tratamiento efectivo.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hipotiroidismo-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 77,
+    "id": "hipoacusia-menores-4",
+    "nombre_completo": "Hipoacusia Moderada, Severa y Profunda en Personas Menores de 4 Años",
+    "nombre_corto": "Hipoacusia Infantil",
+    "categoria": "Audiológico Infantil",
+    "grupo_edad": "0-3",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Sordera en menores de 4 años. Intervención temprana crucial.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hipoacusia-moderada-severa-y-profunda-en-personas-menores-de-4-anos/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 78,
+    "id": "lupus-eritematoso",
+    "nombre_completo": "Lupus Eritematoso Sistémico",
+    "nombre_corto": "Lupus Eritematoso",
+    "categoria": "Inmunológico Sistémico",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Enfermedad autoinmune sistémica. Requiere manejo multidisciplinario.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/lupus-eritematoso-sistemico/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 79,
+    "id": "valvulas-mitraltricuspide-cirugia",
+    "nombre_completo": "Tratamiento Quirúrgico de Lesiones Crónicas de Válvulas Mitral y Tricúspide en Personas de 15+ Años",
+    "nombre_corto": "Válvulas Mitral-Tricúspide Quirúrgica",
+    "categoria": "Cardiovascular Quirúrgico",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Reparación o reemplazo quirúrgico de válvulas cardíacas dañadas.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-lesiones-cronicas-de-las-valvulas-mitral-y-tricuspide-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 80,
+    "id": "helicobacter-pylori",
+    "nombre_completo": "Tratamiento de Erradicación del Helicobacter Pylori",
+    "nombre_corto": "Helicobacter Pylori",
+    "categoria": "Gastrointestinal Infeccioso",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Tratamiento de infección bacteriana gástrica asociada a úlceras.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-de-erradicacion-del-helicobacter-pylori/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 81,
+    "id": "cancer-pulmon",
+    "nombre_completo": "Cáncer de Pulmón en Personas de 15+ Años",
+    "nombre_corto": "Cáncer de Pulmón",
+    "categoria": "Cáncer",
+    "grupo_edad": "15+",
+    "es_oncologico": true,
+    "en_cesfam": true,
+    "descripcion_breve": "Cáncer pulmonar. Mayor frecuencia por tabaquismo. Tratamiento multimodal.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-pulmon-en-personas-de-15-anos-y-mas-2/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 82,
+    "id": "cancer-tiroides",
+    "nombre_completo": "Cáncer de Tiroides en Personas de 15+ Años",
+    "nombre_corto": "Cáncer Tiroideo",
+    "categoria": "Cáncer",
+    "grupo_edad": "15+",
+    "es_oncologico": true,
+    "en_cesfam": true,
+    "descripcion_breve": "Cáncer tiroideo. Buen pronóstico con detección temprana.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-tiroides-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 83,
+    "id": "cancer-renal",
+    "nombre_completo": "Cáncer Renal en Personas de 15+ Años",
+    "nombre_corto": "Cáncer Renal",
+    "categoria": "Cáncer",
+    "grupo_edad": "15+",
+    "es_oncologico": true,
+    "en_cesfam": true,
+    "descripcion_breve": "Cáncer de riñón. Detección frecuente en etapas avanzadas.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-renal-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 84,
+    "id": "mieloma-multiple",
+    "nombre_completo": "Mieloma Múltiple en Personas de 15+ Años",
+    "nombre_corto": "Mieloma Múltiple",
+    "categoria": "Cáncer Hematológico",
+    "grupo_edad": "15+",
+    "es_oncologico": true,
+    "en_cesfam": true,
+    "descripcion_breve": "Cáncer de células plasmáticas. Diagnóstico típicamente tardío.",
+    "secciones": {
+      "ges": {
+        "plazo_sospecha": "30 días",
+        "plazo_confirmacion": "15 días",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/mieloma-multiple-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 85,
+    "id": "alzheimer-demencias",
+    "nombre_completo": "Enfermedad de Alzheimer y Otras Demencias",
+    "nombre_corto": "Alzheimer y Demencias",
+    "categoria": "Neurológico Degenerativo",
+    "grupo_edad": "60+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Enfermedades neurodegenerativas progresivas. Manejo sintomático y apoyo.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/enfermedad-de-alzheimer-y-otras-demencias-2/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 86,
+    "id": "agresion-sexual-aguda",
+    "nombre_completo": "Atención Integral de Salud en Agresión Sexual Aguda",
+    "nombre_corto": "Agresión Sexual Aguda",
+    "categoria": "Violencia Urgencia",
+    "grupo_edad": "0+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Atención integral y psicosocial para víctimas de agresión sexual.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/atencion-integral-de-salud-en-agresion-sexual-aguda/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 87,
+    "id": "rehabilitacion-covid-19",
+    "nombre_completo": "Rehabilitación SARS COV-2",
+    "nombre_corto": "Rehabilitación COVID-19",
+    "categoria": "Infeccioso Rehabilitación",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Rehabilitación para secuelas post-COVID-19.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/rehabilitacion-sars-cov-2/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 88,
+    "id": "cirrosis-hepatica-alta",
+    "nombre_completo": "Tratamiento Farmacológico Tras Alta Hospitalaria por Cirrosis Hepática",
+    "nombre_corto": "Cirrosis Hepática Postalta",
+    "categoria": "Hepatológico",
+    "grupo_edad": "15+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Manejo post-hospitalario de cirrosis hepática descompensada.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-farmacologico-tras-alta-hospitalaria-por-cirrosis-hepatica/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja-Media"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 89,
+    "id": "depresion-grave-menores-15",
+    "nombre_completo": "Tratamiento Hospitalario para Menores de 15 Años con Depresión Grave Refractaria o Psicótica con Riesgo Suicida",
+    "nombre_corto": "Depresión Grave Infantil Hospitalaria",
+    "categoria": "Salud Mental Infantil",
+    "grupo_edad": "0-14",
+    "es_oncologico": false,
+    "en_cesfam": false,
+    "descripcion_breve": "Hospitalización para depresión grave en niños con riesgo suicida.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-hospitalario-para-personas-menores-de-15-anos-con-depresion-grave-refractaria-o-psicotica-con-riesgo-suicida/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Baja"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  },
+  {
+    "ges_numero": 90,
+    "id": "cesacion-tabaquica",
+    "nombre_completo": "Cesación del Consumo de Tabaco en Personas de 25+ Años",
+    "nombre_corto": "Cesación Tabáquica",
+    "categoria": "Prevención Adictología",
+    "grupo_edad": "25+",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Programa integral para abandono del tabaquismo con fármacos y apoyo psicológico.",
+    "secciones": {
+      "ges": {
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cesacion-del-consumo-de-tabaco-en-personas-de-25-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {"prevalencia": "Alta"},
+    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
+    "metadata": {"estado": "activo"}
+  }
+]
