@@ -7832,6 +7832,8 @@ function plantillaCardGES(patologia) {
 // Template: Detalle completo (cuando haces clic en una patología)
 function plantillaDetalleGES(patologia) {
   const sec = patologia.secciones;
+  
+  // Orden estándar: Descripción, Quién accede, Prestaciones, Requisitos, Acceso, Horario, Saber +
   return `
     <div class="ges-detalle">
       <div class="ges-detalle-header">
@@ -7842,15 +7844,15 @@ function plantillaDetalleGES(patologia) {
       
       ${sec.descripcion ? `
         <div class="ges-detalle-seccion">
-          <h3>¿Qué es?</h3>
+          <h3>Descripción</h3>
           <p>${sec.descripcion.contenido || 'Contenido pendiente'}</p>
         </div>
       ` : ''}
       
-      ${sec.sintomas ? `
+      ${sec.quien_accede ? `
         <div class="ges-detalle-seccion">
-          <h3>Síntomas</h3>
-          <ul>${sec.sintomas.items ? sec.sintomas.items.map(s => `<li>${s}</li>`).join('') : '<li>Contenido pendiente</li>'}</ul>
+          <h3>¿Quién accede?</h3>
+          <p>${sec.quien_accede.contenido || 'Contenido pendiente'}</p>
         </div>
       ` : ''}
       
@@ -7868,14 +7870,28 @@ function plantillaDetalleGES(patologia) {
         </div>
       ` : ''}
       
-      ${sec.acceder ? `
+      ${sec.acceso ? `
         <div class="ges-detalle-seccion">
-          <h3>¿Cómo acceder?</h3>
-          <p>${sec.acceder.contenido || 'Contenido pendiente'}</p>
+          <h3>Acceso</h3>
+          <p>${sec.acceso.contenido || 'Contenido pendiente'}</p>
         </div>
       ` : ''}
       
-      ${sec.ges ? `
+      ${sec.horario ? `
+        <div class="ges-detalle-seccion">
+          <h3>Horario</h3>
+          <p>${sec.horario.contenido || 'Contenido pendiente'}</p>
+        </div>
+      ` : ''}
+      
+      ${sec.saber_mas ? `
+        <div class="ges-detalle-seccion">
+          <h3>Saber +</h3>
+          <p>${sec.saber_mas.contenido || 'Contenido pendiente'}</p>
+        </div>
+      ` : ''}
+      
+      ${sec.ges && (sec.ges.plazo_sospecha || sec.ges.plazo_confirmacion || sec.ges.copago_fonasa || sec.ges.copago_isapre) ? `
         <div class="ges-detalle-seccion ges-garantias">
           <h3>Garantías GES</h3>
           <div class="ges-garantias-grid">
