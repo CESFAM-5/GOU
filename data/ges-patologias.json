@@ -10,16 +10,60 @@
     "en_cesfam": true,
     "descripcion_breve": "Enfermedad renal grave en etapa terminal que requiere diálisis o trasplante.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Enfermedad renal grave en etapa terminal que requiere diálisis o trasplante."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 1 - https://www.superdesalud.gob.cl/orientacion-en-salud/insuficiencia-renal-cronica-terminal-2/"
+      },
       "ges": {
+        "plazo_sospecha": "",
         "plazo_confirmacion": "Según protocolo",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/insuficiencia-renal-cronica-terminal-2/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja", "grupo_edad": "0+"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja",
+      "grupo_edad": "0+"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 2,
@@ -32,15 +76,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Malformaciones cardiacas congénitas que requieren intervención quirúrgica.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Malformaciones cardiacas congénitas que requieren intervención quirúrgica."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 1-14"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 2 - https://www.superdesalud.gob.cl/orientacion-en-salud/cardiopatias-congenitas-operables/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cardiopatias-congenitas-operables/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 3,
@@ -53,6 +141,40 @@
     "en_cesfam": true,
     "descripcion_breve": "Cáncer del cuello del útero, prevenible con vacuna VPH y tamizaje.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Cáncer del cuello del útero, prevenible con vacuna VPH y tamizaje."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 3 - https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-cervicouterino/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -61,9 +183,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-cervicouterino/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 4,
@@ -76,15 +206,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Atención paliativa para pacientes con cáncer avanzado con foco en control del dolor.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Atención paliativa para pacientes con cáncer avanzado con foco en control del dolor."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 4 - https://www.superdesalud.gob.cl/orientacion-en-salud/alivio-del-dolor-y-cuidados-paliativos-por-cancer-avanzado/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/alivio-del-dolor-y-cuidados-paliativos-por-cancer-avanzado/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 5,
@@ -97,15 +271,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Necrosis del músculo cardíaco por obstrucción arterial. Requiere atención inmediata.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Necrosis del músculo cardíaco por obstrucción arterial. Requiere atención inmediata."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 5 - https://www.superdesalud.gob.cl/orientacion-en-salud/infarto-al-corazon/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/infarto-al-corazon/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 6,
@@ -118,15 +336,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Enfermedad autoinmune que impide la producción de insulina. Requiere inyecciones diarias.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Enfermedad autoinmune que impide la producción de insulina. Requiere inyecciones diarias."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 6 - https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-1/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-1/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 7,
@@ -139,15 +401,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Enfermedad metabólica por resistencia a insulina. Muy prevalente. Prevenible con estilos de vida.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Enfermedad metabólica por resistencia a insulina. Muy prevalente. Prevenible con estilos de vida."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 7 - https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-2/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-2/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 8,
@@ -160,6 +466,40 @@
     "en_cesfam": true,
     "descripcion_breve": "Cáncer más frecuente en mujeres. Tamizaje y detección temprana mejoran pronóstico.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Cáncer más frecuente en mujeres. Tamizaje y detección temprana mejoran pronóstico."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 8 - https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-mama/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -168,9 +508,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-mama/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 9,
@@ -183,15 +531,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Malformaciones congénitas de la médula espinal. Requiere manejo multidisciplinario.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Malformaciones congénitas de la médula espinal. Requiere manejo multidisciplinario."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 9 - https://www.superdesalud.gob.cl/orientacion-en-salud/disrafias-espinales/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/disrafias-espinales/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 10,
@@ -204,15 +596,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Corrección quirúrgica de curvatura anormal de la columna en jóvenes.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Corrección quirúrgica de curvatura anormal de la columna en jóvenes."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 1-24"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 10 - https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-escoliosis-en-personas-menores-de-25-anos/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-escoliosis-en-personas-menores-de-25-anos/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 11,
@@ -225,15 +661,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Opacidad del cristalino que afecta visión. Requiere cirugía para recuperar vista.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Opacidad del cristalino que afecta visión. Requiere cirugía para recuperar vista."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 55+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 11 - https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-cataratas/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-cataratas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 12,
@@ -246,15 +726,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Reemplazo quirúrgico de cadera destruida por artrosis avanzada.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Reemplazo quirúrgico de cadera destruida por artrosis avanzada."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 65+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 12 - https://www.superdesalud.gob.cl/orientacion-en-salud/endoprotesis-total-de-cadera-en-personas-de-65-anos-y-mas-con-artrosis-de-cadera-con-limitacion-funcional-severa/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/endoprotesis-total-de-cadera-en-personas-de-65-anos-y-mas-con-artrosis-de-cadera-con-limitacion-funcional-severa/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 13,
@@ -267,15 +791,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Malformación congénita del paladar y labio. Requiere tratamiento quirúrgico multifásico.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Malformación congénita del paladar y labio. Requiere tratamiento quirúrgico multifásico."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 13 - https://www.superdesalud.gob.cl/orientacion-en-salud/fisura-labiopalatina/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/fisura-labiopalatina/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 14,
@@ -288,6 +856,40 @@
     "en_cesfam": true,
     "descripcion_breve": "Cánceres pediátricos con mejor pronóstico con tratamiento oportuno.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Cánceres pediátricos con mejor pronóstico con tratamiento oportuno."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0-14"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 14 - https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-en-personas-menores-de-15-anos/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -296,9 +898,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-en-personas-menores-de-15-anos/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 15,
@@ -311,15 +921,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Trastorno psicótico grave que requiere manejo integral con fármacos y psicoterapia.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Trastorno psicótico grave que requiere manejo integral con fármacos y psicoterapia."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 15 - https://www.superdesalud.gob.cl/orientacion-en-salud/esquizofrenia/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/esquizofrenia/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 16,
@@ -332,6 +986,40 @@
     "en_cesfam": true,
     "descripcion_breve": "Cáncer de testículo con buena respuesta a tratamiento si se detecta tempranamente.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Cáncer de testículo con buena respuesta a tratamiento si se detecta tempranamente."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 16 - https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-testiculo-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -340,9 +1028,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-testiculo-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 17,
@@ -355,6 +1051,40 @@
     "en_cesfam": true,
     "descripcion_breve": "Cánceres del sistema linfático con variabilidad en pronóstico según subtipo.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Cánceres del sistema linfático con variabilidad en pronóstico según subtipo."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 17 - https://www.superdesalud.gob.cl/orientacion-en-salud/linfomas-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -363,9 +1093,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/linfomas-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 18,
@@ -378,15 +1116,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Infección viral que afecta inmunidad. Controlable con antirretrovirales modernos.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Infección viral que afecta inmunidad. Controlable con antirretrovirales modernos."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 18 - https://www.superdesalud.gob.cl/orientacion-en-salud/sindrome-de-inmunodeficiencia-adquirida-vih-sida/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/sindrome-de-inmunodeficiencia-adquirida-vih-sida/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 19,
@@ -399,15 +1181,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Infecciones respiratorias agudas frecuentes en menores. Manejo ambulatorio cuando lo permite.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Infecciones respiratorias agudas frecuentes en menores. Manejo ambulatorio cuando lo permite."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0-4"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 19 - https://www.superdesalud.gob.cl/orientacion-en-salud/infeccion-respiratoria-aguda-ira-de-manejo-ambulatorio-en-personas-menores-de-5-anos/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/infeccion-respiratoria-aguda-ira-de-manejo-ambulatorio-en-personas-menores-de-5-anos/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 20,
@@ -420,15 +1246,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Infección pulmonar en adultos mayores con riesgo elevado. Requiere evaluación oportuna.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Infección pulmonar en adultos mayores con riesgo elevado. Requiere evaluación oportuna."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 65+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 20 - https://www.superdesalud.gob.cl/orientacion-en-salud/neumonia-adquirida-en-la-comunidad-de-manejo-ambulatorio-en-personas-de-65-anos-y-mas/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/neumonia-adquirida-en-la-comunidad-de-manejo-ambulatorio-en-personas-de-65-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 21,
@@ -441,6 +1311,40 @@
     "en_cesfam": true,
     "descripcion_breve": "Aumento sostenido de presión arterial. Muy prevalente. Prevenible con modificaciones de estilo de vida.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Aumento sostenido de presión arterial. Muy prevalente. Prevenible con modificaciones de estilo de vida."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 21 - https://www.superdesalud.gob.cl/orientacion-en-salud/hipertension-arterial-primaria-o-esencial-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
         "plazo_sospecha": "45 días para diagnóstico",
         "plazo_confirmacion": "30 días para inicio tratamiento",
@@ -449,9 +1353,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hipertension-arterial-primaria-o-esencial-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 22,
@@ -464,15 +1376,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Trastorno neurológico con crisis convulsivas en niños. Controlable con medicamentos.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Trastorno neurológico con crisis convulsivas en niños. Controlable con medicamentos."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 1-14"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 22 - https://www.superdesalud.gob.cl/orientacion-en-salud/epilepsia-no-refractaria-en-personas-desde-1-ano-y-menores-de-15-anos/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/epilepsia-no-refractaria-en-personas-desde-1-ano-y-menores-de-15-anos/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 23,
@@ -485,15 +1441,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Atención odontológica integral para niños de 6 años. Prevención de caries.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Atención odontológica integral para niños de 6 años. Prevención de caries."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 6"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 23 - https://www.superdesalud.gob.cl/orientacion-en-salud/salud-oral-integral-para-ninos-y-ninas-de-6-anos/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/salud-oral-integral-para-ninos-y-ninas-de-6-anos/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 24,
@@ -506,15 +1506,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Prevención de nacimiento prematuro en embarazos de riesgo.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Prevención de nacimiento prematuro en embarazos de riesgo."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de Gestantes"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 24 - https://www.superdesalud.gob.cl/orientacion-en-salud/prevencion-del-parto-prematuro/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/prevencion-del-parto-prematuro/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 25,
@@ -527,15 +1571,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Arritmias cardíacas que requieren implante de marcapasos.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Arritmias cardíacas que requieren implante de marcapasos."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 25 - https://www.superdesalud.gob.cl/orientacion-en-salud/trastornos-de-generacion-de-impulsos-y-conduccion-en-personas-de-15-anos-y-mas-que-requieren-marcapaso/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/trastornos-de-generacion-de-impulsos-y-conduccion-en-personas-de-15-anos-y-mas-que-requieren-marcapaso/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 26,
@@ -548,15 +1636,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Extirpación preventiva de vesícula biliar en alto riesgo de cáncer.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Extirpación preventiva de vesícula biliar en alto riesgo de cáncer."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 35-49"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 26 - https://www.superdesalud.gob.cl/orientacion-en-salud/colecistectomia-preventiva-del-cancer-de-vesicula-en-personas-de-35-a-49-anos/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/colecistectomia-preventiva-del-cancer-de-vesicula-en-personas-de-35-a-49-anos/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 27,
@@ -569,6 +1701,40 @@
     "en_cesfam": true,
     "descripcion_breve": "Cáncer del estómago. Detección temprana mejora pronóstico significativamente.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Cáncer del estómago. Detección temprana mejora pronóstico significativamente."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 27 - https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-gastrico/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -577,9 +1743,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-gastrico/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 28,
@@ -592,6 +1766,40 @@
     "en_cesfam": true,
     "descripcion_breve": "Cáncer más frecuente en hombres adultos. Tamizaje controvertido pero tratamiento efectivo.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Cáncer más frecuente en hombres adultos. Tamizaje controvertido pero tratamiento efectivo."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 28 - https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-prostata-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -600,9 +1808,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-prostata-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 29,
@@ -615,15 +1831,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Problemas de refracción (miopia, hipermetropía, astigmatismo) en adultos mayores.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Problemas de refracción (miopia, hipermetropía, astigmatismo) en adultos mayores."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 65+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 29 - https://www.superdesalud.gob.cl/orientacion-en-salud/vicios-de-refraccion-en-personas-de-65-anos-y-mas/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/vicios-de-refraccion-en-personas-de-65-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 30,
@@ -636,15 +1896,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Desalineación ocular en niños. Tratamiento oportuno previene ambliopía.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Desalineación ocular en niños. Tratamiento oportuno previene ambliopía."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0-8"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 30 - https://www.superdesalud.gob.cl/orientacion-en-salud/estrabismo-en-personas-menores-de-9-anos/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/estrabismo-en-personas-menores-de-9-anos/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 31,
@@ -657,15 +1961,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Complicación ocular de la diabetes. Control de diabetes previene progresión.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Complicación ocular de la diabetes. Control de diabetes previene progresión."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 31 - https://www.superdesalud.gob.cl/orientacion-en-salud/retinopatia-diabetica/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/retinopatia-diabetica/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 32,
@@ -678,15 +2026,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Separación de retina que requiere urgencia quirúrgica para preservar visión.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Separación de retina que requiere urgencia quirúrgica para preservar visión."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 32 - https://www.superdesalud.gob.cl/orientacion-en-salud/desprendimiento-de-retina-regmatogeno-no-traumatico/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/desprendimiento-de-retina-regmatogeno-no-traumatico/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 33,
@@ -699,15 +2091,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Trastorno hereditario de coagulación. Requiere manejo multidisciplinario especializado.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Trastorno hereditario de coagulación. Requiere manejo multidisciplinario especializado."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 33 - https://www.superdesalud.gob.cl/orientacion-en-salud/hemofilia/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hemofilia/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 34,
@@ -720,15 +2156,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Trastorno mental frecuente. Altamente tratable con medicamentos y psicoterapia.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Trastorno mental frecuente. Altamente tratable con medicamentos y psicoterapia."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 34 - https://www.superdesalud.gob.cl/orientacion-en-salud/depresion-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/depresion-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 35,
@@ -741,15 +2221,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Agrandamiento benigno de próstata con síntomas miccionales.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Agrandamiento benigno de próstata con síntomas miccionales."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 55+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 35 - https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-de-la-hiperplasia-benigna-de-la-prostata-en-personas-sintomaticas/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-de-la-hiperplasia-benigna-de-la-prostata-en-personas-sintomaticas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 36,
@@ -762,15 +2286,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Dispositivos y equipamiento para mejorar funcionalidad en adultos mayores.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Dispositivos y equipamiento para mejorar funcionalidad en adultos mayores."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 65+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 36 - https://www.superdesalud.gob.cl/orientacion-en-salud/ayudas-tecnicas-para-personas-de-65-anos-y-mas/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/ayudas-tecnicas-para-personas-de-65-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 37,
@@ -783,15 +2351,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Accidente cerebrovascular por obstrucción arterial. Urgencia médica que requiere atención inmediata.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Accidente cerebrovascular por obstrucción arterial. Urgencia médica que requiere atención inmediata."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 37 - https://www.superdesalud.gob.cl/orientacion-en-salud/ataque-cerebrovascular-isquemico-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/ataque-cerebrovascular-isquemico-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 38,
@@ -804,15 +2416,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Enfermedad pulmonar crónica progresiva. Principalmente por tabaquismo. Requiere manejo integral.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Enfermedad pulmonar crónica progresiva. Principalmente por tabaquismo. Requiere manejo integral."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 40+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 38 - https://www.superdesalud.gob.cl/orientacion-en-salud/enfermedad-pulmonar-obstructiva-cronica-de-tratamiento-ambulatorio/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/enfermedad-pulmonar-obstructiva-cronica-de-tratamiento-ambulatorio/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 39,
@@ -825,15 +2481,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Asma moderada a grave en niños. Controlable con medicamentos preventivos.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Asma moderada a grave en niños. Controlable con medicamentos preventivos."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0-14"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 39 - https://www.superdesalud.gob.cl/orientacion-en-salud/asma-bronquial-moderada-y-grave-en-personas-menores-de-15-anos/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/asma-bronquial-moderada-y-grave-en-personas-menores-de-15-anos/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 40,
@@ -846,15 +2546,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Dificultad respiratoria en recién nacidos. Requiere cuidados intensivos neonatales.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Dificultad respiratoria en recién nacidos. Requiere cuidados intensivos neonatales."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de RN"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 40 - https://www.superdesalud.gob.cl/orientacion-en-salud/sindrome-de-dificultad-respiratoria-en-el-recien-nacido-a/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/sindrome-de-dificultad-respiratoria-en-el-recien-nacido-a/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 41,
@@ -867,15 +2611,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Artrosis leve a moderada. Manejo médico para ralentizar progresión.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Artrosis leve a moderada. Manejo médico para ralentizar progresión."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 55+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 41 - https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-medico-en-personas-de-55-anos-y-mas-con-artrosis-de-cadera-y-o-rodilla-leve-o-moderada/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-medico-en-personas-de-55-anos-y-mas-con-artrosis-de-cadera-y-o-rodilla-leve-o-moderada/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 42,
@@ -888,15 +2676,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Sangrado cerebral por ruptura de aneurisma. Urgencia neuroquirúrgica.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Sangrado cerebral por ruptura de aneurisma. Urgencia neuroquirúrgica."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 42 - https://www.superdesalud.gob.cl/orientacion-en-salud/hemorragia-subaracnoidea-secundaria-a-ruptura-de-aneurismas-cerebrales/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hemorragia-subaracnoidea-secundaria-a-ruptura-de-aneurismas-cerebrales/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 43,
@@ -909,6 +2741,40 @@
     "en_cesfam": false,
     "descripcion_breve": "Tumores cerebrales primarios. Requiere manejo neuroquirúrgico y oncológico.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Tumores cerebrales primarios. Requiere manejo neuroquirúrgico y oncológico."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 43 - https://www.superdesalud.gob.cl/orientacion-en-salud/tumores-primarios-del-sistema-nervioso-central-en-personas-de-15-anos-o-mas/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -917,9 +2783,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tumores-primarios-del-sistema-nervioso-central-en-personas-de-15-anos-o-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 44,
@@ -932,15 +2806,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Hernia discal lumbar sintomática que requiere intervención quirúrgica.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Hernia discal lumbar sintomática que requiere intervención quirúrgica."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 44 - https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-hernia-del-nucleo-pulposo-lumbar/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-hernia-del-nucleo-pulposo-lumbar/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 45,
@@ -953,6 +2871,40 @@
     "en_cesfam": true,
     "descripcion_breve": "Cáncer de la sangre. Tratamiento quimioterapéutico intensivo.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Cáncer de la sangre. Tratamiento quimioterapéutico intensivo."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 45 - https://www.superdesalud.gob.cl/orientacion-en-salud/leucemia-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -961,9 +2913,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/leucemia-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 46,
@@ -976,15 +2936,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Atención urgente de problemas odontológicos agudos.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Atención urgente de problemas odontológicos agudos."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 46 - https://www.superdesalud.gob.cl/orientacion-en-salud/urgencia-odontologica-ambulatoria/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/urgencia-odontologica-ambulatoria/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 47,
@@ -997,15 +3001,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Atención odontológica integral para personas de 60 años.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Atención odontológica integral para personas de 60 años."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 60"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 47 - https://www.superdesalud.gob.cl/orientacion-en-salud/salud-oral-integral-de-personas-de-60-anos/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/salud-oral-integral-de-personas-de-60-anos/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 48,
@@ -1018,15 +3066,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Traumatismo múltiple grave. Requiere cuidados intensivos.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Traumatismo múltiple grave. Requiere cuidados intensivos."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 48 - https://www.superdesalud.gob.cl/orientacion-en-salud/politraumatizado-grave/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/politraumatizado-grave/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 49,
@@ -1039,15 +3131,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Trauma craneoencefálico de moderado a grave.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Trauma craneoencefálico de moderado a grave."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 49 - https://www.superdesalud.gob.cl/orientacion-en-salud/traumatismo-craneo-encefalico-moderado-o-grave/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/traumatismo-craneo-encefalico-moderado-o-grave/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 50,
@@ -1060,15 +3196,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Trauma ocular grave que amenaza la visión.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Trauma ocular grave que amenaza la visión."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 50 - https://www.superdesalud.gob.cl/orientacion-en-salud/trauma-ocular-grave/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/trauma-ocular-grave/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 51,
@@ -1081,15 +3261,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Enfermedad genética que afecta pulmones y páncreas. Requiere manejo multidisciplinario intensivo.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Enfermedad genética que afecta pulmones y páncreas. Requiere manejo multidisciplinario intensivo."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 51 - https://www.superdesalud.gob.cl/orientacion-en-salud/fibrosis-quistica/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/fibrosis-quistica/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 52,
@@ -1102,15 +3326,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Enfermedad autoinmune que causa inflamación articular crónica.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Enfermedad autoinmune que causa inflamación articular crónica."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 52 - https://www.superdesalud.gob.cl/orientacion-en-salud/artritis-reumatoidea/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/artritis-reumatoidea/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 53,
@@ -1123,15 +3391,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Tratamiento de consumo problemático de alcohol y drogas en adolescentes.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Tratamiento de consumo problemático de alcohol y drogas en adolescentes."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0-19"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 53 - https://www.superdesalud.gob.cl/orientacion-en-salud/consumo-perjudicial-o-dependencia-de-riesgo-bajo-a-moderado-de-alcohol-y-drogas-en-personas-menores-de-20-anos/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/consumo-perjudicial-o-dependencia-de-riesgo-bajo-a-moderado-de-alcohol-y-drogas-en-personas-menores-de-20-anos/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 54,
@@ -1144,15 +3456,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Control del dolor durante el parto.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Control del dolor durante el parto."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de Gestantes"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 54 - https://www.superdesalud.gob.cl/orientacion-en-salud/analgesia-del-parto/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/analgesia-del-parto/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 55,
@@ -1165,15 +3521,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Quemaduras extensas que requieren hospitalización especializada.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Quemaduras extensas que requieren hospitalización especializada."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 55 - https://www.superdesalud.gob.cl/orientacion-en-salud/gran-quemado/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/gran-quemado/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 56,
@@ -1186,15 +3586,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Sordera bilateral en adultos mayores. Cobertura de audífonos.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Sordera bilateral en adultos mayores. Cobertura de audífonos."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 65+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 56 - https://www.superdesalud.gob.cl/orientacion-en-salud/hipoacusia-bilateral-en-personas-de-65-anos-y-mas-que-requieren-uso-de-audifono/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hipoacusia-bilateral-en-personas-de-65-anos-y-mas-que-requieren-uso-de-audifono/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 57,
@@ -1207,15 +3651,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Complicación oftalmológica en prematuros que requiere manejo urgente.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Complicación oftalmológica en prematuros que requiere manejo urgente."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de RN Prematuro"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 57 - https://www.superdesalud.gob.cl/orientacion-en-salud/retinopatia-del-prematuro/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/retinopatia-del-prematuro/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 58,
@@ -1228,15 +3716,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Enfermedad pulmonar crónica en prematuros.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Enfermedad pulmonar crónica en prematuros."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de RN Prematuro"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 58 - https://www.superdesalud.gob.cl/orientacion-en-salud/displasia-broncopulmonar-del-prematuro-a/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/displasia-broncopulmonar-del-prematuro-a/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 59,
@@ -1249,15 +3781,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Sordera congénita en prematuros.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Sordera congénita en prematuros."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de RN Prematuro"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 59 - https://www.superdesalud.gob.cl/orientacion-en-salud/hipoacusia-neurosensorial-bilateral-del-prematuro-a/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hipoacusia-neurosensorial-bilateral-del-prematuro-a/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 60,
@@ -1270,15 +3846,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Epilepsia controlable en adultos con medicamentos anticonvulsivos.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Epilepsia controlable en adultos con medicamentos anticonvulsivos."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 60 - https://www.superdesalud.gob.cl/orientacion-en-salud/epilepsia-no-refractaria-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/epilepsia-no-refractaria-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 61,
@@ -1291,15 +3911,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Asma en adultos. Controlable con medicamentos preventivos.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Asma en adultos. Controlable con medicamentos preventivos."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 61 - https://www.superdesalud.gob.cl/orientacion-en-salud/asma-bronquial-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/asma-bronquial-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 62,
@@ -1312,15 +3976,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Enfermedad neurodegenerativa progresiva. Tratamiento sintomático disponible.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Enfermedad neurodegenerativa progresiva. Tratamiento sintomático disponible."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 55+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 62 - https://www.superdesalud.gob.cl/orientacion-en-salud/enfermedad-de-parkinson/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/enfermedad-de-parkinson/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 63,
@@ -1333,15 +4041,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Artritis crónica en niños. Requiere manejo reumatológico especializado.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Artritis crónica en niños. Requiere manejo reumatológico especializado."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0-17"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 63 - https://www.superdesalud.gob.cl/orientacion-en-salud/artritis-idiopatica-juvenil/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/artritis-idiopatica-juvenil/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 64,
@@ -1354,15 +4106,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Prevención de progresión en enfermedad renal crónica.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Prevención de progresión en enfermedad renal crónica."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 64 - https://www.superdesalud.gob.cl/orientacion-en-salud/prevencion-secundaria-enfermedad-renal-cronica-terminal/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/prevencion-secundaria-enfermedad-renal-cronica-terminal/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 65,
@@ -1375,15 +4171,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Luxación de cadera congénita. Detección temprana mejora resultado.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Luxación de cadera congénita. Detección temprana mejora resultado."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de RN-2 años"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 65 - https://www.superdesalud.gob.cl/orientacion-en-salud/displasia-luxante-de-caderas/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/displasia-luxante-de-caderas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 66,
@@ -1396,15 +4236,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Atención odontológica integral durante el embarazo.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Atención odontológica integral durante el embarazo."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de Gestantes"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 66 - https://www.superdesalud.gob.cl/orientacion-en-salud/salud-oral-integral-de-la-persona-gestante/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/salud-oral-integral-de-la-persona-gestante/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 67,
@@ -1417,15 +4301,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Enfermedad neurológica autoinmune. Tratamientos modificadores disponibles.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Enfermedad neurológica autoinmune. Tratamientos modificadores disponibles."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 67 - https://www.superdesalud.gob.cl/orientacion-en-salud/esclerosis-multiple-remitente-recurrente/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/esclerosis-multiple-remitente-recurrente/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 68,
@@ -1438,15 +4366,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Infección crónica por hepatitis B. Tratamiento antiviral disponible.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Infección crónica por hepatitis B. Tratamiento antiviral disponible."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 68 - https://www.superdesalud.gob.cl/orientacion-en-salud/hepatitis-cronica-por-virus-hepatitis-b/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hepatitis-cronica-por-virus-hepatitis-b/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 69,
@@ -1459,15 +4431,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Infección crónica por hepatitis C. Tratamiento curativo disponible.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Infección crónica por hepatitis C. Tratamiento curativo disponible."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 69 - https://www.superdesalud.gob.cl/orientacion-en-salud/hepatitis-cronica-por-virus-hepatitis-c/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hepatitis-cronica-por-virus-hepatitis-c/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 70,
@@ -1480,6 +4496,40 @@
     "en_cesfam": true,
     "descripcion_breve": "Cáncer del colon y recto. Prevenible con tamizaje y polipectomía.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Cáncer del colon y recto. Prevenible con tamizaje y polipectomía."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 70 - https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-colorrectal-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -1488,9 +4538,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-colorrectal-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 71,
@@ -1503,6 +4561,40 @@
     "en_cesfam": true,
     "descripcion_breve": "Cáncer ovárico. Detección tardía frecuente pero tratamiento disponible.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Cáncer ovárico. Detección tardía frecuente pero tratamiento disponible."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 71 - https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-ovario-epitelial/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -1511,9 +4603,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-ovario-epitelial/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 72,
@@ -1526,6 +4626,40 @@
     "en_cesfam": true,
     "descripcion_breve": "Cáncer de vejiga. Presentación frecuente con hematuria.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Cáncer de vejiga. Presentación frecuente con hematuria."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 72 - https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-vesical-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -1534,9 +4668,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-vesical-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 73,
@@ -1549,6 +4691,40 @@
     "en_cesfam": false,
     "descripcion_breve": "Cáncer óseo maligno. Diagnóstico y tratamiento multidisciplinario.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Cáncer óseo maligno. Diagnóstico y tratamiento multidisciplinario."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 73 - https://www.superdesalud.gob.cl/orientacion-en-salud/osteosarcoma-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -1557,9 +4733,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/osteosarcoma-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 74,
@@ -1572,15 +4756,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Reemplazo o reparación quirúrgica de válvula aórtica dañada.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Reemplazo o reparación quirúrgica de válvula aórtica dañada."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 74 - https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-lesiones-cronicas-de-la-valvula-aortica-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-lesiones-cronicas-de-la-valvula-aortica-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 75,
@@ -1593,15 +4821,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Enfermedad mental con episodios maníacos y depresivos. Tratable con medicamentos.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Enfermedad mental con episodios maníacos y depresivos. Tratable con medicamentos."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 75 - https://www.superdesalud.gob.cl/orientacion-en-salud/trastorno-bipolar-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/trastorno-bipolar-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 76,
@@ -1614,15 +4886,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Deficiencia de tiroxina. Fácil diagnóstico y tratamiento efectivo.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Deficiencia de tiroxina. Fácil diagnóstico y tratamiento efectivo."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 76 - https://www.superdesalud.gob.cl/orientacion-en-salud/hipotiroidismo-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hipotiroidismo-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 77,
@@ -1635,15 +4951,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Sordera en menores de 4 años. Intervención temprana crucial.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Sordera en menores de 4 años. Intervención temprana crucial."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0-3"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 77 - https://www.superdesalud.gob.cl/orientacion-en-salud/hipoacusia-moderada-severa-y-profunda-en-personas-menores-de-4-anos/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hipoacusia-moderada-severa-y-profunda-en-personas-menores-de-4-anos/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 78,
@@ -1656,15 +5016,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Enfermedad autoinmune sistémica. Requiere manejo multidisciplinario.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Enfermedad autoinmune sistémica. Requiere manejo multidisciplinario."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 78 - https://www.superdesalud.gob.cl/orientacion-en-salud/lupus-eritematoso-sistemico/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/lupus-eritematoso-sistemico/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 79,
@@ -1677,15 +5081,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Reparación o reemplazo quirúrgico de válvulas cardíacas dañadas.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Reparación o reemplazo quirúrgico de válvulas cardíacas dañadas."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 79 - https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-lesiones-cronicas-de-las-valvulas-mitral-y-tricuspide-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-lesiones-cronicas-de-las-valvulas-mitral-y-tricuspide-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 80,
@@ -1698,15 +5146,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Tratamiento de infección bacteriana gástrica asociada a úlceras.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Tratamiento de infección bacteriana gástrica asociada a úlceras."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 80 - https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-de-erradicacion-del-helicobacter-pylori/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-de-erradicacion-del-helicobacter-pylori/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 81,
@@ -1719,6 +5211,40 @@
     "en_cesfam": true,
     "descripcion_breve": "Cáncer pulmonar. Mayor frecuencia por tabaquismo. Tratamiento multimodal.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Cáncer pulmonar. Mayor frecuencia por tabaquismo. Tratamiento multimodal."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 81 - https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-pulmon-en-personas-de-15-anos-y-mas-2/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -1727,9 +5253,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-pulmon-en-personas-de-15-anos-y-mas-2/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 82,
@@ -1742,6 +5276,40 @@
     "en_cesfam": true,
     "descripcion_breve": "Cáncer tiroideo. Buen pronóstico con detección temprana.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Cáncer tiroideo. Buen pronóstico con detección temprana."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 82 - https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-tiroides-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -1750,9 +5318,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-tiroides-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 83,
@@ -1765,6 +5341,40 @@
     "en_cesfam": true,
     "descripcion_breve": "Cáncer de riñón. Detección frecuente en etapas avanzadas.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Cáncer de riñón. Detección frecuente en etapas avanzadas."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 83 - https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-renal-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -1773,9 +5383,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-renal-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 84,
@@ -1788,6 +5406,40 @@
     "en_cesfam": true,
     "descripcion_breve": "Cáncer de células plasmáticas. Diagnóstico típicamente tardío.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Cáncer de células plasmáticas. Diagnóstico típicamente tardío."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 84 - https://www.superdesalud.gob.cl/orientacion-en-salud/mieloma-multiple-en-personas-de-15-anos-y-mas/"
+      },
       "ges": {
         "plazo_sospecha": "30 días",
         "plazo_confirmacion": "15 días",
@@ -1796,9 +5448,17 @@
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/mieloma-multiple-en-personas-de-15-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 85,
@@ -1811,15 +5471,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Enfermedades neurodegenerativas progresivas. Manejo sintomático y apoyo.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Enfermedades neurodegenerativas progresivas. Manejo sintomático y apoyo."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 60+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 85 - https://www.superdesalud.gob.cl/orientacion-en-salud/enfermedad-de-alzheimer-y-otras-demencias-2/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/enfermedad-de-alzheimer-y-otras-demencias-2/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 86,
@@ -1832,15 +5536,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Atención integral y psicosocial para víctimas de agresión sexual.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Atención integral y psicosocial para víctimas de agresión sexual."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 86 - https://www.superdesalud.gob.cl/orientacion-en-salud/atencion-integral-de-salud-en-agresion-sexual-aguda/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/atencion-integral-de-salud-en-agresion-sexual-aguda/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 87,
@@ -1853,15 +5601,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Rehabilitación para secuelas post-COVID-19.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Rehabilitación para secuelas post-COVID-19."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 87 - https://www.superdesalud.gob.cl/orientacion-en-salud/rehabilitacion-sars-cov-2/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/rehabilitacion-sars-cov-2/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 88,
@@ -1874,15 +5666,59 @@
     "en_cesfam": true,
     "descripcion_breve": "Manejo post-hospitalario de cirrosis hepática descompensada.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Manejo post-hospitalario de cirrosis hepática descompensada."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 15+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 88 - https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-farmacologico-tras-alta-hospitalaria-por-cirrosis-hepatica/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-farmacologico-tras-alta-hospitalaria-por-cirrosis-hepatica/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja-Media"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja-Media"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 89,
@@ -1895,15 +5731,59 @@
     "en_cesfam": false,
     "descripcion_breve": "Hospitalización para depresión grave en niños con riesgo suicida.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Hospitalización para depresión grave en niños con riesgo suicida."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 0-14"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 89 - https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-hospitalario-para-personas-menores-de-15-anos-con-depresion-grave-refractaria-o-psicotica-con-riesgo-suicida/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-hospitalario-para-personas-menores-de-15-anos-con-depresion-grave-refractaria-o-psicotica-con-riesgo-suicida/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Baja"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Baja"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   },
   {
     "ges_numero": 90,
@@ -1916,14 +5796,58 @@
     "en_cesfam": true,
     "descripcion_breve": "Programa integral para abandono del tabaquismo con fármacos y apoyo psicológico.",
     "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "[Completar] Programa integral para abandono del tabaquismo con fármacos y apoyo psicológico."
+      },
+      "quien_accede": {
+        "titulo": "¿Quién accede?",
+        "contenido": "[Completar] Personas de 25+"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "[Completar] Servicio 1",
+          "[Completar] Servicio 2"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrit@ en el CESFAM N°5",
+          "Tener diagnóstico confirmado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "[Completar] Llama al SOME del CESFAM N°5 para solicitar hora"
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "[Completar] Lunes a viernes 8:00 - 16:00"
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "[Completar] GES Nº 90 - https://www.superdesalud.gob.cl/orientacion-en-salud/cesacion-del-consumo-de-tabaco-en-personas-de-25-anos-y-mas/"
+      },
       "ges": {
+        "plazo_sospecha": "",
+        "plazo_confirmacion": "",
         "copago_fonasa": "0%",
         "copago_isapre": "20%",
         "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cesacion-del-consumo-de-tabaco-en-personas-de-25-anos-y-mas/"
       }
     },
-    "datos_clinicos": {"prevalencia": "Alta"},
-    "integraciones": {"asistente_ia": true, "panel_funcionarios": true, "qr": true},
-    "metadata": {"estado": "activo"}
+    "datos_clinicos": {
+      "prevalencia": "Alta"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true
+    },
+    "metadata": {
+      "estado": "activo"
+    }
   }
 ]
