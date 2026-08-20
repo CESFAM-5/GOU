@@ -1,0 +1,156 @@
+[
+  {
+    "ges_numero": 6,
+    "id": "diabetes-mellitus-tipo-1",
+    "nombre_corto": "Diabetes Tipo 1",
+    "nombre_completo": "Diabetes Mellitus Tipo 1",
+    "categoria": "Enfermedades crónicas metabólicas, renales y otras",
+    "en_cesfam": true,
+    "grupo_edad": "Niños, adolescentes y adultos jóvenes",
+    "descripcion_breve": "Condición autoinmunológica donde el páncreas produce poco o nada de insulina. Require tratamiento y supervisión permanente",
+    "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "La Diabetes Tipo 1 es una condición autoinmunológica en la que el páncreas produce poco o nada de insulina. Generalmente se diagnostica en niños y jóvenes adultos. Requiere inyecciones de insulina de por vida. El CESFAM N°5 ofrece un programa integral para el diagnóstico, tratamiento y seguimiento, incluyendo educación para el paciente y su familia, control glucémico regular y manejo de complicaciones."
+      },
+      "sintomas": {
+        "titulo": "Síntomas",
+        "items": [
+          "Aumento de la sed (polidipsia)",
+          "Aumento de la frecuencia de micción, incluso durante la noche (poliuria)",
+          "Fatiga extrema e inexplicable",
+          "Pérdida de peso sin razón aparente",
+          "Visión borrosa",
+          "Infecciones frecuentes (especialmente infecciones urinarias o de piel)",
+          "Heridas o llagas que cicatrizan lentamente"
+        ]
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "Diagnóstico: Realización de exámenes de sangre (glucosa en ayunas, hemoglobina A1c). Evaluación de factores de riesgo y complicaciones.",
+          "Control y monitoreo: Seguimiento regular de los niveles de glucosa, presión arterial y peso. Ajuste de medicamentos según sea necesario.",
+          "Educación del paciente: Enseñanza sobre nutrición, actividad física, técnicas de medición de glucosa en sangre y reconocimiento de hipoglucemia e hiperglucemia.",
+          "Apoyo nutricional: Consulta con nutricionista para planes de alimentación personalizados.",
+          "Apoyo psicológico: Atención psicológica para manejar el impacto emocional del diagnóstico.",
+          "Suministros: Insulina y materiales para monitoreo garantizados por GES."
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrita/o en el CESFAM N°5",
+          "Ser afiliada/o a FONASA o ISAPRE",
+          "Presentar síntomas sugestivos o diagnóstico sospechado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "Para acceder: 1) Si presenta síntomas agudos, diríjase a Urgencias. 2) Para diagnóstico: solicite hora de Medicina General en el SOME del CESFAM, lunes a viernes desde las 7:30 hrs. 3) Para chequeo preventivo: solicite un EMPA (Examen Médico Preventivo del Adulto) en el SOME de su sector. 4) Una vez diagnosticado, acceda al Programa de Salud Cardiovascular para control y seguimiento.",
+        "enlaces": [
+          "urgencias",
+          "some",
+          "empa",
+          "cardiovascular"
+        ]
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "Lunes a viernes de 7:30 a 16:00 hrs. Consultas de seguimiento según necesidad del paciente. Urgencias disponibles todos los días."
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "Diabetes Mellitus Tipo 1 (GES Nº 6) - Información oficial de la Superintendencia de Salud",
+        "url": "https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-1/"
+      },
+      "ges": {
+        "titulo": "Garantías Explícitas en Salud (GES) - Nº 6",
+        "cobertura": "Diagnóstico, tratamiento y seguimiento de la diabetes tipo 1, incluidas insulinas y materiales para monitoreo.",
+        "plazo_sospecha": "30 días desde la confirmación diagnóstica",
+        "plazo_confirmacion": "30 días",
+        "copago_fonasa": "Sin costo (0%)",
+        "copago_isapre": "Según contrato (máximo 20%)"
+      }
+    },
+    "requiere_cirugia": false,
+    "complejidad": "media"
+  },
+  {
+    "ges_numero": 7,
+    "id": "diabetes-mellitus-tipo-2",
+    "nombre_corto": "Diabetes Tipo 2",
+    "nombre_completo": "Diabetes Mellitus Tipo 2",
+    "categoria": "Enfermedades crónicas metabólicas, renales y otras",
+    "en_cesfam": true,
+    "grupo_edad": "Adultos",
+    "descripcion_breve": "Enfermedad donde el cuerpo no produce suficiente insulina o sus células no responden bien a ella. Forma más común de diabetes.",
+    "secciones": {
+      "descripcion": {
+        "titulo": "Descripción",
+        "contenido": "La Diabetes Tipo 2 es la forma más común de diabetes. Ocurre cuando el cuerpo no produce suficiente insulina o sus células no responden bien a la insulina (resistencia a la insulina). Generalmente se desarrolla en adultos, aunque cada vez se diagnostica más en niños y adolescentes. El CESFAM N°5 ofrece un programa integral para el diagnóstico, tratamiento y seguimiento, incluyendo educación para el paciente y su familia, control glucémico regular y manejo de complicaciones."
+      },
+      "sintomas": {
+        "titulo": "Síntomas",
+        "items": [
+          "Aumento de la sed (polidipsia)",
+          "Aumento de la frecuencia de micción, incluso durante la noche (poliuria)",
+          "Fatiga extrema e inexplicable",
+          "Pérdida de peso sin razón aparente",
+          "Visión borrosa",
+          "Infecciones frecuentes (especialmente infecciones urinarias o de piel)",
+          "Heridas o llagas que cicatrizan lentamente",
+          "Hormigueo o adormecimiento en manos o pies"
+        ],
+        "nota": "Muchas personas con diabetes tipo 2 no presentan síntomas al inicio. La enfermedad puede detectarse durante exámenes de rutina."
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "Diagnóstico: Realización de exámenes de sangre (glucosa en ayunas, hemoglobina A1c). Evaluación de factores de riesgo y complicaciones.",
+          "Control y monitoreo: Seguimiento regular de los niveles de glucosa, presión arterial y peso. Ajuste de medicamentos según sea necesario.",
+          "Educación del paciente: Enseñanza sobre nutrición, actividad física, técnicas de medición de glucosa en sangre y reconocimiento de hipoglucemia e hiperglucemia.",
+          "Apoyo nutricional: Consulta con nutricionista para planes de alimentación personalizados que ayuden a controlar los niveles de glucosa.",
+          "Apoyo psicológico: Atención psicológica para manejar el impacto emocional del diagnóstico y mejorar la adherencia al tratamiento.",
+          "Medicamentos: Suministro de medicamentos orales e insulina si es necesaria, garantizados por GES."
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": [
+          "Estar inscrita/o en el CESFAM N°5",
+          "Ser afiliada/o a FONASA o ISAPRE",
+          "Presentar síntomas sugestivos o diagnóstico sospechado"
+        ]
+      },
+      "acceso": {
+        "titulo": "Acceso",
+        "contenido": "Para acceder: 1) Si presenta síntomas agudos, diríjase a Urgencias. 2) Para diagnóstico: solicite hora de Medicina General en el SOME del CESFAM, lunes a viernes desde las 7:30 hrs. 3) Para chequeo preventivo: solicite un EMPA (Examen Médico Preventivo del Adulto) en el SOME de su sector. 4) Una vez diagnosticado, acceda al Programa de Salud Cardiovascular para control y seguimiento.",
+        "enlaces": [
+          "urgencias",
+          "some",
+          "empa",
+          "cardiovascular"
+        ]
+      },
+      "horario": {
+        "titulo": "Horario",
+        "contenido": "Lunes a viernes de 7:30 a 16:00 hrs. Consultas de seguimiento según necesidad del paciente. Urgencias disponibles todos los días."
+      },
+      "saber_mas": {
+        "titulo": "Saber +",
+        "contenido": "Diabetes Mellitus Tipo 2 (GES Nº 7) - Información oficial de la Superintendencia de Salud",
+        "url": "https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-2/"
+      },
+      "ges": {
+        "titulo": "Garantías Explícitas en Salud (GES) - Nº 7",
+        "cobertura": "Diagnóstico, tratamiento y seguimiento de la diabetes tipo 2, incluidos medicamentos orales, insulina si es necesaria, y materiales de monitoreo.",
+        "plazo_sospecha": "45 días para acceder a diagnóstico desde la sospecha",
+        "plazo_confirmacion": "30 días desde la confirmación diagnóstica",
+        "copago_fonasa": "Sin costo (0%)",
+        "copago_isapre": "Según contrato (máximo 20%)"
+      }
+    },
+    "requiere_cirugia": false,
+    "complejidad": "media"
+  }
+]
