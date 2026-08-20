@@ -1,0 +1,153 @@
+{
+  "descripcion_archivo": "Formato estándar para patologías GES - Garantías Explícitas en Salud Chile",
+  "version": "1.0",
+  "fecha_actualizacion": "2026-08-06",
+  "decreto_vigente": "Decreto 136/2005 - Período 2025-2028",
+  "total_patologias": 90,
+  "fuente_oficial": "https://www.superdesalud.gob.cl/orientacion-en-salud/",
+  
+  "estructura_patologia": {
+    "ges_numero": "Número oficial GES (1-90)",
+    "id": "Identificador único: kebab-case, ej: 'hipertension-primaria'",
+    "nombre_completo": "Nombre oficial exacto de la patología según Decreto GES",
+    "nombre_corto": "Versión reducida para interfaz, ej: 'Hipertensión'",
+    "categoria": "Tipo (por sistema, único y excluyente): 'Cáncer' | 'Enfermedades cardiovasculares y cerebrovasculares' | 'Enfermedades respiratorias' | 'Enfermedades de la visión' | 'Salud mental' | 'Salud oral' | 'Traumatología y musculoesqueléticas' | 'Salud materna, parto y perinatal/infantil' | 'Enfermedades crónicas metabólicas, renales y otras'",
+    "grupo_edad": "Rangos: '0+' | '1-4' | '5-14' | '15+' | '55+' | '60+' | '65+' o específico. Úsalo para filtrar 'Adulto mayor' (60+/65+) en vez de una categoría aparte",
+    "requiere_cirugia": "boolean - true si la prestación garantizada incluye intervención quirúrgica. Filtro transversal, NO reemplaza 'categoria'",
+    "complejidad": "'baja' | 'media' | 'alta' - alta si implica hospitalización, riesgo vital, quimio/radioterapia u otro tratamiento de alta complejidad. Filtro transversal, reemplaza la antigua categoría 'Enfermedades complejas y graves'",
+    "es_oncologico": "boolean - true si es patología oncológica (redundante si categoria='Cáncer', pero útil para cánceres derivados de otro sistema, ej. cáncer de pulmón con complicación respiratoria)",
+    "en_cesfam": "boolean - true si puede ser detectado/diagnosticado en APS/CESFAM",
+    
+    "descripcion_breve": "2-3 frases: qué es, prevalencia, impacto",
+    
+    "secciones": {
+      "descripcion": {
+        "titulo": "¿Qué es?",
+        "contenido": "Definición clara, causas, factores de riesgo"
+      },
+      "sintomas": {
+        "titulo": "Síntomas principales",
+        "items": ["síntoma 1", "síntoma 2"],
+        "nota": "Contexto importante si aplica"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones garantizadas",
+        "items": ["prestación 1", "prestación 2"],
+        "descripcion": "Detalle de lo que cubre GES"
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": ["Estar inscrita/o en el CESFAM N°5"]
+      },
+      "acceder": {
+        "titulo": "Cómo acceder",
+        "contenido": "Pasos para solicitar atención",
+        "enlaces_recomendados": ["some", "empa", "urgencias"]
+      },
+      "ges": {
+        "titulo": "Garantías Explícitas en Salud (GES)",
+        "plazo_sospecha": "Días para diagnóstico si aplica",
+        "plazo_confirmacion": "Días para iniciación del tratamiento",
+        "copago_fonasa": "0% - sin costo",
+        "copago_isapre": "20% o específico",
+        "url_superintendencia": "Link a página oficial Superintendencia de Salud"
+      }
+    },
+    
+    "datos_clinicos": {
+      "grupo_edad": "15+",
+      "prevalencia": "Alta | Media | Baja",
+      "referencia_protocolo": "Protocolo MINSAL vigente",
+      "criterios_diagnosticos": ["criterio 1", "criterio 2"]
+    },
+    
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true,
+      "mapas": false
+    },
+    
+    "metadata": {
+      "fecha_creacion": "YYYY-MM-DD",
+      "ultima_revision": "YYYY-MM-DD",
+      "revisor": "Profesional responsable",
+      "estado": "activo | borrador | revisión"
+    }
+  },
+
+  "ejemplo_completo": {
+    "ges_numero": 21,
+    "id": "hipertension-primaria",
+    "nombre_completo": "Hipertensión Arterial Primaria en Personas de 15 años y más",
+    "nombre_corto": "Hipertensión Arterial",
+    "categoria": "Enfermedades cardiovasculares y cerebrovasculares",
+    "grupo_edad": "15+",
+    "requiere_cirugia": false,
+    "complejidad": "media",
+    "es_oncologico": false,
+    "en_cesfam": true,
+    "descripcion_breve": "Aumento sostenido de la presión arterial que puede causar complicaciones graves si no se trata. Alta prevalencia en población adulta. Control preventivo es clave.",
+    "secciones": {
+      "descripcion": {
+        "titulo": "¿Qué es?",
+        "contenido": "La hipertensión arterial es una enfermedad crónica caracterizada por el aumento sostenido de la presión que ejerce la sangre contra las paredes de las arterias."
+      },
+      "sintomas": {
+        "titulo": "Síntomas",
+        "items": [
+          "Mayoría sin síntomas",
+          "Dolor de cabeza intenso",
+          "Visión borrosa",
+          "Mareos",
+          "Dificultad para respirar"
+        ],
+        "nota": "La única forma de detectar es mediante medición de presión arterial"
+      },
+      "prestaciones": {
+        "titulo": "Prestaciones",
+        "items": [
+          "Medición de presión arterial",
+          "Control y monitoreo",
+          "Educación del paciente",
+          "Apoyo nutricional",
+          "Prescripción de medicamentos"
+        ]
+      },
+      "requisitos": {
+        "titulo": "Requisitos",
+        "items": ["Estar inscrita/o en el CESFAM N°5"]
+      },
+      "acceder": {
+        "titulo": "Acceder",
+        "contenido": "Solicite una hora de Medicina general en el SOME del CESFAM",
+        "enlaces_recomendados": ["some", "empa", "cardiovascular"]
+      },
+      "ges": {
+        "titulo": "GES Nº 21",
+        "plazo_sospecha": "45 días para diagnóstico",
+        "plazo_confirmacion": "30 días para inicio tratamiento",
+        "copago_fonasa": "0%",
+        "copago_isapre": "20%",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hipertension-arterial-primaria-o-esencial-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "datos_clinicos": {
+      "grupo_edad": "15+",
+      "prevalencia": "Alta",
+      "referencia_protocolo": "Protocolo MINSAL 2024"
+    },
+    "integraciones": {
+      "asistente_ia": true,
+      "panel_funcionarios": true,
+      "qr": true,
+      "mapas": false
+    },
+    "metadata": {
+      "fecha_creacion": "2026-08-06",
+      "ultima_revision": "2026-08-06",
+      "revisor": "CESFAM N°5",
+      "estado": "activo"
+    }
+  }
+}
