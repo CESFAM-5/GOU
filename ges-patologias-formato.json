@@ -151,3 +151,69 @@
     }
   }
 }
+
+ejemplo_completo: {
+ges_numero: 1,
+id: "insuficiencia-renal",
+nombre_completo: "Insuficiencia renal crónica terminal",
+nombre_corto: "Insuficiencia renal",
+categoria: "Enfermedades crónicas metabólicas, renales y otras",
+grupo_edad: "Cualquier edad",
+es_oncologico: false,
+en_cesfam: true,
+descripcion_breve: "Personas de cualquier edad que requieren tratamiento de sustitución de la función renal por diálisis o trasplante.",
+secciones: {
+descripcion: {
+titulo: "¿Qué es?",
+contenido: "La enfermedad renal crónica etapa 4 y 5 corresponde a la situación clínica derivada de la pérdida progresiva, irreversible y permanente de la función renal a la que se puede llegar por múltiples etiologías, tanto de carácter congénito, hereditario o adquirido que podría requerir tratamiento de sustitución renal por diálisis o trasplante."
+},
+sintomas: {
+titulo: "Síntomas",
+items: [
+Pronto más información,
+],
+nota: "Esta información es solo de referencia y en ningún caso reemplaza la atención de un profesional de la salud. Consulte con un/a medico si tiene dudas"
+},
+prestaciones: {
+titulo: "Prestaciones",
+items: [
+Esta condición de salud es atendida en el nivel secundario de salud como Centro de Diagnóstico Terapéutico (CDT) / Centro de Referencia de Salud (CRS) y Hospital (Unidad de diálisis)
+]
+},
+requisitos: {
+titulo: "Requisitos",
+items: ["Estar inscrita/o en el CESFAM N°5"]
+},
+acceder: {
+titulo: "Acceder",
+contenido: "Solicite una hora de Medicina general en el SOME del CESFAM",
+enlaces_recomendados: ["some", "empa", "cardiovascular"]
+},
+ges: {
+titulo: "GES Nº 21",
+plazo_sospecha: "45 días para diagnóstico",
+plazo_confirmacion: "30 días para inicio tratamiento",
+copago_fonasa: "0%",
+copago_isapre: "20%",
+url_superintendencia: "https://www.superdesalud.gob.cl/orientacion-en-salud/hipertension-arterial-primaria-o-esencial-en-personas-de-15-anos-y-mas/"
+}
+},
+datos_clinicos: {
+grupo_edad: "15+",
+prevalencia: "Alta",
+referencia_protocolo: "Protocolo MINSAL 2024"
+},
+integraciones: {
+asistente_ia: true,
+panel_funcionarios: true,
+qr: true,
+mapas: false
+},
+metadata: {
+fecha_creacion: "2026-08-06",
+ultima_revision: "2026-08-06",
+revisor: "CESFAM N°5",
+estado: "activo"
+}
+}
+}
