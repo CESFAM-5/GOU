@@ -5,13 +5,14 @@
     "nombre_corto": "Diabetes Tipo 1",
     "nombre_completo": "Diabetes Mellitus Tipo 1",
     "clasificacion": "Enfermedades crónicas y otras",
+    "grupo_edad": "Cualquier edad",
     "en_cesfam": true,
     "descripcion_breve": "Condición autoinmunológica donde el páncreas produce poco o nada de insulina. Requiere inyecciones de insulina de por vida.",
     
     "secciones": {
       "descripcion": {
-        "titulo": "Descripción",
-        "contenido": "La Diabetes Tipo 1 es una condición autoinmunológica en la que el páncreas produce poco o nada de insulina. Generalmente se diagnostica en niños y jóvenes adultos. Requiere inyecciones de insulina de por vida. El CESFAM N°5 ofrece un programa integral para el diagnóstico, tratamiento y seguimiento, incluyendo educación para el paciente y su familia, control glucémico regular y manejo de complicaciones."
+        "titulo": "¿Qué es?",
+        "contenido": "La diabetes es una enfermedad crónica que ocurre cuando el páncreas no puede producir suficiente insulina o cuando el cuerpo no puede usar la insulina de manera efectiva. La insulina es una hormona que regula los niveles de glucosa en la sangre. Sin un control adecuado, la diabetes puede causar complicaciones graves como problemas cardiacos, renales, visuales y neuropatía diabética.\n\nDiabetes Tipo 1 es una condición autoinmunológica en la que el páncreas produce poco o nada de insulina. Generalmente se diagnostica en niños y jóvenes adultos. Requiere inyecciones de insulina de por vida.\n\nEl CESFAM N°5 ofrece un programa integral para el diagnóstico, tratamiento y seguimiento de la diabetes, incluyendo educación para el paciente y su familia, control glucémico regular y manejo de complicaciones."
       },
       
       "sintomas": {
@@ -24,17 +25,18 @@
           "Visión borrosa",
           "Infecciones frecuentes (especialmente infecciones urinarias o de piel)",
           "Heridas o llagas que cicatrizan lentamente"
-        ]
+        ],
+        "nota": "Los síntomas pueden aparecer rápidamente, especialmente en niños. Es importante consultar con un médico si presenta estos síntomas."
       },
       
       "prestaciones": {
         "titulo": "Prestaciones",
         "items": [
-          "Diagnóstico: Realización de exámenes de sangre (glucosa en ayunas, hemoglobina A1c). Evaluación de factores de riesgo y complicaciones.",
-          "Control y monitoreo: Seguimiento regular de los niveles de glucosa, presión arterial y peso. Ajuste de medicamentos según sea necesario.",
-          "Educación del paciente: Enseñanza sobre nutrición, actividad física, técnicas de medición de glucosa en sangre y reconocimiento de hipoglucemia e hiperglucemia.",
-          "Apoyo nutricional: Consulta con nutricionista para planes de alimentación personalizados.",
-          "Apoyo psicológico: Atención psicológica para manejar el impacto emocional del diagnóstico.",
+          "Diagnóstico: Realización de exámenes de sangre (glucosa en ayunas, hemoglobina A1c) para confirmar el diagnóstico. Evaluación de factores de riesgo y complicaciones.",
+          "Control y monitoreo: Seguimiento regular de los niveles de glucosa, presión arterial y peso. Ajuste de medicamentos según sea necesario. Control de complicaciones como problemas cardiacos o renales.",
+          "Educación del paciente: Enseñanza sobre nutrición adecuada, actividad física, técnicas de medición de glucosa en sangre y reconocimiento de síntomas de hipoglucemia e hiperglucemia.",
+          "Apoyo nutricional: Consulta con nutricionista para establecer planes de alimentación personalizados que ayuden a controlar los niveles de glucosa.",
+          "Apoyo psicológico: Atención psicológica para manejar el impacto emocional del diagnóstico y mejorar la adherencia al tratamiento.",
           "Suministros: Insulina y materiales para monitoreo garantizados por GES."
         ]
       },
@@ -50,19 +52,12 @@
       
       "acceso": {
         "titulo": "Acceso",
-        "contenido": "Para acceder: 1) Si presenta síntomas agudos, diríjase a Urgencias. 2) Para diagnóstico: solicite hora de Medicina General en el SOME del CESFAM, lunes a viernes desde las 7:30 hrs. 3) Para chequeo preventivo: solicite un EMPA (Examen Médico Preventivo del Adulto) en el SOME de su sector. 4) Una vez diagnosticado, acceda al Programa de Salud Cardiovascular para control y seguimiento.",
-        "enlaces": ["urgencias", "some", "empa", "cardiovascular"]
+        "contenido": "Si presenta síntomas agudos (sed extrema, micción frecuente, fatiga severa), debe dirigirse a un servicio de urgencia.\n\nPara diagnóstico: Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs.\n\nPara chequeo preventivo: Solicite un EMPA (Examen Médico Preventivo del Adulto) en el SOME de su sector.\n\nUna vez diagnosticado, acceda al Programa de Salud Cardiovascular para control y seguimiento."
       },
       
       "horario": {
         "titulo": "Horario",
         "contenido": "Lunes a viernes de 7:30 a 16:00 hrs. Consultas de seguimiento según necesidad del paciente. Urgencias disponibles todos los días."
-      },
-      
-      "saber_mas": {
-        "titulo": "Saber +",
-        "contenido": "Diabetes Mellitus Tipo 1 (GES Nº 6) - Información oficial de la Superintendencia de Salud",
-        "url": "https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-1/"
       },
       
       "ges": {
@@ -82,13 +77,14 @@
     "nombre_corto": "Diabetes Tipo 2",
     "nombre_completo": "Diabetes Mellitus Tipo 2",
     "clasificacion": "Enfermedades crónicas y otras",
+    "grupo_edad": "Principalmente 15+",
     "en_cesfam": true,
     "descripcion_breve": "Enfermedad donde el cuerpo no produce suficiente insulina o sus células no responden bien a ella. Forma más común de diabetes.",
     
     "secciones": {
       "descripcion": {
-        "titulo": "Descripción",
-        "contenido": "La Diabetes Tipo 2 es la forma más común de diabetes. Ocurre cuando el cuerpo no produce suficiente insulina o sus células no responden bien a la insulina (resistencia a la insulina). Generalmente se desarrolla en adultos, aunque cada vez se diagnostica más en niños y adolescentes. El CESFAM N°5 ofrece un programa integral para el diagnóstico, tratamiento y seguimiento, incluyendo educación para el paciente y su familia, control glucémico regular y manejo de complicaciones."
+        "titulo": "¿Qué es?",
+        "contenido": "La Diabetes Tipo 2 es la forma más común de diabetes. Ocurre cuando el cuerpo no produce suficiente insulina o sus células no responden bien a la insulina (resistencia a la insulina). Generalmente se desarrolla en adultos, aunque cada vez se diagnostica más en niños y adolescentes.\n\nEl CESFAM N°5 ofrece un programa integral para el diagnóstico, tratamiento y seguimiento de la diabetes, incluyendo educación para el paciente y su familia, control glucémico regular y manejo de complicaciones."
       },
       
       "sintomas": {
@@ -109,9 +105,9 @@
       "prestaciones": {
         "titulo": "Prestaciones",
         "items": [
-          "Diagnóstico: Realización de exámenes de sangre (glucosa en ayunas, hemoglobina A1c). Evaluación de factores de riesgo y complicaciones.",
-          "Control y monitoreo: Seguimiento regular de los niveles de glucosa, presión arterial y peso. Ajuste de medicamentos según sea necesario.",
-          "Educación del paciente: Enseñanza sobre nutrición, actividad física, técnicas de medición de glucosa en sangre y reconocimiento de hipoglucemia e hiperglucemia.",
+          "Diagnóstico: Realización de exámenes de sangre (glucosa en ayunas, hemoglobina A1c) para confirmar el diagnóstico. Evaluación de factores de riesgo y complicaciones.",
+          "Control y monitoreo: Seguimiento regular de los niveles de glucosa, presión arterial y peso. Ajuste de medicamentos según sea necesario. Control de complicaciones como problemas cardiacos o renales.",
+          "Educación del paciente: Enseñanza sobre nutrición adecuada, actividad física, técnicas de medición de glucosa en sangre y reconocimiento de síntomas de hipoglucemia e hiperglucemia.",
           "Apoyo nutricional: Consulta con nutricionista para planes de alimentación personalizados que ayuden a controlar los niveles de glucosa.",
           "Apoyo psicológico: Atención psicológica para manejar el impacto emocional del diagnóstico y mejorar la adherencia al tratamiento.",
           "Medicamentos: Suministro de medicamentos orales e insulina si es necesaria, garantizados por GES."
@@ -129,8 +125,7 @@
       
       "acceso": {
         "titulo": "Acceso",
-        "contenido": "Para acceder: 1) Si presenta síntomas agudos, diríjase a Urgencias. 2) Para diagnóstico: solicite hora de Medicina General en el SOME del CESFAM, lunes a viernes desde las 7:30 hrs. 3) Para chequeo preventivo: solicite un EMPA (Examen Médico Preventivo del Adulto) en el SOME de su sector. 4) Una vez diagnosticado, acceda al Programa de Salud Cardiovascular para control y seguimiento.",
-        "enlaces": ["urgencias", "some", "empa", "cardiovascular"]
+        "contenido": "Si presenta síntomas agudos, debe dirigirse a un servicio de urgencia.\n\nPara diagnóstico: Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs.\n\nPara chequeo preventivo: Solicite un EMPA (Examen Médico Preventivo del Adulto) en el SOME de su sector.\n\nUna vez diagnosticado, acceda al Programa de Salud Cardiovascular para control y seguimiento."
       },
       
       "horario": {
@@ -138,16 +133,10 @@
         "contenido": "Lunes a viernes de 7:30 a 16:00 hrs. Consultas de seguimiento según necesidad del paciente. Urgencias disponibles todos los días."
       },
       
-      "saber_mas": {
-        "titulo": "Saber +",
-        "contenido": "Diabetes Mellitus Tipo 2 (GES Nº 7) - Información oficial de la Superintendencia de Salud",
-        "url": "https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-2/"
-      },
-      
       "ges": {
         "titulo": "Garantías Explícitas en Salud (GES) - Nº 7",
         "cobertura": "Diagnóstico, tratamiento y seguimiento de la diabetes tipo 2, incluidos medicamentos orales, insulina si es necesaria, y materiales de monitoreo.",
-        "plazo_sospecha": "45 días para acceder a diagnóstico desde la sospecha",
+        "plazo_sospecha": "45 días para acceder a diagnóstico",
         "plazo_confirmacion": "30 días desde la confirmación diagnóstica",
         "copago_fonasa": "Sin costo (0%)",
         "copago_isapre": "Según contrato (máximo 20%)"
