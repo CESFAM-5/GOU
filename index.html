@@ -1,12 +1,3 @@
-// Cargar datos GES
-let DATOS_GES = {};
-fetch('./data/ges-patologias.json')
-  .then(r => r.json())
-  .then(data => {
-    data.forEach(patologia => {
-      DATOS_GES[patologia.id] = patologia;
-    });
-  });
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -736,7 +727,10 @@ const BASE_URL = "https://sites.google.com/view/guiadeorientacionusuaria";
 
 
 // Mapa de GES con contenido disponible
-const GES_CON_CONTENIDO = new Set([6, 7, 21, 38, 39, 60, 61, 76, 90, 34, 53, 85, 23, 46, 47, 66, 86]);
+// Se calcula desde data/ges-patologias.json una vez cargado (ver fetch al final del archivo),
+// usando el flag _completo de cada patología. Reemplaza a la lista fija anterior, que ya no
+// coincidía con el estado real de las 90 patologías.
+const GES_CON_CONTENIDO = new Set();
 
 // Función para detectar si un tema tiene contenido GES
 function tieneContenidoGES(nombre) {
@@ -7257,19 +7251,23 @@ function abrirPagina(id) {
   const esGES = verificarSiEsGES(id);
   let badgeGES = '';
   if (esGES) {
-    const datosGES = obtenerDatosGES(id);
-    badgeGES = `
-      <div style="background: linear-gradient(135deg, #2D6A4F, #3B5F7A); color: white; border-radius: 12px; padding: 12px 14px; margin-bottom: 16px; display: flex; gap: 10px;">
-        <div style="font-size: 20px; flex-shrink: 0; margin-top: 2px;">✅</div>
-        <div style="flex: 1;">
-          <strong style="display: block; font-size: 14px; font-weight: 600; margin-bottom: 4px;">Protegida por GES</strong>
-          <p style="margin: 0; font-size: 12px; opacity: 0.92; line-height: 1.4;">
-            Esta condición tiene cobertura garantizada. 
-            <a href="${datosGES.url}" style="color: white; text-decoration: underline; opacity: 0.9;">Más detalles en Superintendencia</a>
-          </p>
+    const datosGES = obtenerDatosGES(id); // puede ser null si el JSON GES aún no cargó
+    if (datosGES) {
+      const enlace = datosGES.url
+        ? `<a href="${datosGES.url}" target="_blank" rel="noopener" style="color: white; text-decoration: underline; opacity: 0.9;">Más detalles en Superintendencia</a>`
+        : '';
+      badgeGES = `
+        <div style="background: linear-gradient(135deg, #2D6A4F, #3B5F7A); color: white; border-radius: 12px; padding: 12px 14px; margin-bottom: 16px; display: flex; gap: 10px;">
+          <div style="font-size: 20px; flex-shrink: 0; margin-top: 2px;">✅</div>
+          <div style="flex: 1;">
+            <strong style="display: block; font-size: 14px; font-weight: 600; margin-bottom: 4px;">Protegida por GES</strong>
+            <p style="margin: 0; font-size: 12px; opacity: 0.92; line-height: 1.4;">
+              Esta condición tiene cobertura garantizada. ${enlace}
+            </p>
+          </div>
         </div>
-      </div>
-    `;
+      `;
+    }
   }
   // ══════════ FIN NUEVO ══════════
 
@@ -7624,29 +7622,39 @@ const MAPEO_GES_PAGINA = {
   'Alzheimer y otras Demencias': 'alzheimer-demencias'
 };
   // ═══════════════════════════════════════════════════════════════
-// FUNCIONES AUXILIARES PARA GES - COPIA/PEGA TODO ESTO
+// FUNCIONES AUXILIARES PARA GES
 // ═══════════════════════════════════════════════════════════════
+// NOTA: CONDICIONES_GES y MAPEO_GES_PAGINA (arriba) quedaron obsoletos:
+// intentaban emparejar el nombre "plano" del GES (ej. 'VIH/SIDA') contra
+// item.nombre en CONDICIONES_GES, que en realidad guarda HTML decorado
+// (ej. 'Nº 18: <strong>Síndrome de Inmunodeficiencia Adquirida (VIH/SIDA)</strong>').
+// Esa comparación nunca era verdadera, así que obtenerDatosGES() siempre
+// devolvía null y el badge "Protegida por GES" rompía abrirPagina() con
+// un TypeError al leer datosGES.url. Se reemplaza por una vía que usa
+// datos que ya sabemos correctos: TEMAS (pagina -> ges) y DATOS_GES
+// (el JSON real, cargado más abajo), con manejo seguro de null.
+
+// pagina (id de PAGINAS) -> ges_numero, construido desde TEMAS
+const PAGINA_A_GES_NUMERO = {};
+TEMAS.forEach(t => {
+  if (t.categoria === 'GES' && t.pagina && t.ges) {
+    PAGINA_A_GES_NUMERO[t.pagina] = t.ges;
+  }
+});
 
 function verificarSiEsGES(idPagina) {
-  // Busca si este ID de página corresponde a alguna condición GES
-  return Object.values(MAPEO_GES_PAGINA).includes(idPagina);
+  return Object.prototype.hasOwnProperty.call(PAGINA_A_GES_NUMERO, idPagina);
 }
 
 function obtenerDatosGES(idPagina) {
-  // Encuentra la condición GES que corresponde a este ID
-  for (const categoria of Object.values(CONDICIONES_GES)) {
-    for (const item of categoria.items) {
-      if (MAPEO_GES_PAGINA[item.nombre] === idPagina) {
-        return item;
-      }
-    }
-  }
-  return null;
-}
-
-function obtenerIdPaginaDesdeGES(nombreGES) {
-  // Busca el ID de página para una condición GES por su nombre
-  return MAPEO_GES_PAGINA[nombreGES] || null;
+  const numero = PAGINA_A_GES_NUMERO[idPagina];
+  if (!numero || !DATOS_GES || DATOS_GES.length === 0) return null;
+  const pat = DATOS_GES.find(p => p.ges_numero === numero);
+  if (!pat) return null;
+  const url = (pat.secciones && pat.secciones.ges)
+    ? (pat.secciones.ges.url_superintendencia || pat.secciones.ges.url_minsal)
+    : null;
+  return { numero: pat.ges_numero, nombre: pat.nombre_completo, url: url };
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -7771,7 +7779,19 @@ fetch('./data/ges-patologias.json')
   .then(r => r.json())
   .then(data => {
     DATOS_GES = data;
+
+    // Recalcula GES_CON_CONTENIDO a partir del estado real de los datos
+    GES_CON_CONTENIDO.clear();
+    DATOS_GES.forEach(pat => {
+      if (pat._completo) GES_CON_CONTENIDO.add(pat.ges_numero);
+    });
+
     renderizarGES();
+    // Si el usuario ya estaba en el Índice A–Z, refresca las etiquetas GES/GES (próx.)
+    const tabActiva = document.querySelector('.tab.active');
+    if (tabActiva && tabActiva.textContent.trim().includes('Índice')) {
+      renderIndice();
+    }
     console.log('✅ GES cargado:', DATOS_GES.length, 'patologías');
   })
   .catch(err => console.error('❌ Error cargando GES:', err));
