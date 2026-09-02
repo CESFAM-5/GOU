@@ -1,0 +1,3153 @@
+[
+  {
+    "ges_numero": 1,
+    "id": "insuficiencia-renal",
+    "nombre_completo": "Insuficiencia renal crónica terminal",
+    "nombre_corto": "Insuficiencia Renal",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de cualquier edad que requieren tratamiento de sustitución de la función renal por diálisis o trasplante",
+    "secciones": {
+      "descripcion": {
+        "contenido": "La enfermedad renal crónica etapa 4 y 5 corresponde a la situación clínica derivada de la pérdida progresiva, irreversible y permanente de la función renal a la que se puede llegar por múltiples etiologías, tanto de carácter congénito, hereditario o adquirido que podría requerir tratamiento de sustitución renal por diálisis o trasplante."
+      },
+      "sintomas": {
+        "items": [
+          "Cansancio intenso, debilidad o somnolencia",
+          "Hinchazón de piernas, pies, manos o alrededor de los ojos",
+          "Disminución de la cantidad de orina o cambios en la frecuencia de la micción",
+          "Falta de aire",
+          "Náuseas, vómitos o pérdida del apetito",
+          "Picazón persistente en la piel",
+          "Calambres musculares",
+          "Dificultad para concentrarse o confusión",
+          "Alteraciones del sueño",
+          "Cambios en el sabor de los alimentos o mal aliento."
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Derivación a nivel secundario de salud con especialidad respectiva"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "plazo_sospecha": "• Con confirmación diagnóstica tendrá acceso a tratamiento<br>• En tratamiento tendrá acceso a continuarlo<br>• Con enfermedad renal etapa 4 o 5 tendrá acceso a diagnóstico del retardo del crecimiento y tratamiento con hormona del crecimiento en menores de 15 años<br>• Con enfermedad renal en etapa 4 o 5 tendrá acceso a estudio pretrasplante, ingreso a lista de espera de trasplante y a trasplante con donante vivo, vivo cruzado o fallecido, si cumple con criterios de la NTMA* y de la normativa vigente sobre trasplante de órganos, aunque no haya requerido diálisis. El estudio pretrasplante incluye estudio del donante vivo, nefrectomía del donante vivo y seguimiento según normativa vigente. Con enfermedad renal etapa 4 o 5 tendrá acceso a actualización del estudio pretrasplante si se encuentra en lista de espera<br>• Con indicación médica tendrá acceso a terapia de desensibilización para pacientes hipersensibilizados, según lo establecido en NTMA*<br>• Con trasplante renal tendrá acceso a nuevo trasplante según indicación médica<br>• Con trasplante renal tendrá acceso a profilaxis y tratamiento de citomegalovirus según indicación médica<br>• Con trasplante renal tendrá acceso a terapia de rechazo según indicación médica<br>• Con trasplante renal tendrá acceso a seguimiento de trasplante  Con indicación de tratamiento de diálisis, tendrá acceso a peritoneodiálisis como primera línea de tratamiento y hemodiálisis como opción, en caso de que no se pueda realizar la peritoneodiálisis<br>• Con indicación de Peritoneodiálisis, tendrá acceso a Catéter peritoneal<br>• Con indicación de Hemodiálisis, tendrá acceso a Fistula arteriovenosa. *NTMA: Norma de carácter Técnico Médico y Administrativo",
+        "plazo_confirmacion": "• La fístula arteriovenosa para hemodiálisis se realizará dentro de 90 días desde la indicación médica<br>• La peritoneodiálisis se iniciará dentro de 21 días desde la indicación médica<br>• La hemodiálisis se iniciará dentro de 7 días desde la indicación médica<br>• El estudio pretrasplante completo para acceder a lista de espera se realizará dentro de 10 meses desde la indicación del especialista<br>• El ingreso a la lista de espera de trasplante se efectuará finalizado el estudio pretrasplante, y el trasplante renal se efectuará de acuerdo a la disponibilidad del órgano<br>• El tratamiento con drogas inmunosupresoras se iniciará en donante cadáver desde el trasplante y en donante vivo desde 48 horas antes del trasplante. Lo anterior deberá ser complementado con lo dispuesto en la NTMA. *NTMA: Norma de carácter Técnico Médico y Administrativo",
+        "copago_fonasa": "Pagas $0, si perteneces a FONASA A, B, C o D.",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/01",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/insuficiencia-renal-cronica-terminal-2/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 2,
+    "id": "cardiopatias-congenitas",
+    "nombre_completo": "Cardiopatías congénitas operables",
+    "nombre_corto": "Cardiopatias Congenitas",
+    "clasificacion": "Salud en Personas Menores de 15 años",
+    "grupo_edad": "Menores de 15 años",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas menores de 15 años que nacen con malformación cardíaca y requieren ser operados",
+    "secciones": {
+      "descripcion": {
+        "contenido": "Se denominan cardiopatías congénitas a todas las malformaciones cardíacas que están presentes al momento del nacimiento. Son secundarias a alteraciones producidas durante la organogénesis del corazón, desconociéndose en la mayoría de los casos los factores causales."
+      },
+      "sintomas": {
+        "items": [
+          "Dificultad para respirar o respiración rápida",
+          "Coloración azulada de labios, lengua o piel (cianosis)",
+          "Dificultad para alimentarse o cansancio durante la alimentación",
+          "Sudoración excesiva, especialmente al alimentarse",
+          "Bajo aumento de peso o dificultad para crecer",
+          "Cansancio o menor tolerancia a la actividad, en niños mayores",
+          "Hinchazón de piernas, pies o abdomen",
+          "Desmayos o episodios de pérdida de conciencia."
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Derivación a nivel secundario de salud con especialidad respectiva"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "plazo_sospecha": "• El diagnóstico prenatal desde las 20 semanas de gestación se realizará dentro de los 30 días desde la sospecha<br>• El diagnóstico postnatal entre los 0 y 7 días se realizará dentro de 48 horas desde la sospecha<br>• El diagnóstico postnatal entre el 8° día y antes de cumplido el 2° año de vida se realizará dentro de 21 días desde la sospecha<br>• El diagnóstico postnatal entre los 2 y hasta los 15 años se realizará dentro de 180 días desde la sospecha.",
+        "plazo_confirmacion": "• En cardiopatía congénita grave operable el ingreso al prestador con capacidad resolutiva, se realizará dentro de las 48 horas siguientes a la estabilización del paciente, para evaluación e indicación de tratamiento y procedimiento que corresponda<br>• En otras cardiopatías congénitas operables, el tratamiento quirúrgico o procedimiento se realizará según indicación médica<br>• El control se realizará dentro del primer año desde el alta quirúrgica en ambos casos.",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/2",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cardiopatias-congenitas-operables/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 3,
+    "id": "cancer-cervicouterino",
+    "nombre_completo": "Cáncer cervicouterino",
+    "nombre_corto": "Cancer Cervicouterino",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años o más con sospecha, diagnóstico o reaparición de cáncer cervicouterino",
+    "secciones": {
+      "descripcion": {
+        "contenido": "El cáncer cervicouterino es una alteración celular que se origina en el epitelio del cuello del útero y que se manifiesta inicialmente a través de lesiones precursoras de lenta y progresiva evolución, que se pueden suceder en etapas de displasia leve, moderada y severa. Evolucionan a cáncer in situ (circunscrito a la superficie epitelial) o a cáncer invasor, en que el compromiso traspasa la membrana basal."
+      },
+      "sintomas": {
+        "items": [
+          "Sangrado vaginal anormal, especialmente entre períodos menstruales o después de las relaciones sexuales",
+          "Sangrado vaginal después de la menopausia",
+          "Flujo vaginal inusual, con cambios en cantidad, aspecto u olor",
+          "Dolor durante las relaciones sexuales",
+          "Dolor persistente en la pelvis o en la parte baja del abdomen",
+          "En etapas más avanzadas, dificultad o dolor al orinar o evacuar"
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Consulta o control medico integral en atencion primaria",
+          "Consulta o control por matrona."
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "[Averiguando información en CESFAM]"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "plazo_sospecha": "• El resultado con informe de examen de PAP para beneficiarios mayores de 25 años y menor de 65 años se entregará dentro de 30 días desde la realización del examen<br>• La confirmación diagnóstica se realizará dentro de los 40 días desde la sospecha<br>• La etapificación se realizará dentro de los 20 días desde la confirmación diagnóstica.",
+        "plazo_confirmacion": "• Para la lesión preinvasora de bajo grado se iniciará dentro de 180 días desde la indicación médica<br>• Para la lesión preinvasora de alto grado se iniciará dentro de 30 días desde la confirmación diagnóstica<br>• Para cáncer invasor se iniciará dentro de 20 días desde la etapificación<br>• Los tratamientos adyuvantes se iniciarán dentro de 20 días desde la indicación médica.",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/3",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-cervicouterino/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 4,
+    "id": "cuidados-paliativos",
+    "nombre_completo": "Alivio del dolor y cuidados paliativos por cáncer avanzado",
+    "nombre_corto": "Cuidados Paliativos",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad con diagnóstico confirmado de cáncer, independiente de su estado clínico. Los cuidados paliativos consisten en la asistencia al paciente y a su entorno por un equipo multiprofesional para mejorar su calidad de vida y la de su familia.",
+    "secciones": {
+      "descripcion": {
+        "contenido": "Consiste en la asistencia activa y seguimiento integral a la persona con cáncer, por un equipo interdisciplinario, siendo el objetivo esencial del tratamiento asegurar la máxima calidad de vida posible a las personas con cáncer independiente de su estadio clínico, ya sea en cáncer progresivo o no progresivo, mediante el alivio y prevención de síntomas y del sufrimiento asociado a la enfermedad oncológica en todo el ciclo vital."
+      },
+      "sintomas": {
+        "items": [
+          "Dolor persistente o de difícil control",
+          "Dificultad para respirar o sensación de falta de aire",
+          "Náuseas, vómitos o pérdida del apetito",
+          "Cansancio intenso y debilidad",
+          "Alteraciones del sueño",
+          "Ansiedad, angustia o tristeza",
+          "Dificultades para realizar actividades cotidianas",
+          "Necesidad de apoyo emocional, social o espiritual para la persona y su familia"
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Consulta o control medico integral en atencion primaria",
+          "Oxigenoterapia domiciliaria",
+          "Consulta o control por enfermera, matrona o nutricionista",
+          "Atencion kinesiologica integral ambulatoria",
+          "Visita a domicilio por enfermera, matrona o nutricionista",
+          "Visita a domicilio por auxiliar de enfermeria",
+          "Curacion simple ambulatoria",
+          "Insumos de enfermería",
+          "Educacion de grupo por enfermera, matrona o nutricionista"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una evaluación domiciliaria para ingreso al Programa de Atención Domiciliaria a Personas con Dependencia Severa a la jefatura de su sector."
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "plazo_sospecha": "Todo beneﬁciario, independiente de su edad y otros tratamientos indicados: A) Con conﬁrmación diagnóstica tendrá acceso a tratamiento, B) Estando en tratamiento tendrá acceso a continuarlo.",
+        "plazo_confirmacion": "Se iniciará dentro de 5 días desde la conﬁrmación diagnóstica.",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/4",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/alivio-del-dolor-y-cuidados-paliativos-por-cancer-avanzado/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 5,
+    "id": "infarto-corazon",
+    "nombre_completo": "Infarto al corazón",
+    "nombre_corto": "Infarto Corazon",
+    "clasificacion": "Enfermedades del Corazón y Cerebro",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de cualquier edad que presenten dolor torácico no traumático y/o síntomas de infarto al corazón.",
+    "secciones": {
+      "descripcion": {
+        "contenido": "El Infarto Agudo del Miocardio (IAM) forma parte del síndrome coronario agudo (SCA), término que agrupa un amplio espectro de cuadros de dolor torácico de origen isquémico, los que según variables electrocardiográﬁcas y/o bioquímicas se han clasiﬁcado en condiciones que van desde la angina inestable y el IAM sin elevación del segmento ST, hasta el IAM con supradesnivel de este segmento (SDST) y la muerte súbita. La aparición de un SCA es secundaria a la erosión o ruptura de una placa ateroesclerótica, que determina la formación de un trombo intracoronario."
+      },
+      "sintomas": {
+        "items": [
+          "Dolor, presión o molestia intensa en el pecho",
+          "Dolor que puede extenderse hacia el brazo, hombro, espalda, cuello, mandíbula o estómago",
+          "Dificultad para respirar o sensación de falta de aire",
+          "Sudoración fría",
+          "Náuseas o vómitos",
+          "Mareos, debilidad o sensación de desmayo",
+          "Palpitaciones o latidos irregulares",
+          "Ansiedad o sensación de angustia intensa",
+          "Cansancio inusual, especialmente en mujeres, personas mayores o con diabetes."
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Esta condición de salud tiene sus prestaciones en el nivel secundario y de urgencias."
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "plazo_sospecha": "El electrocardiograma se realizará en la atención médica de urgencia en Servicio Médico de Urgencia, dentro de 30 minutos desde la sospecha.",
+        "plazo_confirmacion": "La trombólisis se realizará dentro de los 30 minutos desde la conﬁrmación diagnóstica de supradesnivel ST en electrocardiograma según indicación médica.",
+        "copago_fonasa": "Pagas $0, si perteneces a FONASA A, B, C o D.",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/5",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/infarto-al-corazon/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 6,
+    "id": "diabetes-tipo-1",
+    "nombre_completo": "Diabetes Mellitus tipo 1",
+    "nombre_corto": "Diabetes Tipo 1",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad con sospecha o diagnóstico de diabetes tipo 1 y tengan dependencia vital de insulina.",
+    "secciones": {
+      "descripcion": {
+        "contenido": "La Diabetes mellitus (DM) es un desorden metabólico crónico caracterizado por niveles persistentemente elevados de glucosa en la sangre, como consecuencia de una alteración en la secreción y/o acción de la insulina. La DM tipo 1 se caracteriza por destrucción de las células beta pancreáticas, que se traduce en un déficit absoluto de insulina y dependencia vital a la insulina exógena."
+      },
+      "sintomas": {
+        "items": [
+          "Aumento de la sed (polidipsia)",
+          "Aumento de la frecuencia de micción, incluso durante la noche (poliuria)",
+          "Fatiga extrema e inexplicable",
+          "Pérdida de peso sin razón aparente",
+          "Visión borrosa",
+          "Infecciones frecuentes (especialmente infecciones urinarias o de piel)",
+          "Heridas o llagas que cicatrizan lentamente"
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Realización de exámenes de sangre (glucosa en ayunas, hemoglobina A1c) para confirmar el diagnóstico. Evaluación de factores de riesgo y complicaciones.\nSeguimiento regular de los niveles de glucosa, presión arterial y peso. Ajuste de medicamentos según sea necesario. Control de complicaciones como problemas cardiacos o renales.\nEnseñanza sobre nutrición adecuada, actividad física, técnicas de medición de glucosa en sangre y reconocimiento de síntomas de hipoglucemia e hiperglucemia.\nConsulta con nutricionista para establecer planes de alimentación personalizados que ayuden a controlar los niveles de glucosa.\nInsulina y materiales para monitoreo garantizados por GES."
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "Para diagnóstico: Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs u hora para EMPA (Examen Médico Preventivo del Adulto) en el SOME de su sector. Una vez diagnosticado, acceda al Programa de Salud Cardiovascular para control y seguimiento en el SOME de su sector."
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Implementos o ayudas técnicas<br>• Exámenes",
+        "plazo_sospecha": "• La consulta con médico especialista se realizará dentro de 7 días desde la sospecha por exámenes alterados<br>• La glicemia se realizará dentro de 30 minutos desde la atención en Urgencia por sospecha de descompensación.",
+        "plazo_confirmacion": "• Se iniciará dentro de 24 horas desde la confirmación diagnóstica<br>• En personas en tratamiento con descompensación, la glicemia se realizará dentro de 30 minutos desde la atención médica en Servicio de Urgencia.",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "http://auge.minsal.cl/problemasdesalud/index/06",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-1/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 7,
+    "id": "diabetes-tipo-2",
+    "nombre_completo": "Diabetes mellitus tipo 2",
+    "nombre_corto": "Diabetes Tipo 2",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad con sospecha o diagnóstico de diabetes tipo 2 que presenten resistencia insulínica y/o deficit relativo de ésta.",
+    "secciones": {
+      "descripcion": {
+        "contenido": "Personas de cualquier edad con sospecha o diagnóstico de diabetes tipo 2que presenten resistencia insulínica y/o deficit relativo de ésta."
+      },
+      "sintomas": {
+        "items": [
+          "Aumento de la sed (polidipsia)",
+          "Aumento de la frecuencia de micción, incluso durante la noche (poliuria)",
+          "Fatiga extrema e inexplicable",
+          "Pérdida de peso sin razón aparente",
+          "Visión borrosa",
+          "Infecciones frecuentes (especialmente infecciones urinarias o de piel)",
+          "Heridas o llagas que cicatrizan lentamente",
+          "Hormigueo o adormecimiento en manos o pies"
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Realización de exámenes de sangre (glucosa en ayunas, hemoglobina A1c) para confirmar el diagnóstico. Evaluación de factores de riesgo y complicaciones.\nSeguimiento regular de los niveles de glucosa, presión arterial y peso. Ajuste de medicamentos según sea necesario. Control de complicaciones como problemas cardiacos o renales.\nEducación sobre nutrición adecuada, actividad física, técnicas de medición de glucosa en sangre y reconocimiento de síntomas de hipoglucemia e hiperglucemia.\nConsulta con nutricionista para planes de alimentación personalizados que ayuden a controlar los niveles de glucosa.\nSuministro de medicamentos orales e insulina si es necesaria, garantizados por GES."
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "Para diagnóstico: Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs u hora para EMPA (Examen Médico Preventivo del Adulto) en el SOME de su sector. Una vez diagnosticado, acceda al Programa de Salud Cardiovascular para control y seguimiento en el SOME de su sector."
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Implementos o ayudas técnicas<br>• Exámenes",
+        "plazo_sospecha": "El diagnóstico se realizará dentro de 30 días desde la primera consulta con glicemia elevada.",
+        "plazo_confirmacion": "• Se iniciará dentro de 24 horas desde la confirmación diagnóstica<br>• La atención por médico especialista se realizará dentro de 60 días desde la derivación, según indicación médica<br>• El primer tamizaje de retinopatía diabética se realizará dentro de 12 meses desde la indicación del equipo tratante<br>• Posteriormente, los siguientes tamizajes de retinopatía diabética se realizarán cada dos años a partir del segundo examen.",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/07",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/diabetes-mellitus-tipo-2/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 8,
+    "id": "cancer-mama",
+    "nombre_completo": "Cáncer de mama",
+    "nombre_corto": "Cancer Mama",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años y más con sospecha, diagnóstico o reparación de cáncer de mama.",
+    "secciones": {
+      "descripcion": {
+        "contenido": "Enfermedad en la que células de la mama crecen de manera anormal y descontrolada, pudiendo formar un tumor y, en algunos casos, extenderse a otras partes del cuerpo. Su detección y tratamiento oportunos mejoran las posibilidades de recuperación."
+      },
+      "sintomas": {
+        "items": [
+          "Bulto o masa en la mama o axila",
+          "Cambios en el tamaño o forma de la mama",
+          "Alteraciones en la piel de la mama, como hundimientos, enrojecimiento o engrosamiento",
+          "Cambios en el pezón, como retracción o hundimiento",
+          "Secreción por el pezón, especialmente si contiene sangre",
+          "Dolor persistente o cambios inusuales en la mama"
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Consulta o control por matrona",
+          "Derivación a nivel secundario de salud con especialidad respectiva"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "Para diagnóstico: Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs u hora para EMPA (Examen Médico Preventivo del Adulto) en el SOME de su sector"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Implementos o ayudas técnicas<br>• Cirugía<br>• Exámenes",
+        "plazo_sospecha": "Se realizará dentro de 45 días desde la sospecha con resultado de mamografía. En caso de evidencia clínica de cáncer no será exigible la mamografía y el plazo máximo para esta prestación igualmente será de 45 días desde la sospecha. La etapiﬁcación se realizará dentro de 45 días desde la conﬁrmación diagnóstica.",
+        "plazo_confirmacion": "• El tratamiento primario se iniciará dentro de 30 días desde la etapiﬁcación.<br>• Los tratamientos adyuvantes se iniciarán dentro de  20  días  desde  la  indicación médica.",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/8",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-mama/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 9,
+    "id": "disrafias-espinales",
+    "nombre_completo": "Disrafias espinales",
+    "nombre_corto": "Disrafias Espinales",
+    "clasificacion": "Salud en Personas Menores de 15 años",
+    "grupo_edad": "Menores de 65 años",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas que nacen con malformación a la médula espinal (disrafia abierta o cerrada).",
+    "secciones": {
+      "descripcion": {
+        "contenido": "Las disraﬁas espinales son un grupo de patologías que se caracterizan por una anomalía en el desarrollo del tubo neural. Se clasiﬁcan en dos grupos: disraﬁas abiertas y disraﬁas ocultas o cerradas. Las primeras corresponden a malformaciones precoces en el desarrollo embrionario de las estructuras medulares y raquídeas, y en todas ellas las estructuras nerviosas y meníngeas se encuentran comunicadas con el medio externo, lo que hace que su corrección quirúrgica sea urgente. La disraﬁa espinal cerrada u oculta se caracteriza por arcos vertebrales anormales, médula espinal normal y piel que cubre la lesión intacta sin exposición visible de meninges o tejido neural, debe operarse en forma precoz."
+      },
+      "sintomas": {
+        "items": [
+          "Bulto, masa o lesión visible en la espalda desde el nacimiento",
+          "Hoyuelo, mancha, mechón de pelo o alteración de la piel en la zona de la columna",
+          "Debilidad o dificultad para mover las piernas",
+          "Disminución o pérdida de sensibilidad en las piernas",
+          "Alteraciones para caminar o mantenerse de pie",
+          "Dificultad para controlar la orina o las deposiciones",
+          "Deformidades de los pies o de la columna",
+          "En algunos casos, aumento del tamaño de la cabeza o síntomas asociados a hidrocefalia"
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Consulta o control por medico",
+          "Derivación a nivel secundario de salud con especialidad respectiva"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Implementos o ayudas técnicas<br>• Cirugía<br>• Exámenes",
+        "plazo_sospecha": "Con disraﬁa espinal abierta dentro de las primeras 12 horas desde el nacimiento. Con disraﬁa espinal cerrada la consulta con neurocirujano se realizará dentro de 90 días desde la sospecha.",
+        "plazo_confirmacion": "• Con disrafia espinal abierta la cirugía se realizará dentro de 72 horas desde el nacimiento.<br>• Con disrafia espinal abierta la válvula derivativa se realizará dentro de 90 días desde la indicación médica.<br>• Con disrafia espinal abierta el control con neurocirujano se realizará dentro de 15 días desde el alta hospitalaria.<br>• Con disrafia espinal cerrada la cirugía se realizará dentro de 60 días desde la indicación médica.<br>• Con disrafia espinal cerrada el control con neurocirujano se realizará dentro de 15 días desde el alta hospitalaria.",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "http://auge.minsal.cl/problemasdesalud/index/9",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/disrafias-espinales/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 10,
+    "id": "escoliosis",
+    "nombre_completo": "Tratamiento quirúrgico de escoliosis en personas menores de 25 años",
+    "nombre_corto": "Escoliosis",
+    "clasificacion": "Intervenciones Quirúrgicas",
+    "grupo_edad": "Menores de 25 años",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas menores de 25 años con diagnóstico de escoliosis y curvaturas específicas de columna, según madurez esquelética, edad y sexo.",
+    "secciones": {
+      "descripcion": {
+        "contenido": "Intervención quirúrgica destinada a corregir y estabilizar la curvatura anormal de la columna vertebral en personas con escoliosis que requieren cirugía."
+      },
+      "sintomas": {
+        "items": [
+          "Curvatura visible de la columna o espalda",
+          "Hombros o caderas a diferente altura",
+          "Un omóplato más prominente que el otro",
+          "Inclinación del cuerpo hacia un lado",
+          "Dolor de espalda, especialmente en casos más avanzados",
+          "Cansancio o dificultad para mantenerse en una misma posición por mucho tiempo",
+          "En casos severos, dificultad para respirar."
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Consulta o control por medico",
+          "Derivación a nivel secundario de salud con especialidad respectiva"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Implementos o ayudas técnicas<br>• Cirugía<br>• Exámenes",
+        "plazo_sospecha": "Con conﬁrmación diagnóstica e indicación de tratamiento quirúrgico de escoliosis tendrá acceso a tratamiento.",
+        "plazo_confirmacion": "• Se iniciará dentro de 270 días desde la conﬁrmación diagnóstica.<br>• El primer control se realizará dentro de 10 días después del alta hospitalaria.",
+        "copago_fonasa": "Pagas $0, si perteneces a FONASA A, B, C o D.",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/10",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-escoliosis-en-personas-menores-de-25-anos/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 11,
+    "id": "cataratas",
+    "nombre_completo": "Tratamiento quirúrgico de cataratas",
+    "nombre_corto": "Cataratas",
+    "clasificacion": "Enfermedades de la Visión",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad que presenten opacidad del cristalino que disminuya o perturbe la visión",
+    "secciones": {
+      "descripcion": {
+        "contenido": "Es la opacidad o pérdida de transparencia del cristalino, el lente natural que se encuentra dentro del ojo y que nos ayuda a enfocar las imágenes"
+      },
+      "sintomas": {
+        "items": [
+          "Visión borrosa o nublada",
+          "Dificultad para ver con claridad, especialmente de noche",
+          "Mayor sensibilidad a la luz o molestias con las luces intensas",
+          "Visión de halos alrededor de las luces",
+          "Colores que se ven más apagados o amarillentos",
+          "Necesidad de cambiar con frecuencia la graduación de los lentes",
+          "Dificultad para leer o realizar actividades que requieren buena visión."
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Consulta o control por medico",
+          "Derivación a nivel secundario de salud con especialidad respectiva"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Insumos<br>• Implementos o ayudas técnicas<br>• Cirugía<br>• Exámenes",
+        "plazo_sospecha": "Se realizará dentro de 180 días desde la sospecha, incluyendo ambos ojos.",
+        "plazo_confirmacion": "• Con agudeza visual igual o inferior a 0,1 con corrección óptica en el mejor ojo, se realizará dentro de 90 días desde la conﬁrmación.<br>• Con agudeza visual igual o inferior a 0,3 con corrección óptica, se realizará dentro de 180 días desde la conﬁrmación.",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/11",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-cataratas/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 12,
+    "id": "artrosis-endoprotesis",
+    "nombre_completo": "Endoprótesis total de cadera en personas de 65 años y más con artrosis de cadera con limitación funcional severa",
+    "nombre_corto": "Artrosis Endoprotesis",
+    "clasificacion": "Salud del Adulto Mayor de 65 años",
+    "grupo_edad": "65 años o más",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de 65 años y más que presenten artrosis de cadera con limitación funcional severa.",
+    "secciones": {
+      "descripcion": {
+        "contenido": "La artrosis de cadera es una enfermedad degenerativa articular, primaria o secundaria, caracterizada por un daño en el cartílago que condiciona pérdida de la función de dicha articulación."
+      },
+      "sintomas": {
+        "items": [
+          "Dolor en la cadera o en la zona de la ingle, especialmente al caminar o realizar actividad física",
+          "Dolor que puede extenderse hacia el muslo, glúteo o rodilla",
+          "Rigidez o dificultad para mover la cadera",
+          "Disminución de la movilidad de la pierna",
+          "Dificultad para caminar, subir escaleras o levantarse de una silla",
+          "Crujidos o sensación de roce al mover la cadera",
+          "Dolor o rigidez después de permanecer en reposo."
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Consulta o control por medico",
+          "Derivación a nivel secundario de salud con especialidad respectiva"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Implementos o ayudas técnicas<br>• Cirugía<br>• Exámenes",
+        "plazo_sospecha": "• La intervención quirúrgica se realizará dentro de 240 días desde la conﬁrmación diagnóstica<br>• El primer control por médico especialista se realizará dentro de 40 días después de la cirugía<br>• El recambio de prótesis de cadera se realizará dentro de 240 días desde la indicación médica.",
+        "plazo_confirmacion": "• Posterior a la intervención quirúrgica, la rehabilitación precoz hospitalaria se realizará dentro de 24 horas desde la indicación médica.<br>• La rehabilitación ambulatoria se realizará dentro de los 14 días desde la indicación médica.",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/12",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/endoprotesis-total-de-cadera-en-personas-de-65-anos-y-mas-con-artrosis-de-cadera-con-limitacion-funcional-severa/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 13,
+    "id": "fisura-labiopalatina",
+    "nombre_completo": "Fisura labiopalatina",
+    "nombre_corto": "Fisura Labiopalatina",
+    "clasificacion": "Salud en Personas Menores de 15 años",
+    "grupo_edad": "Nacidos a partir del 1 de julio de 2005",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas nacidas a partir del 1 de julio de 2005, con fisura labiopalatina, asociada o no a malformaciones craneofaciales.",
+    "secciones": {
+      "descripcion": {
+        "contenido": "Es una malformación congénita en la que el labio superior, el paladar o ambos no se unen por completo durante el desarrollo del feto en el embarazo"
+      },
+      "sintomas": {
+        "items": [
+          "Separación o abertura en el labio y/o paladar presente desde el nacimiento",
+          "Dificultad para alimentarse o succionar",
+          "Leche que puede salir por la nariz durante la alimentación",
+          "Dificultad para ganar peso adecuadamente",
+          "Problemas de audición o infecciones frecuentes de oído",
+          "Dificultades en el desarrollo del habla y la pronunciación",
+          "Alteraciones en la posición o desarrollo de los dientes."
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Consulta o control por medico",
+          "Derivación a nivel secundario de salud con especialidad respectiva"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Insumos<br>• Implementos o ayudas técnicas<br>• Cirugía<br>• Exámenes",
+        "plazo_sospecha": "Todo beneﬁciario nacido a contar del 1° de julio del 2005: A) Con fisura labiopalatina, esté o no asociada a malformaciones craneofaciales, tendrá acceso a confirmación diagnóstica y tratamiento, incluyendo rehabilitación oral en menores de 15  años. B) Toda persona con fisura labiopalatina mayor de 15 años e indicación de cirugía ortognática tendrá acceso a cirugía ortognática.",
+        "plazo_confirmacion": "• El tratamiento con indicación de ortopedia prequirúrgica se otorgará dentro de 45 días desde el nacimiento.<br>• La cirugía primaria en primera intervención se realizará dentro de 30 días desde la indicación médica.<br>• La cirugía primaria en segunda intervención se realizará dentro de 30 días desde la indicación médica.<br>• La cirugía secundaria se realizará dentro de 60 días desde la indicación médica.<br>• La cirugía ortognática se realizará dentro de 90 días desde la indicación médica.",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/13",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/fisura-labiopalatina/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 14,
+    "id": "cancer-infantil",
+    "nombre_completo": "Cáncer en personas menores de 15 años",
+    "nombre_corto": "Cancer Infantil",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "Menores de 15 años",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas menores de 15 años que presentan leucemias, linfomas y/o tumores sólidos.",
+    "secciones": {
+      "descripcion": {
+        "contenido": "Diagnóstico y tratamiento oportuno de los cánceres que afectan a niños, niñas y adolescentes menores de 15 años, de acuerdo con el tipo de cáncer y las necesidades de cada persona"
+      },
+      "sintomas": {
+        "items": [
+          "Cansancio, debilidad o palidez sin causa aparente",
+          "Fiebre persistente o recurrente sin causa conocida",
+          "Pérdida de peso o apetito sin explicación",
+          "Moretones o sangrados frecuentes",
+          "Dolor persistente de huesos, articulaciones o abdomen",
+          "Bultos o aumento de volumen, especialmente en abdomen, cuello o ganglios",
+          "Dolores de cabeza persistentes, especialmente si se acompañan de vómitos",
+          "Cambios en la visión o alteraciones neurológicas",
+          "Dificultad para caminar o cambios en el movimiento",
+          "Infecciones frecuentes o que se prolongan más de lo habitual"
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Consulta o control por medico",
+          "Derivación a nivel secundario de salud con especialidad respectiva"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Implementos o ayudas técnicas<br>• Cirugía<br>• Exámenes",
+        "plazo_sospecha": "• En personas con leucemia, la conﬁrmación diagnóstica y estudio (etapiﬁcación) se realizará dentro de 14 días desde la sospecha.<br>• En personas con linfomas y tumores sólidos, la conﬁrmación  diagnóstica y etapiﬁcación se realizará dentro de 30 días desde la sospecha.",
+        "plazo_confirmacion": "• En personas con leucemia se otorgará quimioterapia dentro de las 24 horas desde la conﬁrmación diagnóstica.<br>• En personas con tumores sólidos y linfomas se otorgará quimioterapia dentro de 24 horas desde la conﬁrmación diagnóstica.<br>• La radioterapia se realizará dentro de 10 días desde la indicación médica.<br>• El tratamiento quirúrgico se realizará dentro de 14 días, desde la indicación médica.<br>• El catéter venoso central para administración de quimioterapia se instalará dentro de 30 días desde la indicación médica.",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/14",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-en-personas-menores-de-15-anos/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 15,
+    "id": "esquizofrenia",
+    "nombre_completo": "Esquizofrenia",
+    "nombre_corto": "Esquizofrenia",
+    "clasificacion": "Salud Mental",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad con sospecha de esquizofrenia que presentan síntomas de la enfermedad a contar del 1 de julio de 2005.",
+    "secciones": {
+      "descripcion": {
+        "contenido": "Trastorno de salud mental que puede afectar la forma de pensar, sentir y percibir la realidad, dificultando el funcionamiento cotidiano y las relaciones con otras personas."
+      },
+      "sintomas": {
+        "items": [
+          "Trastorno de salud mental que puede afectar la forma de pensar, sentir y percibir la realidad, dificultando el funcionamiento cotidiano y las relaciones con otras personas."
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Consulta o control por medico",
+          "Derivación a nivel secundario de salud con especialidad respectiva"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "plazo_sospecha": "Se otorgará atención por médico especialista dentro de 20 días desde la derivación.",
+        "plazo_confirmacion": "• Psicoterapia individual<br>• Intervención comunitaria (20 pac.)<br>• Consulta de salud mental por otros profesionales<br>• Psicodiagnóstico (y evaluación neuropsicológica)<br>• Tiroestimulante (tsh), hormona (adulto, niño o r.n.)<br>• Psicoterapia individual<br>• Visita salud mental por otro profesional",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/15",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/esquizofrenia/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 16,
+    "id": "cancer-testiculo",
+    "nombre_completo": "Cáncer de testículo en personas de 15 años y más",
+    "nombre_corto": "Cancer Testiculo",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años y más con sospecha, diagnóstico o reaparición de cáncer de testiculo.",
+    "secciones": {
+      "descripcion": {
+        "contenido": "Enfermedad en la que células anormales crecen de manera descontrolada en uno o ambos testículos, pudiendo formar un tumor y, en algunos casos, extenderse a otras partes del cuerpo."
+      },
+      "sintomas": {
+        "items": [
+          "Aumento de tamaño o aparición de un bulto en uno de los testículos",
+          "Sensación de peso o molestia en el escroto",
+          "Dolor o sensibilidad en un testículo o en el escroto",
+          "Cambios en el tamaño, forma o consistencia de un testículo",
+          "Acumulación repentina de líquido en el escroto.",
+          "Dolor o molestia en la parte baja del abdomen o la ingle",
+          "Aumento o sensibilidad de las mamas, en algunos casos"
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Consulta o control por medico",
+          "Derivación a nivel secundario de salud con especialidad respectiva"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "plazo_sospecha": "• El diagnóstico se realizará dentro de 30 días desde la sospecha.<br>• La intervención quirúrgica orquiectomía se realizará dentro de 15 días desde la indicación médica.<br>• La etapiﬁcación se realizará dentro de 30 días desde la conﬁrmación diagnóstica.",
+        "plazo_confirmacion": "• Los tratamientos quirúrgicos en cánceres que requieran tratamientos adicionales a la orquiectomía, se realizarán dentro de 45 días desde la indicación médica.<br>• La radioterapia se iniciará dentro de 45 días desde la indicación médica.<br>• Los tratamientos de quimioterapia se iniciarán dentro de 30 días desde la indicación médica.<br>• La terapia de reemplazo hormonal se iniciará dentro de 30 días desde la indicación médica.",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/16",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-testiculo-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 17,
+    "id": "linfomas",
+    "nombre_completo": "Linfomas en personas de 15 años y más",
+    "nombre_corto": "Linfomas",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años y más con sospecha, diagnóstico o reaparición de cáncer por linfoma.",
+    "secciones": {
+      "descripcion": {
+        "contenido": "Cáncer que se origina en el sistema linfático y provoca un crecimiento anormal de ciertos tipos de células, pudiendo afectar los ganglios linfáticos y otros órganos"
+      },
+      "sintomas": {
+        "items": [
+          "Aumento de tamaño de uno o más ganglios, generalmente sin dolor",
+          "Fiebre persistente o recurrente sin causa aparente",
+          "Sudoración excesiva durante la noche.",
+          "Pérdida de peso sin explicación.",
+          "Cansancio o debilidad persistente",
+          "Picazón generalizada en la piel",
+          "Dificultad para respirar o tos persistente, especialmente si hay ganglios aumentados en el tórax",
+          "Dolor o sensación de presión en el abdomen."
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Consulta o control por medico",
+          "Derivación a nivel secundario de salud con especialidad respectiva"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "plazo_sospecha": "• La conﬁrmación diagnóstica se realizará dentro de 35 días desde la sospecha.<br>• La etapiﬁcación se realizará dentro de 30 días desde la conﬁrmación diagnóstica.",
+        "plazo_confirmacion": "• La quimioterapia se realizará dentro de 10 días desde la etapiﬁcación.<br>• La radioterapia se realizará dentro de 25 días desde la indicación médica.",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/17",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/linfomas-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 18,
+    "id": "vih",
+    "nombre_completo": "Síndrome de Inmunodeficiencia Adquirida (VIH/SIDA)",
+    "nombre_corto": "Vih",
+    "clasificacion": "Enfermedades Transmisibles",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas con sospecha diagnóstica o diagnóstico positivo de VIH/ SIDA.",
+    "secciones": {
+      "prestaciones": {
+        "items": [
+          "A) Con sospecha o por solicitud del usuario, tendrá acceso a examen para el diagnóstico de la infección por VIH. B) Las  personas  embarazadas  tendrán  acceso  al  examen para el diagnóstico de la infección por VIH durante el control prenatal. C) Las personas embarazadas en pre parto que se desconozca su  serología  tendrán acceso al examen para el diagnóstico de la infección por VIH. D) Con conﬁrmación diagnóstica o indicación médica, tendrá acceso a exámenes y a los esquemas de tratamiento antirretroviral. E) Persona embarazada VIH (+) o con serología reactiva y su recién nacido, tendrán acceso a protocolo para prevención de transmisión vertical. F) En tratamiento con esquemas antirretrovirales, tendrá  acceso a continuarlo. G) En tratamiento tendrá acceso a seguimiento."
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "plazo_sospecha": "El diagnóstico se realizará dentro de 45 días desde la sospecha o solicitud del usuario.",
+        "plazo_confirmacion": "• La consulta por médico con las competencias necesarias para efectuar la prestación, se realizará dentro de 45 días desde la conﬁrmación diagnóstica.<br>• El tratamiento se iniciará dentro de 7 días desde la indicación médica, según criterios establecidos en la NTMA.<br>• En personas embarazadas VIH (+) o con serología reactiva se iniciará tratamiento antirretroviral dentro de 7 días desde la indicación.<br>• En personas embarazadas VIH (+) o con serología reactiva se iniciará la proﬁlaxis antirretroviral desde el inicio del trabajo de parto vaginal o 4 horas antes de la cesárea programada.<br>• En puérperas VIH (+) conﬁrmadas se iniciará el suministro de medicamentos para la interrupción de la producción de leche materna dentro de las 6 horas siguientes al nacimiento.<br>• En el recién nacido hijo de gestante VIH (+) o con serología reactiva de la gestante se iniciará la proﬁlaxis antirretroviral dentro de las 4 horas siguientes al nacimiento.<br>• En el recién nacido hijo de gestante VIH (+) o con serología reactiva de la gestante se iniciará el suministro de fórmula láctea de inicio inmediatamente después del nacimiento..",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/18",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/sindrome-de-inmunodeficiencia-adquirida-vih-sida/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 19,
+    "id": "infeccion-respiratoria",
+    "nombre_completo": "Infección respiratoria aguda (IRA) de manejo ambulatorio en personas menores de 5 años",
+    "nombre_corto": "Infeccion Respiratoria",
+    "clasificacion": "Salud en Personas Menores de 15 años",
+    "grupo_edad": "Menores de 5 años",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas menores de 5 años de edad con diagnóstico de bronquitis, neumonía u otra infección respiratoria aguda de atención ambulatoria. La atención incluye broncodilatadores, antibióticos y kinesioterapia, si una médica/o lo indica.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/19",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/infeccion-respiratoria-aguda-ira-de-manejo-ambulatorio-en-personas-menores-de-5-anos/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 20,
+    "id": "neumonia",
+    "nombre_completo": "Neumonía adquirida en la comunidad de manejo ambulatorio en personas de 65 años y más",
+    "nombre_corto": "Neumonia",
+    "clasificacion": "Salud del Adulto Mayor de 65 años",
+    "grupo_edad": "65 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 65 años con sospecha de neumonía de atención ambulatoria adquirida en el medio comunitario.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/20",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/neumonia-adquirida-en-la-comunidad-de-manejo-ambulatorio-en-personas-de-65-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 21,
+    "id": "hipertension",
+    "nombre_completo": "Hipertensión arterial primaria o esencial en personas de 15 años y más",
+    "nombre_corto": "Hipertension",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años y más con cifras de presión arterial persistentemente elevadas, mayores o iguales a 140/90 mm Hg.",
+    "secciones": {
+      "descripcion": {
+        "contenido": "La hipertensión arterial es una enfermedad crónica caracterizada por el aumento sostenido de la presión que ejerce la sangre contra las paredes de las arterias. Si no se trata, la hipertensión puede causar otras enfermedades como insuficiencia renal, cardiopatías y accidentes cerebrovasculares"
+      },
+      "sintomas": {
+        "items": [
+          "Dolor de cabeza",
+          "Visión borrosa",
+          "Dolor en el pecho",
+          "Mareos",
+          "Zumbido en los oídos",
+          "Dificultad para respirar"
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Toma de presión arterial para diagnóstico y seguimiento.\nSeguimiento regular de los niveles de presión arterial. Ajuste de medicamentos según sea necesario.\nEducación sobre estilos de vida saludables, reducción de sodio, actividad física y manejo del estrés.\nConsulta con nutricionista para establecer planes de alimentación que ayuden a controlar la presión arterial.\nSi es necesario, se prescriben antihipertensivos según el protocolo clínico establecido."
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "Para diagnóstico: Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs u hora para EMPA (Examen Médico Preventivo del Adulto) en el SOME de su sector. Una vez diagnosticado, acceda al Programa de Salud Cardiovascular para control y seguimiento en el SOME de su sector."
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "plazo_sospecha": "La conﬁrmación diagnóstica se realizará dentro de 45 días desde la sospecha",
+        "plazo_confirmacion": "Se iniciará dentro de las 24 horas desde la conﬁrmación diagnóstica",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/21",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hipertension-arterial-primaria-o-esencial-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 22,
+    "id": "epilepsia-menores",
+    "nombre_completo": "Epilepsia no refractaria en personas desde  año y menores de  años",
+    "nombre_corto": "Epilepsia Menores",
+    "clasificacion": "Salud en Personas Menores de 15 años",
+    "grupo_edad": "Desde 1 año y menores de 15 años",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 1 a 15 años de edad que presenten epilepsia no refractaria (la que se caracteriza por tener buena respuesta al tratamiento). Si hay sospecha tendrá acceso a evaluación durante 180 días para confirmación del diagnóstico.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/22",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/epilepsia-no-refractaria-en-personas-desde-1-ano-y-menores-de-15-anos/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 23,
+    "id": "salud-oral-6-anos",
+    "nombre_completo": "Salud oral integral para niños y niñas de 6 años",
+    "nombre_corto": "Salud Oral Años",
+    "clasificacion": "Salud Bucal",
+    "grupo_edad": "6 años",
+    "en_cesfam": true,
+    "descripcion_breve": "Niñas y niños de 6 años. El acceso al primer control debe realizarse mientras la persona beneficiaria tenga 6 años y el alta se otorga una vez que salen los 4 primeros molares definitivos.",
+    "secciones": {
+      "descripcion": {
+        "contenido": "La salud oral integral consiste en una atención odontológica de nivel básico o primario, dirigida a educar, prevenir y tratar precozmente a los niños y niñas de 6 años para mantener una buena salud bucal. A los 6 años se inicia la dentición mixta, siendo necesario un diagnóstico oportuno que permita la conservación de los dientes temporales hasta su exfoliación natural y la aplicación de medidas de prevención especíﬁcas en dientes deﬁnitivos recién erupcionados, o la pesquisa precoz de patologías para su recuperación y además entrega de información apropiada para el cuidado de su salud bucal."
+      },
+      "sintomas": {
+        "items": [
+          "Caries dental",
+          "Enfermedades gingivales",
+          "Enfermedades pulpares y periapicales",
+          "Defectos del desarrollo del esmalte."
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Diagnóstico y tratamiento preventivo salud oral"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "Niñas y niños de 6 años. El acceso al primer control debe realizarse mientras la persona beneficiaria tenga 6 años y el alta se otorga una vez que salen los 4 primeros molares definitivos. Para esto debe solicitar una hora de atención odontológica en el SOME de su sector."
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Insumos<br>• Exámenes",
+        "plazo_sospecha": "A los 6 años se inicia la dentición mixta, siendo necesario un diagnóstico oportuno que permita la conservación de los dientes temporales hasta su exfoliación natural y la aplicación de medidas de prevención especíﬁcas en dientes deﬁnitivos recién erupcionados",
+        "plazo_confirmacion": "Se iniciará dentro de 90 días desde la solicitud de atención.",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/23",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/salud-oral-integral-para-ninos-y-ninas-de-6-anos/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 24,
+    "id": "prevencion-parto-prematuro",
+    "nombre_completo": "Prevención del parto prematuro",
+    "nombre_corto": "Prevencion Parto Prematuro",
+    "clasificacion": "Parto, Prematurez y Enfermedades del Recién Nacido",
+    "grupo_edad": "Prematuro hasta las 34 semanas y 6 días de gestación.",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas gestantes que presenten factores de riesgo o síntomas de parto prematuro hasta las 34 semanas y 6 días de gestación.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Insumos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/24",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/prevencion-del-parto-prematuro/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 25,
+    "id": "marcapaso",
+    "nombre_completo": "Trastornos de generación de impulsos y conducción en personas de  años y más, que requieren marcapaso",
+    "nombre_corto": "Marcapaso",
+    "clasificacion": "Enfermedades del Corazón y Cerebro",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años y más que requieren marcapaso por problemas de generación y conducción del impulso cardíaco (ritmo cardíaco)",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Insumos<br>• Cirugía<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/25",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/trastornos-de-generacion-de-impulsos-y-conduccion-en-personas-de-15-anos-y-mas-que-requieren-marcapaso/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 26,
+    "id": "colecistectomia-preventiva",
+    "nombre_completo": "Colecistectomía preventiva del cáncer de vesícula en personas de 35 a 49 años",
+    "nombre_corto": "Colecistectomia Preventiva",
+    "clasificacion": "Intervenciones Quirúrgicas",
+    "grupo_edad": "De 35 a 49 años",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 35 a 49 años que presenten cálculos a la vesícula y vías biliares.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/26",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/colecistectomia-preventiva-del-cancer-de-vesicula-en-personas-de-35-a-49-anos/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 27,
+    "id": "cancer-gastrico",
+    "nombre_completo": "Cáncer gástrico",
+    "nombre_corto": "Cancer Gastrico",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad con sospecha o confirmación diagnóstica de cáncer gástrico.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/27",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-gastrico/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 28,
+    "id": "cancer-prostata",
+    "nombre_completo": "Cáncer de próstata en personas de 15 años y más",
+    "nombre_corto": "Cancer Prostata",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de 15 años y más con diagnóstico o reaparición de cáncer de próstata.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/28",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-prostata-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 29,
+    "id": "vicios-refraccion",
+    "nombre_completo": "Vicios de refracción en personas de 65 años y más",
+    "nombre_corto": "Vicios Refraccion",
+    "clasificacion": "Enfermedades de la Visión",
+    "grupo_edad": "65 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 65 años y más que presenten presbicia, miopía, astigmatismo o hipermetropía.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "Implementos o Ayudas técnicas",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/29",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/vicios-de-refraccion-en-personas-de-65-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 30,
+    "id": "estrabismo",
+    "nombre_completo": "Estrabismo en personas menores de 9 años",
+    "nombre_corto": "Estrabismo",
+    "clasificacion": "Salud en Personas Menores de 15 años",
+    "grupo_edad": "Menores de 9 años",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas menores de 9 años que presenten estrabismo (problema de salud en el que los dos ojos no miran al mismo lugar).",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Implementos o ayudas técnicas<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/30",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/estrabismo-en-personas-menores-de-9-anos/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 31,
+    "id": "retinopatia-diabetica",
+    "nombre_completo": "Retinopatía diabética",
+    "nombre_corto": "Retinopatia Diabetica",
+    "clasificacion": "Enfermedades de la Visión",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad que padecen diabetes tipo 1 ó 2 y presentan daño en la retina.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Insumos<br>• Cirugía<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/31",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/retinopatia-diabetica/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 32,
+    "id": "desprendimiento-retina",
+    "nombre_completo": "Desprendimiento de retina regmatógeno no traumático",
+    "nombre_corto": "Desprendimiento Retina",
+    "clasificacion": "Enfermedades de la Visión",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad con sospecha y diagnóstico de desprendimiento de retina no traumático.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Insumos<br>• Cirugía<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/32",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/desprendimiento-de-retina-regmatogeno-no-traumatico/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 33,
+    "id": "hemofilia",
+    "nombre_completo": "Hemofilia",
+    "nombre_corto": "Hemofilia",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad que presenten síntomas de hemofilia (enfermedad que se caracteriza por sangrado excesivo y problemas de coagulación).",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/33",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hemofilia/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 34,
+    "id": "depresion",
+    "nombre_completo": "Depresión en personas de 15 años y más",
+    "nombre_corto": "Depresion",
+    "clasificacion": "Salud Mental",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años y más con diagnóstico confirmado de depresión leve, moderada o severa.",
+    "secciones": {
+      "descripcion": {
+        "contenido": "Trastorno del estado de ánimo que puede provocar tristeza persistente, pérdida de interés o disfrute, falta de energía y cansancio, afectando la vida cotidiana. Puede presentarse en cualquier etapa del curso de vida."
+      },
+      "sintomas": {
+        "items": [
+          "Tristeza, desánimo o sensación de vacío persistente",
+          "Pérdida de interés o disfrute por actividades que antes resultaban agradables",
+          "Falta de energía, cansancio o sensación de agotamiento",
+          "Dificultad para concentrarse, pensar o tomar decisiones",
+          "Alteraciones del sueño, como insomnio o dormir más de lo habitual",
+          "Cambios en el apetito o en el peso",
+          "Sentimientos de culpa, inutilidad o desesperanza",
+          "Irritabilidad o cambios de ánimo",
+          "Disminución de la motivación y dificultad para realizar las actividades habituales",
+          "Pensamientos relacionados con la muerte o deseos de no seguir viviendo"
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Consulta o control médico\nConsulta o control por psicologo clinico\nConsulta de salud mental por otros profesionales\nVisita integral de salud mental\nConsultoria de salud mental\nIntervencion psicosocial grupal"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "Personas de 15 años y más con diagnóstico confirmado de depresión leve, moderada o severa. Para comenzar a recibir atención debe solcitar una hora de Ingreso Programa de Salud Mental en el SOME respectivo de su sector."
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "plazo_sospecha": "Cualquier profesional de la salud podrá levantar sospechas de depresión en personas mayores de 15 años con síntomas por más de 2 semanas. El diagnóstico deberá ser confirmado (o descartado) por un/a medico del CESFAM.",
+        "plazo_confirmacion": "Se garantiza el inicio del tratamiento desde la conﬁrmación diagnóstica",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/34",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/depresion-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 35,
+    "id": "hiperplasia-prostata",
+    "nombre_completo": "Tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas",
+    "nombre_corto": "Hiperplasia Prostata",
+    "clasificacion": "Intervenciones Quirúrgicas",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de cualquier edad con diagnóstico confirmado de hiperplasia benigna de próstata, que tengan algún criterio de inclusión indicado.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/35",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-de-la-hiperplasia-benigna-de-la-prostata-en-personas-sintomaticas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 36,
+    "id": "ayudas-tecnicas",
+    "nombre_completo": "Ayudas técnicas para personas de  años y más",
+    "nombre_corto": "Ayudas Tecnicas",
+    "clasificacion": "Salud del Adulto Mayor de 65 años",
+    "grupo_edad": "65 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 65 años y más con un problema de salud que produzca limitaciones y requieran de ayudas técnicas.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "Implementos o Ayudas técnicas",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/36",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/ayudas-tecnicas-para-personas-de-65-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 37,
+    "id": "ataque-cerebrovascular",
+    "nombre_completo": "Ataque Cerebrovascular Isquémico en personas de  años y más",
+    "nombre_corto": "Ataque Cerebrovascular",
+    "clasificacion": "Enfermedades del Corazón y Cerebro",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de 15 años y más con sospecha o confirmación diagnóstica de ataque cerebrovascular isquémico.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Implementos o ayudas técnicas<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/37",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/ataque-cerebrovascular-isquemico-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 38,
+    "id": "epoc",
+    "nombre_completo": "Enfermedad Pulmonar Obstructiva Crónica de tratamiento ambulatorio",
+    "nombre_corto": "Epoc",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad con síntomas de enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio.",
+    "secciones": {
+      "descripcion": {
+        "contenido": "Enfermedad respiratoria crónica que dificulta el paso del aire hacia y desde los pulmones, provocando dificultad para respirar y limitando progresivamente las actividades cotidianas. Se relaciona principalmente con el tabaquismo y la exposición prolongada a humo, contaminación u otras sustancias irritantes."
+      },
+      "sintomas": {
+        "items": [
+          "Tos persistente, con o sin flema",
+          "Dificultad para respirar, especialmente al realizar actividad física",
+          "Sensación de falta de aire o “ahogo”",
+          "Silbidos o ruidos al respirar",
+          "Cansancio o menor tolerancia al esfuerzo",
+          "Infecciones respiratorias frecuentes",
+          "Sensación de opresión en el pecho."
+        ]
+      },
+      "prestaciones": {
+        "items": [
+          "Consulta o control medico integral en atencion primaria\nAtencion kinesiologica integral ambulatoria"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "El ingreso a atenciones de salud por el diagnóstico de EPOC debe ser dentro de los 30 días desde presentada la sospecha de la enfermedad. Las horas de Ingreso y Control de medico y kinesiólogo deben ser solicitadas en el SOME correspondiente a su sector."
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Exámenes",
+        "plazo_sospecha": "La conﬁrmación diagnóstica se realizará dentro de 30 días desde la sospecha",
+        "plazo_confirmacion": "Se iniciará desde la conﬁrmación diagnóstica según indicación médica.",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/38",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/enfermedad-pulmonar-obstructiva-cronica-de-tratamiento-ambulatorio/"
+      }
+    },
+    "_completo": true
+  },
+  {
+    "ges_numero": 39,
+    "id": "asma-menores",
+    "nombre_completo": "Asma bronquial moderada y grave en personas menores de 15 años",
+    "nombre_corto": "Asma Menores",
+    "clasificacion": "Salud en Personas Menores de 15 años",
+    "grupo_edad": "Menores de 15 años",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas menores de 15 años con síntomas de asma bronquial moderada y severa.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/39",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/asma-bronquial-moderada-y-grave-en-personas-menores-de-15-anos/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 40,
+    "id": "sindrome-dificultad-respiratoria",
+    "nombre_completo": "Síndrome de Dificultad Respiratoria en el recién nacido/a",
+    "nombre_corto": "Sindrome Dificultad Respiratoria",
+    "clasificacion": "Parto, Prematurez y Enfermedades del Recién Nacido",
+    "grupo_edad": "Recién nacidos/as",
+    "en_cesfam": false,
+    "descripcion_breve": "Recién nacidos/as con sospecha o confirmación diagnóstica de síndrome de dificultad respiratoria.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/40",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/sindrome-de-dificultad-respiratoria-en-el-recien-nacido-a/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 41,
+    "id": "artrosis-tratamiento-medico",
+    "nombre_completo": "Tratamiento Médico en personas de  años y más con artrosis de cadera y/o rodilla, leve o moderada",
+    "nombre_corto": "Artrosis Tratamiento Medico",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "55 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 55 años y más con diagnóstico confirmado de artrosis de cadera y/o artrosis de rodilla, leve o moderada, que requiere tratamiento médico.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "Medicamentos",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/41",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-medico-en-personas-de-55-anos-y-mas-con-artrosis-de-cadera-y-o-rodilla-leve-o-moderada/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 42,
+    "id": "hemorragia-subaracnoidea",
+    "nombre_completo": "Hemorragia Subaracnoidea secundaria a ruptura de Aneurismas cerebrales",
+    "nombre_corto": "Hemorragia Subaracnoidea",
+    "clasificacion": "Enfermedades del Corazón y Cerebro",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de cualquier edad con sospecha de hemorragia cerebral, provocada por la ruptura de un aneurisma.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Implementos o ayudas técnicas<br>• Cirugía<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/42",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hemorragia-subaracnoidea-secundaria-a-ruptura-de-aneurismas-cerebrales/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 43,
+    "id": "tumores-primarios-snc",
+    "nombre_completo": "Tumores Primarios del Sistema Nervioso Central en personas de  años o más",
+    "nombre_corto": "Tumores Primarios Snc",
+    "clasificacion": "Enfermedades del Corazón y Cerebro",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años y más con tumores primarios del sistema nervioso central, que requieren tratamiento quirúrgico, y/o tratamiento con radioterapia, y/o quimioterapia complementaria.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/43",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tumores-primarios-del-sistema-nervioso-central-en-personas-de-15-anos-o-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 44,
+    "id": "tratamiento-quirurgico-hernia",
+    "nombre_completo": "Tratamiento Quirúrgico de Hernia del Núcleo Pulposo Lumbar",
+    "nombre_corto": "Tratamiento Quirurgico Hernia",
+    "clasificacion": "Intervenciones Quirúrgicas",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de cualquier edad con diagnóstico de hernia del núcleo pulposo lumbar, que requieran operación.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/44",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-hernia-del-nucleo-pulposo-lumbar/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 45,
+    "id": "leucemia",
+    "nombre_completo": "Leucemia en personas de  años y más",
+    "nombre_corto": "Leucemia",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años y más con sospecha, diagnóstico o reaparición de leucemia aguda o crónica.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/45",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/leucemia-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 46,
+    "id": "urgencia-odontologica",
+    "nombre_completo": "Urgencia Odontológica Ambulatoria",
+    "nombre_corto": "Urgencia Odontologica",
+    "clasificacion": "Salud Bucal",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad que presenten abscesos, cuadros infecciosos repentinos o traumatismos odontológicos que requieren atención de urgencia.",
+    "secciones": {
+      "sintomas": {
+        "items": [
+          "Dolor dental intenso o que aparece de manera repentina",
+          "Hinchazón de la cara, encías o alrededor de un diente",
+          "Dolor o dificultad para abrir la boca",
+          "Fiebre asociada a dolor o infección dental",
+          "Sangrado abundante o que no se detiene",
+          "Traumatismo que afecta dientes, encías o la boca",
+          "Fractura, desplazamiento o pérdida de un diente producto de un golpe",
+          "Presencia de pus o secreción alrededor de un diente o encía",
+          "Dificultad para tragar o respirar asociada a una infección o hinchazón de la boca"
+        ]
+      },
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Insumos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/46",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/urgencia-odontologica-ambulatoria/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 47,
+    "id": "salud-oral-60-anos",
+    "nombre_completo": "Salud Oral Integral de personas de 60 años",
+    "nombre_corto": "Salud Oral Años",
+    "clasificacion": "Salud Bucal",
+    "grupo_edad": "60 años",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 60 años. La solicitud de atención odontológica debe realizarse mientras la persona beneficiaria tenga 60 años y el alta se otorga una vez que se ha completado la promoción, prevención, recuperación y rehabilitación que requiera la usaria/o.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "acceso": {
+        "contenido": "Desde la solicitud de atención realizada por la persona beneficiaria o su representante ante su establecimiento de salud"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/47",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/salud-oral-integral-de-personas-de-60-anos/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 48,
+    "id": "politraumatizado",
+    "nombre_completo": "Politraumatizado Grave",
+    "nombre_corto": "Politraumatizado",
+    "clasificacion": "Accidentes Graves",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de cualquier edad con lesiones de origen traumático que afecten al menos dos de sus sistemas (nervioso, respiratorio, circulatorio, muscoloesquelético, digestivo o urinario), de los cuales al menos una de ellos pueda comprometer la vida.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/48",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/politraumatizado-grave/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 49,
+    "id": "traumatismo-craneoencefalico",
+    "nombre_completo": "Traumatismo Cráneo Encefálico moderado o grave",
+    "nombre_corto": "Traumatismo Craneoencefalico",
+    "clasificacion": "Accidentes Graves",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de cualquier edad con sospecha de traumatismo cráneo encefálico moderado o grave.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Implementos o ayudas técnicas<br>• Cirugía<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/49",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/traumatismo-craneo-encefalico-moderado-o-grave/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 50,
+    "id": "trauma-ocular",
+    "nombre_completo": "Trauma Ocular Grave",
+    "nombre_corto": "Trauma Ocular",
+    "clasificacion": "Accidentes Graves",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad afectadas por un golpe o por la penetración de un objeto que provoque un trauma ocular grave en uno o ambos ojos.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/50",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/trauma-ocular-grave/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 51,
+    "id": "fibrosis-quistica",
+    "nombre_completo": "Fibrosis Quística",
+    "nombre_corto": "Fibrosis Quistica",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de cualquier edad con confirmación diagnóstica de fibrosis quística.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Implementos o ayudas técnicas<br>• Cirugía<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/51",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/fibrosis-quistica/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 52,
+    "id": "artritis-reumatoidea",
+    "nombre_completo": "Artritis Reumatoídea",
+    "nombre_corto": "Artritis Reumatoidea",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años y más con diagnóstico de artritis reumatoidea.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Implementos o ayudas técnicas<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/52",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/artritis-reumatoidea/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 53,
+    "id": "consumo-riesgo",
+    "nombre_completo": "Consumo perjudicial o dependencia de riesgo bajo a moderado de alcohol y drogas en personas menores de 20 años",
+    "nombre_corto": "Consumo Riesgo",
+    "clasificacion": "Salud Mental",
+    "grupo_edad": "Menores de 20 años",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas menores de 20 años de edad con confirmación diagnóstica de consumo perjudicial o dependencia de riesgo bajo a moderado de alcohol y drogas.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/53",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/consumo-perjudicial-o-dependencia-de-riesgo-bajo-a-moderado-de-alcohol-y-drogas-en-personas-menores-de-20-anos/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 54,
+    "id": "analgesia-parto",
+    "nombre_completo": "Analgesia del parto",
+    "nombre_corto": "Analgesia Parto",
+    "clasificacion": "Parto, Prematurez y Enfermedades del Recién Nacido",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": false,
+    "descripcion_breve": "Toda persona gestante que se encuentre en trabajo de parto, parto o alumbramiento, y toda persona gestante que curse una pérdida reproductiva, independiente de la edad gestacional, que solicite o tenga indicación clínica a técnicas de alivio del dolor farmacológica y no farmacológica.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "Medicamentos",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/54",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/analgesia-del-parto/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 55,
+    "id": "gran-quemado",
+    "nombre_completo": "Gran Quemado",
+    "nombre_corto": "Gran Quemado",
+    "clasificacion": "Accidentes Graves",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de cualquier edad que presenten quemaduras que pueden comprometer su vida o provocar secuelas graves y permanentes.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Insumos<br>• Implementos o ayudas técnicas<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/55",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/gran-quemado/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 56,
+    "id": "hipoacusia-mayores",
+    "nombre_completo": "Hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono",
+    "nombre_corto": "Hipoacusia Mayores",
+    "clasificacion": "Salud del Adulto Mayor de 65 años",
+    "grupo_edad": "65 años o más",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de 65 años y más que sufran de problemas auditivos en ambos oídos y que requieran uso de audífono, según indicación médica.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Implementos o ayudas técnicas<br>• Cirugía<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/56",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hipoacusia-bilateral-en-personas-de-65-anos-y-mas-que-requieren-uso-de-audifono/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 57,
+    "id": "retinopatia-prematuro",
+    "nombre_completo": "Retinopatía del prematuro",
+    "nombre_corto": "Retinopatia Prematuro",
+    "clasificacion": "Parto, Prematurez y Enfermedades del Recién Nacido",
+    "grupo_edad": "Recién nacidos/as",
+    "en_cesfam": false,
+    "descripcion_breve": "Recién nacidos prematuros de menos de 1.500 gramos de peso o menores de 32 semanas de gestación al nacer, con sospecha o diagnóstico de retinopatía.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Insumos<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/57",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/retinopatia-del-prematuro/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 58,
+    "id": "displasia-broncopulmonar",
+    "nombre_completo": "Displasia broncopulmonar del prematuro/a",
+    "nombre_corto": "Displasia Broncopulmonar",
+    "clasificacion": "Parto, Prematurez y Enfermedades del Recién Nacido",
+    "grupo_edad": "Recién nacidos/as",
+    "en_cesfam": false,
+    "descripcion_breve": "Recién nacidas/os prematuros de menos de 1.500 gramos de peso o menores de 32 semanas de gestación al nacer, con diagnóstico confirmado de displasia broncopulmonar.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/58",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/displasia-broncopulmonar-del-prematuro-a/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 59,
+    "id": "hipoacusia-prematuro",
+    "nombre_completo": "Hipoacusia neurosensorial bilateral del prematuro/a",
+    "nombre_corto": "Hipoacusia Prematuro",
+    "clasificacion": "Parto, Prematurez y Enfermedades del Recién Nacido",
+    "grupo_edad": "Recién nacidos/as",
+    "en_cesfam": false,
+    "descripcion_breve": "Recién nacidas/os prematuros de menos de 1.500 gramos de peso o menores de 32 semanas de gestación al nacer, con sospecha o diagnóstico de sordera.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Implementos o ayudas técnicas<br>• Cirugía<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/59",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hipoacusia-neurosensorial-bilateral-del-prematuro-a/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 60,
+    "id": "epilepsia-mayores",
+    "nombre_completo": "Epilepsia no refractaria en personas de 15 años y más",
+    "nombre_corto": "Epilepsia Mayores",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años y más que presenten epilepsia no refractaria (la que se caracteriza por tener buena respuesta al tratamiento).",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/60",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/epilepsia-no-refractaria-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 61,
+    "id": "asma-mayores",
+    "nombre_completo": "Asma bronquial en personas de 15 años y más",
+    "nombre_corto": "Asma Mayores",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años y más con sospecha o confirmación diagnóstica de asma bronquial.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/61",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/asma-bronquial-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 62,
+    "id": "parkinson",
+    "nombre_completo": "Enfermedad de Parkinson",
+    "nombre_corto": "Parkinson",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad que presenten esta enfermedad crónica y progresiva, causando perdida paulatina de la capacidad física y mental, hasta llegar a la discapacidad total.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Implementos o ayudas técnicas",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/62",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/enfermedad-de-parkinson/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 63,
+    "id": "artritis-idiopatica",
+    "nombre_completo": "Artritis idiopática juvenil",
+    "nombre_corto": "Artritis Idiopatica",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "Menores de 17 años",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas menores de 17 años, que presenten síntomas inflamatorios crónicos, de origen desconocido en 1 o más articulaciones, con una duración de más de 6 semanas, los cuales se mantendrán por largos períodos o a lo largo de toda la vida.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/63",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/artritis-idiopatica-juvenil/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 64,
+    "id": "prevencion-renal",
+    "nombre_completo": "Prevención secundaria enfermedad renal crónica terminal",
+    "nombre_corto": "Prevencion Renal",
+    "clasificacion": "Tratamiento Preventivo",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años y más que presenten diagnóstico de enfermedad renal crónica y cumplan con los criterios de inclusión, para prevención o postergación del avance de la enfermedad a una etapa terminal.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/64",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/prevencion-secundaria-enfermedad-renal-cronica-terminal/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 65,
+    "id": "displasia-caderas",
+    "nombre_completo": "Displasia luxante de caderas",
+    "nombre_corto": "Displasia Caderas",
+    "clasificacion": "Salud en Personas Menores de 15 años",
+    "grupo_edad": "Al 3er mes de vida",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas al tercer mes de vida: Acceso a radiografía de caderas. Personas menores de 3 meses con factores de riesgo o examen físico alterado: acceso a ecotomografía de caderas o evaluación por especialista. Personas menores de 1 año: Con sospecha por radiografía de cadera o ecotomografía alterada: acceso a confirmación diagnostica por especialista.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "Implementos o Ayudas técnicas",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/65",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/displasia-luxante-de-caderas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 66,
+    "id": "salud-oral-gestante",
+    "nombre_completo": "Salud oral integral de la persona gestante",
+    "nombre_corto": "Salud Oral Gestante",
+    "clasificacion": "Salud Bucal",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Toda persona gestante de cualquier edad que requieren atención odontológica, dirigida a educar, prevenir, recuperar y rehabilitar la salud bucal de la persona gestante.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/66",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/salud-oral-integral-de-la-persona-gestante/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 67,
+    "id": "esclerosis-multiple",
+    "nombre_completo": "Esclerosis múltiple remitente recurrente",
+    "nombre_corto": "Esclerosis Multiple",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad que presenten esta enfermedad inflamatoria autoinmune, que se caracteriza por síntomas persistentes y progresivos como: fátiga, dolor, temblor, problemas visuales, entre otros, y que cumpla criterios de inclusión indicados.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Implementos o ayudas técnicas<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/67",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/esclerosis-multiple-remitente-recurrente/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 68,
+    "id": "hepatitis-b",
+    "nombre_completo": "Hepatitis crónica por Virus Hepatitis B",
+    "nombre_corto": "Hepatitis B",
+    "clasificacion": "Enfermedades Transmisibles",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de cualquier edad con diagnóstico de enfermedad hepática crónica causada por el virus hepatitis B.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "url_minsal": "https://www.superdesalud.gob.cl/orientacion-en-salud/hepatitis-cronica-por-virus-hepatitis-b/",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hepatitis-cronica-por-virus-hepatitis-b/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 69,
+    "id": "hepatitis-c",
+    "nombre_completo": "Hepatitis crónica por Virus Hepatitis C",
+    "nombre_corto": "Hepatitis C",
+    "clasificacion": "Enfermedades Transmisibles",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad con sospecha y confirmación de enfermedad crónica viral, que provoca inflamación del hígado y en ciertas ocasiones puede ocasionar un daño hepático grave.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/69",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hepatitis-cronica-por-virus-hepatitis-c/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 70,
+    "id": "cancer-colorectal",
+    "nombre_completo": "Cáncer Colorectal en personas de 15 años y más",
+    "nombre_corto": "Cancer Colorectal",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años y más con sospecha y diagnóstico de tumor maligno alojado dentro de las paredes del intestino grueso.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Implementos o ayudas técnicas<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/70",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-colorectal-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 71,
+    "id": "cancer-ovario",
+    "nombre_completo": "Cáncer de Ovario Epitelial",
+    "nombre_corto": "Cancer Ovario",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad con sospecha y diagnóstico de tumor maligno de ovario o de la Trompa de Falopio.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/71",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-ovario-epitelial/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 72,
+    "id": "cancer-vesical",
+    "nombre_completo": "Cáncer Vesical en personas de 15 años y más",
+    "nombre_corto": "Cancer Vesical",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de 15 años y más con diagnóstico de tumor maligno cuyo origen está en la vejiga.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/72",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-vesical-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 73,
+    "id": "osteosarcoma",
+    "nombre_completo": "Osteosarcoma en personas de 15 años y más",
+    "nombre_corto": "Osteosarcoma",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años y más con sospecha y diagnóstico de tumor maligno que comienza en las células que forman los huesos.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Implementos o ayudas técnicas<br>• Cirugía<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/73",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/osteosarcoma-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 74,
+    "id": "tratamiento-valvula-aortica",
+    "nombre_completo": "Tratamiento Quirúrgico de lesiones crónicas de la válvula aórtica en personas de 15 años y más",
+    "nombre_corto": "Tratamiento Valvula Aortica",
+    "clasificacion": "Enfermedades del Corazón y Cerebro",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de 15 años y más con alteración crónica de la válvula aórtica del corazón que requiere cirugía. Se manifiesta por una disminución de la apertura (estenosis), cierre insuficiente (insuficiencia) o ambas.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/74",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-lesiones-cronicas-de-la-valvula-aortica-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 75,
+    "id": "trastorno-bipolar",
+    "nombre_completo": "Trastorno Bipolar en personas de 15 años y más",
+    "nombre_corto": "Trastorno Bipolar",
+    "clasificacion": "Salud Mental",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de 15 años y más con confirmación diagnóstica de alteración del estado de ánimo, pasando por períodos de exaltación y baja de ánimo de manera rápida.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/75",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/trastorno-bipolar-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 76,
+    "id": "hipotiroidismo",
+    "nombre_completo": "Hipotiroidismo en personas de 15 años y más",
+    "nombre_corto": "Hipotiroidismo",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años y más con confirmación de hipotiroidismo que se debe a la alteración de la tiroides, lo que produce una disminución de hormonas tiroideas.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/76",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hipotiroidismo-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 77,
+    "id": "hipoacusia-menores",
+    "nombre_completo": "Hipoacusia moderada, severa y profunda en personas menores de 4 años",
+    "nombre_corto": "Hipoacusia Menores",
+    "clasificacion": "Salud en Personas Menores de 15 años",
+    "grupo_edad": "Menores de 4 años",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas con sospecha y diagnóstico de hipoacusia moderada severa y profunda, la cual se caracteriza por la disminución auditiva a consecuencia de daño en el oído interno.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Implementos o ayudas técnicas<br>• Cirugía<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/77",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/hipoacusia-moderada-severa-y-profunda-en-personas-menores-de-4-anos/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 78,
+    "id": "lupus",
+    "nombre_completo": "Lupus Eritematoso Sistémico",
+    "nombre_corto": "Lupus",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": false,
+    "descripcion_breve": "Persona de cualquier edad con confirmación de la enfermedad crónica, donde el sistema inmunitario ataca células y tejidos sanos por error.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/78",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/lupus-eritematoso-sistemico/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 79,
+    "id": "tratamiento-valvulas",
+    "nombre_completo": "Tratamiento Quirúrgico de lesiones crónicas de las válvulas mitral y tricúspide en personas de 15 años y más",
+    "nombre_corto": "Tratamiento Valvulas",
+    "clasificacion": "Enfermedades del Corazón y Cerebro",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de 15 años y más con alteración crónica de las válvulas mitral o tricuspide del corazón que requiere cirugía. Se manifiesta por una disminución de la apertura (estenosis) o cierre insuficiente (insuficiencia) de alguna de las válvulas.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/79",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-lesiones-cronicas-de-las-valvulas-mitral-y-tricuspide-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 80,
+    "id": "helicobacter-pylori",
+    "nombre_completo": "Tratamiento de erradicación del Helicobacter Pylori",
+    "nombre_corto": "Helicobacter Pylori",
+    "clasificacion": "Enfermedades Transmisibles",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad que presenten infección por helicobacter pylori, donde la bacteria se aloja a nivel de estómago, produciendo gastritis e incluso úlceras.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/80",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-de-erradicacion-del-helicobacter-pylori/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 81,
+    "id": "cancer-pulmon",
+    "nombre_completo": "Cáncer de pulmón en personas de 15 años y más",
+    "nombre_corto": "Cancer Pulmon",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de 15 años y más con sospecha, diagnóstico o reaparición de cáncer de pulmón.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/81",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-pulmon-en-personas-de-15-anos-y-mas-2/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 82,
+    "id": "cancer-tiroides",
+    "nombre_completo": "Cáncer de Tiroides en personas de 15 años y más",
+    "nombre_corto": "Cancer Tiroides",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de 15 años y más con diagnóstico o reaparición de cáncer de tiroides.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/82",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-tiroides-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 83,
+    "id": "cancer-renal",
+    "nombre_completo": "Cáncer Renal en personas de 15 años y más",
+    "nombre_corto": "Cancer Renal",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de 15 años y más con diagnóstico o reaparición de cáncer renal.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/83",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-renal-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 84,
+    "id": "mieloma",
+    "nombre_completo": "Mieloma Múltiple en personas de 15 años y más",
+    "nombre_corto": "Mieloma",
+    "clasificacion": "Tratamiento de Cánceres",
+    "grupo_edad": "15 años o más",
+    "en_cesfam": false,
+    "descripcion_breve": "Personas de 15 años y más con diagnóstico o reaparición de mieloma múltiple.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "La/el usuario recibirá las atenciones que incluye esta garantía en el nivel hospitalario de salud, para lo cual deberá ser derivado desde un CESFAM por un/a medico a través de una interconsulta  durante una atención en box."
+        ]
+      },
+      "acceso": {
+        "contenido": "Solicite una hora de Medicina General en el SOME del CESFAM, de lunes a viernes desde las 7:30 hrs"
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Insumos<br>• Cirugía<br>• Exámenes",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/84",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/mieloma-multiple-en-personas-de-15-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 85,
+    "id": "enfermedad-alzheimer",
+    "nombre_completo": "Enfermedad de Alzheimer y otras demencias",
+    "nombre_corto": "Enfermedad Alzheimer",
+    "clasificacion": "Salud Mental",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Personas de cualquier edad con sospecha.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/85",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/enfermedad-de-alzheimer-y-otras-demencias-2/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 86,
+    "id": "agresion-sexual-aguda",
+    "nombre_completo": "Atención integral de salud en agresión sexual aguda",
+    "nombre_corto": "Agresion Sexual Aguda",
+    "clasificacion": "Violencia y Agresión",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Toda persona que haya sufrido una agresión sexual reciente (hasta 72 horas de ocurrido) que involucra contacto directo de genitales, pudiendo presentar daños físicos y/o psicológicos que requieran atención.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/86",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/atencion-integral-de-salud-en-agresion-sexual-aguda/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 87,
+    "id": "rehabilitacion-sars",
+    "nombre_completo": "Rehabilitación SARS COV-",
+    "nombre_corto": "Rehabilitacion Sars",
+    "clasificacion": "Tratamiento Preventivo",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Toda persona diagnósticada con el virus respiratorio SARS COV-2 o COVID-19, que haya desarrollado complicaciones producto de esta infección y que requiera atención de rehabilitación.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Insumos<br>• Implementos o ayudas técnicas",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/87",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/rehabilitacion-sars-cov-2/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 88,
+    "id": "cirrosis-hepatica",
+    "nombre_completo": "Tratamiento farmacológico tras alta hospitalaria por cirrosis hepática",
+    "nombre_corto": "Cirrosis Hepatica",
+    "clasificacion": "Enfermedades Crónicas",
+    "grupo_edad": "Cualquier edad",
+    "en_cesfam": true,
+    "descripcion_breve": "Toda persona con diagnóstico de cirrosis o cirrosis hepática que, tras el alta hospitalaria por dicho problema de salud, requiera tratamiento.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Consultas",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/88",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-farmacologico-tras-alta-hospitalaria-por-cirrosis-hepatica/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 89,
+    "id": "hospitalizacion-riesgo-suicida",
+    "nombre_completo": "Tratamiento hospitalario para personas menores de  años con depresión grave refractaria o psicótica con riesgo suicida",
+    "nombre_corto": "Hospitalizacion Riesgo Suicida",
+    "clasificacion": "Salud en Personas Menores de 15 años",
+    "grupo_edad": "Menores de 15 años",
+    "en_cesfam": true,
+    "descripcion_breve": "Toda persona menor de 15 años con depresión grave, refractaria o psicótica con riesgo suicida que requieran hospitalización. Posteriormente continuarán su tratamiento, ya sea en una hospitalización diurna o en modalidad de tratamiento ambulatorio (nivel especialidad).",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Exámenes<br>• Hospitalización<br>• Consultas",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/89",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-hospitalario-para-personas-menores-de-15-anos-con-depresion-grave-refractaria-o-psicotica-con-riesgo-suicida/"
+      }
+    },
+    "_completo": false
+  },
+  {
+    "ges_numero": 90,
+    "id": "cesacion-tabaco",
+    "nombre_completo": "Cesación del consumo de tabaco en personas de  años y más",
+    "nombre_corto": "Cesacion Tabaco",
+    "clasificacion": "Tratamiento Preventivo",
+    "grupo_edad": "25 años o más",
+    "en_cesfam": true,
+    "descripcion_breve": "Toda persona de 25 años y más con alta dependencia y en etapa de preparación o acción para el abandono del consumo del tabaco con confirmación diagnóstica tendrá acceso a tratamiento.",
+    "secciones": {
+      "requisitos": {
+        "items": [
+          "Estar inscrita/o en el CESFAM N° 5",
+          "Ser afiliada/o a FONASA",
+          "Presentar síntomas sugestivos, diagnóstico sospechado o confirmado"
+        ]
+      },
+      "horario": {
+        "contenido": "Lunes a jueves de 7:30 a 17:00 hrs, viernes de 7:30 a 16:00 hrs"
+      },
+      "ges": {
+        "cobertura": "• Medicamentos<br>• Consultas",
+        "copago_fonasa": "Atención gratuita en el nivel de Atención Primaria de Salud",
+        "url_minsal": "https://auge.minsal.cl/problemasdesalud/index/90",
+        "url_superintendencia": "https://www.superdesalud.gob.cl/orientacion-en-salud/cesacion-del-consumo-de-tabaco-en-personas-de-25-anos-y-mas/"
+      }
+    },
+    "_completo": false
+  }
+]
