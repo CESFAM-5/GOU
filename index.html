@@ -142,6 +142,11 @@
   /* ── Panel Quiénes somos ── */
   #panel-quienes { position:fixed; top:0; left:0; right:0; bottom:0; z-index:300; display:none; }
   #panel-quienes.visible { display:flex; flex-direction:column; }
+  #panel-instalar { position:fixed; top:0; left:0; right:0; bottom:0; z-index:300; display:none; }
+  #panel-instalar.visible { display:flex; flex-direction:column; }
+  .panel-paso { display:flex; gap:12px; align-items:flex-start; margin-bottom:12px; }
+  .panel-paso-num { flex-shrink:0; width:24px; height:24px; border-radius:50%; background:var(--verde); color:#fff; font-size:12px; font-weight:700; display:flex; align-items:center; justify-content:center; }
+  .panel-paso-texto { font-size:14px; line-height:1.5; color:var(--texto); padding-top:2px; }
   .panel-overlay { position:absolute; inset:0; background:rgba(0,0,0,0.4); }
   .panel-sheet { position:absolute; bottom:0; left:0; right:0; background:white; border-radius:20px 20px 0 0; max-height:88vh; overflow-y:auto; -webkit-overflow-scrolling:touch; padding:24px 20px 40px; }
   .panel-handle { width:40px; height:4px; background:var(--borde); border-radius:2px; margin:0 auto 20px; }
@@ -298,7 +303,20 @@
     font-size: 12px; font-weight: 400;
     letter-spacing: 0.03em;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    flex: 1;
   }
+
+  .pagina-pdf-btn {
+    display: flex; align-items: center; gap: 5px;
+    background: rgba(255,255,255,0.18);
+    border: none; border-radius: 10px;
+    color: white; font-size: 12px; font-weight: 500;
+    padding: 7px 10px; cursor: pointer;
+    font-family: var(--font); flex-shrink: 0;
+    transition: background 0.15s;
+  }
+  .pagina-pdf-btn:active { background: rgba(255,255,255,0.28); }
+  .pagina-pdf-btn svg { width: 13px; height: 13px; }
 
   .pagina-body {
     max-width: 480px; margin: 0 auto;
@@ -496,6 +514,36 @@
     font-family: var(--font);
   }
   .mapa-iframe { flex: 1; border: none; width: 100%; }
+
+  /* ══════════ IMPRESIÓN / DESCARGAR PDF ══════════ */
+  /* Estilo "simple": el PDF se ve igual que la pantalla (colores, cajas),
+     solo se oculta la navegación/controles que no tienen sentido en papel. */
+  @media print {
+    * {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+    header, .tabs,
+    #view-buscar, #view-indice, #view-estado, #view-ges,
+    .menu-modal-overlay, .menu-sheet,
+    #panel-quienes, #panel-instalar, #nps-panel,
+    .mapa-overlay,
+    .pagina-header, .pagina-nav,
+    .util-bar, .util-gracias {
+      display: none !important;
+    }
+    #view-pagina {
+      position: static !important;
+      display: block !important;
+      height: auto !important;
+      overflow: visible !important;
+      background: white !important;
+    }
+    .pagina-body {
+      max-width: 100% !important;
+      padding: 0 !important;
+    }
+  }
 </style>
 </head>
 <body>
@@ -560,6 +608,53 @@
     <p class="panel-texto" style="margin-top:14px; padding-top:14px; border-top:1px solid var(--borde); font-size:11px; color:var(--texto-suave); line-height:1.6;">
       <strong style="color:var(--texto);">Descargo de responsabilidad:</strong> Esta guía proporciona información general y orientación sobre servicios. No constituye consejo médico profesional ni diagnóstico. Ante síntomas o preocupaciones de salud, consulta presencialmente con un profesional del CESFAM o acude a urgencias si es necesario.
     </p>
+  </div>
+</div>
+
+<!-- ══════════ PANEL GUARDAR EN EL CELULAR ══════════ -->
+<div id="panel-instalar">
+  <div class="panel-overlay" onclick="cerrarInstalar()"></div>
+  <div class="panel-sheet">
+    <div class="panel-handle"></div>
+    <button class="panel-cierre" onclick="cerrarInstalar()">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="panel-titulo">Guárdanos en tu celular</div>
+    <p class="panel-texto">Agrega esta Guía a la pantalla de inicio de tu celular y ábrela como una app, sin tener que escribir la dirección cada vez.</p>
+
+    <div class="panel-equipo">
+      <div class="panel-equipo-titulo">📱 En iPhone (Safari)</div>
+      <div class="panel-paso">
+        <div class="panel-paso-num">1</div>
+        <div class="panel-paso-texto">Toca el botón <strong>Compartir</strong> (el cuadrado con una flecha hacia arriba) en la barra inferior.</div>
+      </div>
+      <div class="panel-paso">
+        <div class="panel-paso-num">2</div>
+        <div class="panel-paso-texto">Desliza hacia abajo en el menú y elige <strong>"Agregar a pantalla de inicio"</strong>.</div>
+      </div>
+      <div class="panel-paso">
+        <div class="panel-paso-num">3</div>
+        <div class="panel-paso-texto">Toca <strong>"Agregar"</strong> arriba a la derecha.</div>
+      </div>
+    </div>
+
+    <div class="panel-equipo" style="margin-top:18px;">
+      <div class="panel-equipo-titulo">🤖 En Android (Chrome)</div>
+      <div class="panel-paso">
+        <div class="panel-paso-num">1</div>
+        <div class="panel-paso-texto">Toca el menú <strong>⋮</strong> (tres puntos) arriba a la derecha.</div>
+      </div>
+      <div class="panel-paso">
+        <div class="panel-paso-num">2</div>
+        <div class="panel-paso-texto">Elige <strong>"Instalar app"</strong> o <strong>"Agregar a pantalla de inicio"</strong>.</div>
+      </div>
+      <div class="panel-paso">
+        <div class="panel-paso-num">3</div>
+        <div class="panel-paso-texto">Confirma tocando <strong>"Instalar"</strong> o <strong>"Agregar"</strong>.</div>
+      </div>
+    </div>
+
+    <p class="panel-texto" style="margin-top:18px; font-size:12px; color:var(--texto-suave);">El ícono de la Guía quedará junto a tus demás apps, y se abrirá directo en pantalla completa.</p>
   </div>
 </div>
 
@@ -691,6 +786,11 @@
     
     <div class="menu-divider"></div>
     <div class="menu-section-title">Información</div>
+    
+    <button class="menu-item" onclick="cerrarMenuPrincipal(); abrirInstalar()">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+      Guárdanos en tu celular
+    </button>
     
     <button class="menu-item" onclick="abrirQuienesSomos()">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
@@ -1069,7 +1169,7 @@ const SERVICIOS=[
    soloHora:false,
    estaAbierto(h,m,d){if(d>=1&&d<=5)return h>=8&&h<18;if(d===6)return h>=8&&h<13;return false;}},
   {nombre:"Laboratorio / Toma de muestras",
-   horario:"Lunes a viernes: 08:00 – 11:00\nConsulte los requerimientos específicos de cada examen",
+   horario:"Lunes a viernes: 08:00 – 11:00\nRequiere ayuno previo",
    soloHora:false,
    estaAbierto(h,m,d){if(d>=1&&d<=5){const t=h*60+m;return t>=480&&t<660;}return false;}},
   {nombre:"Vacunatorio",
@@ -3285,7 +3385,7 @@ const PAGINAS = {
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>EU. Camila Ancapán. — Box 230</span></div>
         <p class="pagina-texto" style="font-weight:600; color:var(--verde); margin-top:12px; margin-bottom:6px;">Sector Verde</p>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>EU. Dannahe Figueroa G. — Box 213</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Enfermera Marjorie Farías — Box 217</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>EU. Cindy Campos C. — Box 217</span></div>
       </div>
     `
   },
@@ -3649,7 +3749,7 @@ const PAGINAS = {
       <div class="pagina-seccion" id="sec-Equipo">
         <div class="pagina-seccion-titulo-principal">Equipo</div>
         <p class="pagina-texto" style="font-weight:600; margin-bottom:6px;">Jefa de Unidad</p>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>QF. Lisette Marambio G. (s)</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>QF. Karla Palacios Lorca</span></div>
         <p class="pagina-texto" style="font-weight:600; margin-top:12px; margin-bottom:6px;">TENS</p>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Tiffani Riche C.</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Bárbara Antiman C.</span></div>
@@ -4404,9 +4504,10 @@ const PAGINAS = {
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Dra. Paula Rivera — Box 225</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Dra. Inés Guerrero M., Pediatra — Box 227</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Nutricionista Sudy Martínez — Box 228</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Dra. Constanza Labrín F. — Box 229</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Dra. Constanza Labrín — Box 229</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Enfermera Camila Ancapán — Box 230</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Dra. Olga Aguilar M. — Box 231</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Enfermera Marjorie Farías — Box 232</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>TENS Cindy Martínez</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>TENS Maira Farías</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>TENS Patrick Arrasco</span></div>
@@ -4650,7 +4751,7 @@ const PAGINAS = {
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Dr. Benjamín Saavedra C. — Box 2..</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Dra. Lucy Guerrero V. — Box 2..</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Ps. Jerludith Sáez M. — Box 2..</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Tr. Soc. Carla Bernales F. — Box 2..</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Tr. Soc. Catalina Tiznado C. — Box 2..</span></div>
       </div>
         <div class="pagina-seccion" id="sec-Saber +">
         <div class="pagina-seccion-titulo-principal">Saber +</div>
@@ -5230,7 +5331,7 @@ const PAGINAS = {
       <div class="pagina-seccion" id="sec-Equipo">
         <div class="pagina-seccion-titulo-principal">Equipo</div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Tr. Social Matías Valenzuela Rojas</strong> — Sector Lila</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Tr. Social Carla Bernales Fuentes</strong> — Sector Verde</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Tr. Social Catalina Tiznado Candia</strong> — Sector Verde</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Tr. Social Francisco Muñoz Tobar</strong> — Sector Rojo</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Tr. Social Catherine Reyes Aracena</strong> — Programa de Acompañamiento de Niños, Niñas y Adolescentes</span></div>
       </div>
@@ -5964,7 +6065,7 @@ const PAGINAS = {
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Jefa de Sector Lila:</strong> Sudy Martinez M.</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Jefa de Sector Rojo:</strong> Daniela Parra M.</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Jefa de Sector Verde:</strong> Jennifer Bascur B.</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Jefa de Farmacia:</strong> Lisette Marambio G. (s)</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span><strong>Jefa de Farmacia:</strong> Karla Palacios L.</span></div>
       </div>
       <div class="pagina-seccion" id="sec-Saber +">
         <div class="pagina-seccion-titulo">Saber +</div>
@@ -7077,9 +7178,10 @@ const PAGINAS = {
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Administrativo Zenobia Alcaíno Morande</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Dr. Benjamín Saavedra Cantillana</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Dra. Eyleen Quezada Tofalos — Box 204</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Dra. Jackeline Trigo Torrico — Box 214</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Dr. Nicolás Alcalde M.</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Dra. Lucy Guerrero Valenzuela, Pediatra — Box 206</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Enfermera Marjorie Farías — Box 217</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Enfermera Cindy Campos Contreras — Box 217</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Enfermera Dannahe Figueroa Godoy — Box 213</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Matrona Marla Bravo Contreras</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Matrona Migna Quezada Padilla — Box 212</span></div>
@@ -7093,7 +7195,7 @@ const PAGINAS = {
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>TENS Patricia Gatica Millares</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>TENS Trinidad Calderón Castro</span></div>
         <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>TONS Giovanna Bravo Garcés</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Trabajadora Social Carla Bernales</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Trabajadora Social Catalina Tiznado</span></div>
       </div>
       <div class="pagina-seccion" id="sec-SOME Satélite">
         <div class="pagina-seccion-titulo-principal">SOME Satélite</div>
@@ -7323,6 +7425,14 @@ function abrirQuienesSomos() {
 }
 function cerrarQuienesSomos() {
   document.getElementById('panel-quienes').classList.remove('visible');
+}
+
+// ══════════ GUARDAR EN EL CELULAR ══════════
+function abrirInstalar() {
+  document.getElementById('panel-instalar').classList.add('visible');
+}
+function cerrarInstalar() {
+  document.getElementById('panel-instalar').classList.remove('visible');
 }
 
 // ══════════ REPORTAR BÚSQUEDA SIN RESULTADO ══════════
@@ -7735,6 +7845,10 @@ function mostrarDetalleGES(id) {
       Volver
     </button>
     <span class="pagina-header-titulo" id="paginaHeaderTitulo">Índice A–Z</span>
+    <button class="pagina-pdf-btn" onclick="window.print()" aria-label="Descargar en PDF">
+      <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 15V3"/><path d="M6 9l6 6 6-6"/><path d="M4 21h16"/></svg>
+      PDF
+    </button>
   </div>
   <div class="pagina-body" id="paginaBody"></div>
 </div>
@@ -7760,7 +7874,11 @@ function mostrarDetalleGES(id) {
 </div>
 
 <script>
-const MAPA_URL = "https://www.google.com/maps/d/viewer?hl=es&mid=1MfzH4twW_AuMyQHuFUpkV8IPV0s&ll=-33.472058328180225%2C-70.7272748876531&z=12";
+// URL de inserción (embed) del mapa de la red de salud. Antes usaba /maps/d/viewer,
+// que es la página de vista previa de Google My Maps y no está pensada para iframes:
+// Google bloquea su encuadre, por eso se veía cortada/en blanco. /maps/d/embed sí
+// está diseñada para insertarse en iframes.
+const MAPA_URL = "https://www.google.com/maps/d/embed?mid=1MfzH4twW_AuMyQHuFUpkV8IPV0s&ll=-33.472058328180225%2C-70.7272748876531&z=12";
 
 // ════════════════════════════════════════════════════════════
 // CAPA 1: DATOS GES (Cargar JSON)
