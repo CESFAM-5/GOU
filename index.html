@@ -248,6 +248,9 @@
   .estado-inner { max-width: 480px; margin: 0 auto; padding: 16px; }
   .estado-card { background: var(--blanco); border: 1px solid var(--borde); border-radius: var(--radio); overflow: hidden; margin-bottom: 12px; }
   .estado-card-header { padding: 13px 16px; display: flex; align-items: center; gap: 10px; border-bottom: 1px solid var(--borde); }
+  .estado-card-header.label-abierto { background: #E6F7EE; }
+  .estado-card-header.label-cerrado { background: #FCEAEA; }
+  .estado-card-header.label-solo-hora { background: #FDF3E0; }
   .dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
   .dot-verde { background: #2d9f6f; } .dot-rojo { background: #d94040; } .dot-amarillo { background: #e8a020; }
   .estado-card-header strong { font-size: 14px; font-weight: 600; flex: 1; }
@@ -700,7 +703,7 @@
           <button class="chip" onclick="buscarTexto('necesito hora médico')">🩺 Sacar hora al médico</button>
           <button class="chip" onclick="buscarTexto('retiro medicamentos farmacia')">💊 Retirar medicamentos</button>
           <button class="chip" onclick="buscarTexto('control embarazo matrona')">🤰 Embarazo y matrona</button>
-          <button class="chip" onclick="buscarTexto('vacuna ')">💉 Vacunas</button>
+          <button class="chip" onclick="buscarTexto('vacuna vacunatorio')">💉 Vacunas</button>
           <button class="chip" onclick="buscarTexto('resultado examen laboratorio')">🔬 Exámenes</button>
           <button class="chip" onclick="buscarTexto('urgencia emergencia')">🚨 Urgencias</button>
           <button class="chip" onclick="buscarTexto('diente muela dolor dental')">🦷 Dentista</button>
@@ -866,7 +869,7 @@ const TEMAS = [
   {letra:"A",nombre:"GES N° 85: Alzheimer y otras Demencias",url:"/a/alzheimer-demencias",categoria:"GES",ges:85,tags:"alzheimer demencia neurodegenerativa GES tratamiento diagnóstico memoria",pagina:"alzheimer-demencias"},
   {letra:"A",nombre:"Anular hora",url:"/a/anular-hora",categoria:"Trámite",tags:"anular cancelar hora cita médica some",pagina:"some"},
   {letra:"A",nombre:"Apoyo a la Identidad de Género",url:"/a/apoyo-a-la-identidad-de-género",categoria:"Programa",tags:"identidad género trans transgénero diversidad sexual lgbtq",pagina:"paig"},
-  {letra:"A",nombre:"Apoyo Clínico",url:"/a/apoyo-clínico",categoria:"Servicio",tags:"apoyo clínico laboratorio  inyectable electrocardiograma herida curación tuberculosis samu",pagina:"apoyo-clinico"},
+  {letra:"A",nombre:"Apoyo Clínico",url:"/a/apoyo-clínico",categoria:"Servicio",tags:"apoyo clínico laboratorio vacunatorio inyectable electrocardiograma herida curación tuberculosis samu",pagina:"apoyo-clinico"},
   {letra:"A",nombre:"Asistente Social",url:"/a/asistente-social",categoria:"Profesional",tags:"asistente social trabajadora social beneficio subsidio ayuda trámite pobreza",pagina:"asistente-social"},
   {letra:"A",nombre:"Asma",url:"/a/asma",categoria:"GES",ges:39,tags:"asma respiratorio pulmón enfermedad crónica silbidos tos dificultad respirar sibilancias crisis GES",pagina:"asma"},
   {letra:"A",nombre:"Atención Domiciliaria",url:"/a/atención-domiciliaria-a-personas-con-dependencia-severa-programa-de",categoria:"Programa",tags:"visita domicilio casa postrado dependiente discapacidad crónica",pagina:"atencion-domiciliaria"},
@@ -918,7 +921,7 @@ const TEMAS = [
   {letra:"E",nombre:"Enfermedad Pulmonar Obstructiva Crónica, <strong>EPOC</strong>",url:"/e/epoc",categoria:"GES",ges:38,tags:"EPOC enfermedad pulmonar obstructiva crónica asma bronquitis respiratorio pulmón GES tratamiento",pagina:"epoc"},
   {letra:"E",nombre:"Equipo de Cabecera",url:"/e/equipo-de-cabecera",categoria:"Información",tags:"equipo cabecera médico enfermera sector asignado familia",pagina:"equipo-cabecera"},
   {letra:"E",nombre:"ERA — Sala de Enfermedades Respiratorias",url:"/e/era-sala",categoria:"Servicio",tags:"era asma bronquitis respiratorio inhalador nebulización EPOC pulmón",pagina:"sala-era"},
-  {letra:"E",nombre:"Esquema de vacunas",url:"/v/",categoria:"Servicio",tags:"esquema vacunas calendario vacunación dosis niño adulto",pagina:""},
+  {letra:"E",nombre:"Esquema de vacunas",url:"/v/vacunatorio",categoria:"Servicio",tags:"esquema vacunas calendario vacunación dosis niño adulto",pagina:"vacunatorio"},
   {letra:"E",nombre:"Estimulación Temprana, Sala",url:"/e/estimulación-temprana-sala-de",categoria:"Servicio",tags:"estimulación temprana bebé niño desarrollo motor lenguaje terapia",pagina:"estimulacion-temprana"},
   {letra:"E",nombre:"Examen Citológico",url:"/p/pap",categoria:"Examen",tags:"examen citológico papanicolau pap cuello uterino cáncer cervicouterino",pagina:"pap"},
   {letra:"E",nombre:"Examen de Medicina Preventiva del Adulto, <strong>EMPA</strong>",url:"/e/empa",categoria:"Examen",tags:"empa examen preventivo adulto chequeo control anual salud hipertensión diabetes colesterol",pagina:"empa"},
@@ -964,7 +967,7 @@ const TEMAS = [
   {letra:"M",nombre:"Médicos",url:"/m/médicos",categoria:"Profesional",tags:"médico doctor hora consulta médica atención general",pagina:"medicos"},
   {letra:"M",nombre:"Mental, Programa de Salud",url:"/m/mental-programa-de-salud",categoria:"Programa",tags:"salud mental depresión ansiedad psicóloga psiquiatra trastorno estrés",pagina:"salud-mental"},
   {letra:"M",nombre:"Mila, Ley",url:"/m/mila-ley",categoria:"Información",tags:"mila ley acompañante hospitalización niño parto gestante",pagina:"ley-mila"},
-  {letra:"M",nombre:"Mordedura de perro, vacunación por",url:"/v/",categoria:"Servicio",tags:"mordedura perro vacuna rabia antirrábica ",pagina:""},
+  {letra:"M",nombre:"Mordedura de perro, vacunación por",url:"/v/vacunatorio",categoria:"Servicio",tags:"mordedura perro vacuna rabia antirrábica vacunatorio",pagina:"vacunatorio"},
   {letra:"M",nombre:"Mujer, Programa de Salud",url:"/s/sexual-y-reproductiva-programa",categoria:"Programa",tags:"mujer salud sexual reproductiva programa matrona",pagina:"sexual-reproductiva"},
   {letra:"N",nombre:"Niña/o, Programa",url:"/i/infancia-programa",categoria:"Programa",tags:"niño niña programa infancia salud infantil control sano",pagina:"infancia"},
   {letra:"N",nombre:"Nutricionista",url:"/n/nutricionista",categoria:"Profesional",tags:"nutricionista nutrición dieta sobrepeso obesidad alimentación diabetes",pagina:"nutricionista"},
@@ -1003,7 +1006,7 @@ const TEMAS = [
   {letra:"U",nombre:"Urgencias",url:"/u/urgencias",categoria:"Información",tags:"urgencia emergencia qué hacer grave accidente herida",pagina:"urgencias"},
   {letra:"U",nombre:"Urgencia Odontológica",url:"/u/urgencia-odontologica",categoria:"GES",ges:46,tags:"urgencia odontológica dental diente muela dolor absceso infección flemón pulpitis pericoronaritis traumatismo GES emergencia",pagina:"urgencia-odontologica"},
   {letra:"U",nombre:"Urgencias — Números",url:"/u/urgencias/números-urgencias",categoria:"Información",tags:"urgencia número teléfono llamar emergencia samu 131",pagina:"urgencias-numeros"},
-  {letra:"V",nombre:"",url:"/v/",categoria:"Servicio",tags:"vacuna  inmunización dosis niño adulto sin hora calendario",pagina:""},
+  {letra:"V",nombre:"Vacunatorio",url:"/v/vacunatorio",categoria:"Servicio",tags:"vacuna vacunatorio inmunización dosis niño adulto sin hora calendario",pagina:"vacunatorio"},
   {letra:"V",nombre:"<strong>Verde, Sector</strong>",url:"/v/sector-verde",categoria:"Información",tags:"sector verde equipo cabecera jefa some satélite preparación",pagina:"sector-verde"},
   {letra:"V",nombre:"Violación",url:"/a/agresion-sexual-aguda",categoria:"GES",ges:86,tags:"agresion sexual violencia sexual atención urgencia psicológica GES derechos",pagina:"agresion-sexual-aguda"},
   {letra:"V",nombre:"VIH — SIDA",url:"/v/vih",categoria:"GES",ges:18,tags:"vih sida examen test detección tratamiento antirretroviral GES",pagina:"vih-sida"},
@@ -1173,7 +1176,7 @@ const SERVICIOS=[
    soloHora:false,
    estaAbierto(h,m,d){if(d>=1&&d<=5){const t=h*60+m;return t>=480&&t<660;}return false;}},
   {nombre:"Vacunatorio",
-   horario:"Lunes a jueves: 09:00 – 15:30\nViernes 09:00 – 14:30",
+   horario:"Lunes a jueves: 09:00 – 15:30\nViernes: 09:00 – 14:30 ",
    soloHora:false,
    estaAbierto(h,m,d){if(d>=1&&d<=5){const t=h*60+m;return t>=510&&t<990;}return false;}},
   {nombre:"Bodega de Alimentos",
@@ -1253,7 +1256,7 @@ function renderEstado(){
     else if(s.soloHora&&abierto){lc='label-solo-hora';lt='Solo con hora';}
     else if(abierto){lc='label-abierto';lt='Abierto';}
     else{lc='label-cerrado';lt='Cerrado';}
-    return`<div class="estado-card"><div class="estado-card-header"><div class="dot ${dc}"></div><strong>${s.nombre}</strong><span class="estado-label ${lc}">${lt}</span></div><div class="estado-horario">${s.horario.replace(/\n/g,'<br>')}</div></div>`;
+    return`<div class="estado-card"><div class="estado-card-header ${lc}"><div class="dot ${dc}"></div><strong>${s.nombre}</strong><span class="estado-label ${lc}">${lt}</span></div><div class="estado-horario">${s.horario.replace(/\n/g,'<br>')}</div></div>`;
   }).join('');
   document.getElementById('estadoCards').innerHTML=estadoContent;
 }
