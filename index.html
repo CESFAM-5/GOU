@@ -7634,12 +7634,28 @@ let ttsPaginaId = null;
 
 function prepararBloquesLectura() {
   const body = document.getElementById('paginaBody');
-  const bloques = [];
+  let bloques = [];
   const titulo = body.querySelector('.pagina-titulo');
   if (titulo) bloques.push(titulo);
-  const secciones = body.querySelectorAll('.pagina-seccion');
-  secciones.forEach(sec => bloques.push(sec));
-  return bloques.filter(el => (el.innerText || '').trim().length > 0);
+  body.querySelectorAll('.pagina-seccion').forEach(sec => bloques.push(sec));
+  bloques = bloques.filter(el => (el.innerText || '').trim().length > 0);
+  if (bloques.length > 0) return bloques;
+
+  // ── Respaldo genérico ──
+  // Algunas páginas (p. ej. las fichas de Ley GES, vía mostrarDetalleGES) no usan
+  // la estructura .pagina-titulo/.pagina-seccion. En ese caso, se leen los bloques
+  // de nivel superior del contenedor. Si todo el contenido viene envuelto en un
+  // único <div> (patrón típico de esas fichas), se baja un nivel para lograr
+  // la misma granularidad por sección que en el resto de la Guía.
+  let contenedor = body;
+  const hijosConTexto = Array.from(contenedor.children).filter(el => (el.innerText || '').trim().length > 0);
+  if (hijosConTexto.length === 1 && hijosConTexto[0].children.length > 1) {
+    contenedor = hijosConTexto[0];
+  }
+  return Array.from(contenedor.children).filter(el => {
+    const texto = (el.innerText || '').trim();
+    return texto.length > 0 && !el.classList.contains('util-bar') && el.id.indexOf('util-') !== 0;
+  });
 }
 
 function toggleLecturaPagina() {
