@@ -159,6 +159,65 @@
   .panel-miembro { display:flex; align-items:center; gap:10px; padding:8px 0; border-bottom:1px solid var(--borde); font-size:13px; color:var(--texto); }
   .panel-miembro:last-child { border-bottom:none; }
   .panel-miembro-rol { font-size:11px; color:var(--texto-suave); margin-top:2px; }
+
+  /* ── PANEL ACCESIBILIDAD ── */
+  #panel-accesibilidad { position:fixed; top:0; left:0; right:0; bottom:0; z-index:300; display:none; }
+  #panel-accesibilidad.visible { display:flex; flex-direction:column; }
+
+  .accesibilidad-fila {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 12px 0; border-bottom: 1px solid var(--borde);
+  }
+  .accesibilidad-fila:last-child { border-bottom: none; }
+  .accesibilidad-fila-label { font-size: 14px; font-weight: 600; color: var(--texto); }
+  .accesibilidad-fila-desc { font-size: 12px; color: var(--texto-suave); margin-top: 2px; }
+
+  .accesibilidad-opciones { display: flex; gap: 8px; flex-wrap: wrap; }
+  .accesibilidad-btn {
+    border: 1.5px solid var(--borde); background: white; color: var(--texto);
+    border-radius: 10px; padding: 8px 14px; font-size: 13px; font-weight: 600;
+    cursor: pointer; font-family: var(--font); transition: all 0.15s;
+  }
+  .accesibilidad-btn.activo { background: var(--verde); border-color: var(--verde); color: white; }
+
+  .accesibilidad-switch {
+    position: relative; width: 46px; height: 26px; flex-shrink: 0;
+    background: var(--borde); border-radius: 20px; border: none; cursor: pointer;
+    transition: background 0.2s;
+  }
+  .accesibilidad-switch::after {
+    content: ''; position: absolute; top: 3px; left: 3px;
+    width: 20px; height: 20px; border-radius: 50%; background: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3); transition: transform 0.2s;
+  }
+  .accesibilidad-switch.activo { background: var(--verde); }
+  .accesibilidad-switch.activo::after { transform: translateX(20px); }
+
+  .accesibilidad-nota {
+    font-size: 11.5px; color: var(--texto-suave); line-height: 1.5;
+    background: var(--verde-claro); border-radius: 10px; padding: 10px 12px;
+    margin-top: 6px;
+  }
+
+  /* ── MODO ALTO CONTRASTE ── */
+  body.alto-contraste {
+    --verde: #000000;
+    --verde-claro: #000000;
+    --verde-medio: #000000;
+    --texto: #FFFFFF;
+    --texto-suave: #F2F2F2;
+    --borde: #FFD400;
+    --fondo: #000000;
+    --blanco: #000000;
+  }
+  body.alto-contraste .panel-sheet,
+  body.alto-contraste .mapa-sheet,
+  body.alto-contraste .menu-sheet { background: #000; border: 1px solid #FFD400; }
+  body.alto-contraste .tab.active { color: #000; background: #FFD400; }
+  body.alto-contraste .pagina-categoria { background: #FFD400; color: #000; }
+  body.alto-contraste .accesibilidad-btn { background: #000; color: #fff; border-color: #FFD400; }
+  body.alto-contraste .accesibilidad-btn.activo { background: #FFD400; color: #000; border-color: #FFD400; }
+  body.alto-contraste a, body.alto-contraste .link-externo { text-decoration: underline; }
   /* ── Pulgar por página ── */
   .util-bar { display:flex; align-items:center; justify-content:center; gap:12px; margin:24px 0 8px; padding:14px; background:var(--fondo); border-radius:var(--radio-sm); }
   .util-bar p { font-size:13px; color:var(--texto-suave); }
@@ -320,6 +379,32 @@
   }
   .pagina-pdf-btn:active { background: rgba(255,255,255,0.28); }
   .pagina-pdf-btn svg { width: 13px; height: 13px; }
+
+  .pagina-tts-btn {
+    display: flex; align-items: center; gap: 5px;
+    background: rgba(255,255,255,0.18);
+    border: none; border-radius: 10px;
+    color: white; font-size: 12px; font-weight: 500;
+    padding: 7px 10px; cursor: pointer;
+    font-family: var(--font); flex-shrink: 0;
+    transition: background 0.15s;
+  }
+  .pagina-tts-btn:active { background: rgba(255,255,255,0.28); }
+  .pagina-tts-btn svg { width: 13px; height: 13px; }
+  .pagina-tts-btn.tts-activo { background: rgba(255,255,255,0.32); }
+
+  .tts-leyendo {
+    background: #FFF6C8 !important;
+    outline: 2px solid #E8C700;
+    outline-offset: 4px;
+    border-radius: 8px;
+    transition: background 0.25s;
+    scroll-margin-top: 90px;
+  }
+  body.alto-contraste .tts-leyendo {
+    background: #4a3d00 !important;
+    outline: 3px solid #FFD400;
+  }
 
   .pagina-body {
     max-width: 480px; margin: 0 auto;
@@ -529,7 +614,7 @@
     header, .tabs,
     #view-buscar, #view-indice, #view-estado, #view-ges,
     .menu-modal-overlay, .menu-sheet,
-    #panel-quienes, #panel-instalar, #nps-panel,
+    #panel-quienes, #panel-instalar, #panel-accesibilidad, #nps-panel,
     .mapa-overlay,
     .pagina-header, .pagina-nav,
     .util-bar, .util-gracias {
@@ -661,6 +746,51 @@
   </div>
 </div>
 
+<!-- ══════════ PANEL ACCESIBILIDAD ══════════ -->
+<div id="panel-accesibilidad">
+  <div class="panel-overlay" onclick="cerrarAccesibilidad()"></div>
+  <div class="panel-sheet">
+    <div class="panel-handle"></div>
+    <button class="panel-cierre" onclick="cerrarAccesibilidad()">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="panel-titulo">Accesibilidad</div>
+    <p class="panel-texto">Ajusta la Guía para que te sea más fácil de leer y usar.</p>
+
+    <div class="panel-equipo">
+      <div class="panel-equipo-titulo">Tamaño de texto</div>
+      <div class="accesibilidad-opciones" id="opcionesTamano">
+        <button class="accesibilidad-btn" onclick="cambiarTamanoTexto(100)" data-tamano="100">A</button>
+        <button class="accesibilidad-btn" onclick="cambiarTamanoTexto(115)" data-tamano="115" style="font-size:15px;">A</button>
+        <button class="accesibilidad-btn" onclick="cambiarTamanoTexto(130)" data-tamano="130" style="font-size:17px;">A</button>
+        <button class="accesibilidad-btn" onclick="cambiarTamanoTexto(145)" data-tamano="145" style="font-size:19px;">A</button>
+      </div>
+    </div>
+
+    <div class="panel-equipo">
+      <div class="accesibilidad-fila" style="border-bottom:none; padding-bottom:0;">
+        <div>
+          <div class="accesibilidad-fila-label">Alto contraste</div>
+          <div class="accesibilidad-fila-desc">Colores más marcados para mayor legibilidad</div>
+        </div>
+        <button class="accesibilidad-switch" id="switchContraste" onclick="toggleAltoContraste()" aria-label="Activar alto contraste"></button>
+      </div>
+    </div>
+
+    <div class="panel-equipo">
+      <div class="panel-equipo-titulo">Leer en voz alta</div>
+      <p class="panel-texto" style="font-size:13px; margin-bottom:10px;">Abre cualquier tema y toca el botón <strong>🔊 Escuchar</strong> en la parte superior para que la Guía te lo lea.</p>
+      <div class="accesibilidad-fila-desc" style="margin-bottom:8px;">Velocidad de lectura</div>
+      <div class="accesibilidad-opciones" id="opcionesVelocidad">
+        <button class="accesibilidad-btn" onclick="cambiarVelocidadLectura(0.8)" data-velocidad="0.8">Lenta</button>
+        <button class="accesibilidad-btn" onclick="cambiarVelocidadLectura(1)" data-velocidad="1">Normal</button>
+        <button class="accesibilidad-btn" onclick="cambiarVelocidadLectura(1.3)" data-velocidad="1.3">Rápida</button>
+      </div>
+      <p class="accesibilidad-nota" id="notaSinVoz" style="display:none;">Tu navegador no permite la lectura en voz alta. Prueba abriendo la Guía en Chrome o Safari actualizados.</p>
+    </div>
+  </div>
+</div>
+
 <!-- ══════════ PANEL NPS ══════════ -->
 <div id="nps-panel">
   <div class="nps-titulo">¿Qué tan útil te resultó esta guía? ⭐</div>
@@ -789,7 +919,12 @@
     
     <div class="menu-divider"></div>
     <div class="menu-section-title">Información</div>
-    
+
+    <button class="menu-item" onclick="cerrarMenuPrincipal(); abrirAccesibilidad()">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="4" r="2"/><path d="M19 13v-2a7 7 0 0 0-14 0v2"/><path d="M5 13a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h1"/><path d="M19 13a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-1"/><path d="M9 21h6"/></svg>
+      Accesibilidad
+    </button>
+
     <button class="menu-item" onclick="cerrarMenuPrincipal(); abrirInstalar()">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
       Guárdanos en tu celular
@@ -7400,6 +7535,7 @@ document.getElementById('paginaBody').innerHTML = `
 }
 
 function cerrarPagina() {
+  detenerLecturaPagina();
   document.getElementById('view-pagina').classList.remove('visible');
   history.pushState({vista:'buscar'}, '');
 }
@@ -7417,11 +7553,170 @@ function irSeccion(id) {
 window.addEventListener('popstate', function(e) {
   const pagina = document.getElementById('view-pagina');
   if (pagina.classList.contains('visible')) {
+    detenerLecturaPagina();
     pagina.classList.remove('visible');
   } else if (enResultados) {
     volverInicio();
   }
 });
+
+// ══════════ ACCESIBILIDAD ══════════
+function abrirAccesibilidad() {
+  document.getElementById('panel-accesibilidad').classList.add('visible');
+}
+function cerrarAccesibilidad() {
+  document.getElementById('panel-accesibilidad').classList.remove('visible');
+}
+
+// ── Tamaño de texto ──
+function cambiarTamanoTexto(porcentaje) {
+  document.documentElement.style.zoom = (porcentaje / 100);
+  localStorage.setItem('gou_tamano_texto', porcentaje);
+  document.querySelectorAll('#opcionesTamano .accesibilidad-btn').forEach(b => {
+    b.classList.toggle('activo', Number(b.dataset.tamano) === porcentaje);
+  });
+}
+
+// ── Alto contraste ──
+function toggleAltoContraste() {
+  const activo = !document.body.classList.contains('alto-contraste');
+  document.body.classList.toggle('alto-contraste', activo);
+  document.getElementById('switchContraste').classList.toggle('activo', activo);
+  localStorage.setItem('gou_alto_contraste', activo ? '1' : '0');
+}
+
+// ── Velocidad de lectura ──
+let velocidadLectura = 1;
+function cambiarVelocidadLectura(valor) {
+  velocidadLectura = valor;
+  localStorage.setItem('gou_velocidad_lectura', valor);
+  document.querySelectorAll('#opcionesVelocidad .accesibilidad-btn').forEach(b => {
+    b.classList.toggle('activo', Number(b.dataset.velocidad) === valor);
+  });
+  // Si ya se está leyendo, reiniciar desde el mismo punto con la nueva velocidad
+  if (ttsEstado === 'leyendo' || ttsEstado === 'pausado') {
+    const indiceActual = ttsIndice;
+    detenerLecturaPagina();
+    ttsIndice = indiceActual;
+    iniciarLecturaPagina();
+  }
+}
+
+// ── Restaurar preferencias guardadas ──
+function restaurarPreferenciasAccesibilidad() {
+  const tamano = Number(localStorage.getItem('gou_tamano_texto')) || 100;
+  cambiarTamanoTexto(tamano);
+
+  const contraste = localStorage.getItem('gou_alto_contraste') === '1';
+  if (contraste) {
+    document.body.classList.add('alto-contraste');
+    document.getElementById('switchContraste').classList.add('activo');
+  }
+
+  const velocidad = Number(localStorage.getItem('gou_velocidad_lectura')) || 1;
+  velocidadLectura = velocidad;
+  document.querySelectorAll('#opcionesVelocidad .accesibilidad-btn').forEach(b => {
+    b.classList.toggle('activo', Number(b.dataset.velocidad) === velocidad);
+  });
+
+  if (!('speechSynthesis' in window)) {
+    document.getElementById('notaSinVoz').style.display = 'block';
+    const btn = document.getElementById('btnEscuchar');
+    if (btn) btn.style.display = 'none';
+  }
+}
+
+// ── Leer página en voz alta ──
+let ttsBloques = [];
+let ttsIndice = 0;
+let ttsEstado = 'detenido'; // 'detenido' | 'leyendo' | 'pausado'
+let ttsPaginaId = null;
+
+function prepararBloquesLectura() {
+  const body = document.getElementById('paginaBody');
+  const bloques = [];
+  const titulo = body.querySelector('.pagina-titulo');
+  if (titulo) bloques.push(titulo);
+  const secciones = body.querySelectorAll('.pagina-seccion');
+  secciones.forEach(sec => bloques.push(sec));
+  return bloques.filter(el => (el.innerText || '').trim().length > 0);
+}
+
+function toggleLecturaPagina() {
+  if (!('speechSynthesis' in window)) return;
+  if (ttsEstado === 'leyendo') {
+    speechSynthesis.pause();
+    ttsEstado = 'pausado';
+    actualizarBotonEscuchar();
+  } else if (ttsEstado === 'pausado') {
+    speechSynthesis.resume();
+    ttsEstado = 'leyendo';
+    actualizarBotonEscuchar();
+  } else {
+    iniciarLecturaPagina();
+  }
+}
+
+function iniciarLecturaPagina() {
+  speechSynthesis.cancel();
+  ttsBloques = prepararBloquesLectura();
+  if (ttsBloques.length === 0) return;
+  ttsEstado = 'leyendo';
+  actualizarBotonEscuchar();
+  leerBloqueActual();
+}
+
+function leerBloqueActual() {
+  if (ttsIndice >= ttsBloques.length) {
+    detenerLecturaPagina();
+    return;
+  }
+  const bloque = ttsBloques[ttsIndice];
+  marcarBloqueLeyendo(bloque);
+  const utter = new SpeechSynthesisUtterance(bloque.innerText.trim());
+  utter.lang = 'es-CL';
+  utter.rate = velocidadLectura;
+  utter.onend = () => {
+    if (ttsEstado === 'detenido') return;
+    ttsIndice++;
+    leerBloqueActual();
+  };
+  utter.onerror = () => detenerLecturaPagina();
+  speechSynthesis.speak(utter);
+}
+
+function marcarBloqueLeyendo(bloque) {
+  document.querySelectorAll('.tts-leyendo').forEach(el => el.classList.remove('tts-leyendo'));
+  bloque.classList.add('tts-leyendo');
+  const vista = document.getElementById('view-pagina');
+  const top = bloque.offsetTop - 90;
+  vista.scrollTo({ top, behavior: 'smooth' });
+}
+
+function detenerLecturaPagina() {
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  ttsEstado = 'detenido';
+  ttsIndice = 0;
+  ttsBloques = [];
+  document.querySelectorAll('.tts-leyendo').forEach(el => el.classList.remove('tts-leyendo'));
+  actualizarBotonEscuchar();
+}
+
+function actualizarBotonEscuchar() {
+  const btn = document.getElementById('btnEscuchar');
+  const txt = document.getElementById('btnEscucharTexto');
+  if (!btn || !txt) return;
+  if (ttsEstado === 'leyendo') {
+    btn.classList.add('tts-activo');
+    txt.textContent = 'Pausar';
+  } else if (ttsEstado === 'pausado') {
+    btn.classList.add('tts-activo');
+    txt.textContent = 'Reanudar';
+  } else {
+    btn.classList.remove('tts-activo');
+    txt.textContent = 'Escuchar';
+  }
+}
 
 // ══════════ QUIÉNES SOMOS ══════════
 function abrirQuienesSomos() {
@@ -7849,6 +8144,10 @@ function mostrarDetalleGES(id) {
       Volver
     </button>
     <span class="pagina-header-titulo" id="paginaHeaderTitulo">Índice A–Z</span>
+    <button class="pagina-tts-btn" id="btnEscuchar" onclick="toggleLecturaPagina()" aria-label="Escuchar esta página">
+      <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+      <span id="btnEscucharTexto">Escuchar</span>
+    </button>
     <button class="pagina-pdf-btn" onclick="window.print()" aria-label="Descargar en PDF">
       <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 15V3"/><path d="M6 9l6 6 6-6"/><path d="M4 21h16"/></svg>
       PDF
@@ -7952,6 +8251,8 @@ function compartirWhatsApp() {
   window.open(whatsappUrl, '_blank');
   cerrarMenuPrincipal();
 }
+
+restaurarPreferenciasAccesibilidad();
 </script>
 </body>
 </html>
