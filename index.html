@@ -7682,6 +7682,32 @@ function iniciarLecturaPagina() {
   leerBloqueActual();
 }
 
+// ── Siglas que se pronuncian como palabra (no deletreadas) ──
+// Agrega aquí nuevas siglas si notas que el lector las deletrea en vez de pronunciarlas.
+const SIGLAS_LECTURA = {
+  'CESFAM': 'Cesfam',
+  'FONASA': 'Fonasa',
+  'ISAPRE': 'Isapre',
+  'ISAPRES': 'Isapres',
+  'GES': 'Ges',
+  'AUGE': 'Auge',
+  'SAPU': 'Sapu',
+  'SAPUS': 'Sapus',
+  'SOME': 'Some',
+  'MINSAL': 'Minsal',
+  'SAMU': 'Samu',
+  'SIDA': 'Sida'
+};
+
+function prepararTextoLectura(texto) {
+  let resultado = texto;
+  Object.keys(SIGLAS_LECTURA).forEach(sigla => {
+    const regex = new RegExp('\\b' + sigla + '\\b', 'g');
+    resultado = resultado.replace(regex, SIGLAS_LECTURA[sigla]);
+  });
+  return resultado;
+}
+
 function leerBloqueActual() {
   if (ttsIndice >= ttsBloques.length) {
     detenerLecturaPagina();
@@ -7689,7 +7715,7 @@ function leerBloqueActual() {
   }
   const bloque = ttsBloques[ttsIndice];
   marcarBloqueLeyendo(bloque);
-  const utter = new SpeechSynthesisUtterance(bloque.innerText.trim());
+  const utter = new SpeechSynthesisUtterance(prepararTextoLectura(bloque.innerText.trim()));
   utter.lang = 'es-CL';
   utter.rate = velocidadLectura;
   utter.onend = () => {
