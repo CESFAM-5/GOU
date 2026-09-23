@@ -1315,7 +1315,7 @@ const SERVICIOS=[
    soloHora:false,
    estaAbierto(h,m,d){if(d>=1&&d<=5){const t=h*60+m;return t>=510&&t<990;}return false;}},
   {nombre:"Bodega de Alimentos",
-   horario:"Lunes a jueves: 08:30 – 13:00 / 14:00 – 16:00\nViernes: 08:30 – 13:00 / 14:00 – 15:00\n🛑 Cerrado el último día hábil de cada mes",
+   horario:"Lunes a jueves: 08:30 – 16:00\nViernes: 08:30 – 15:00\n🛑 Cerrado el último día hábil de cada mes",
    soloHora:false,
    estaAbierto(h,m,d){
      const hoy=new Date(),dia=hoy.getDate(),mes=hoy.getMonth()+1;
@@ -2164,8 +2164,8 @@ const PAGINAS = {
       </div>
       <div class="pagina-seccion" id="sec-Horario">
         <div class="pagina-seccion-titulo-principal">Horario</div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Lunes a jueves: 08:30 – 13:00 / 14:00 – 16:00</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Viernes: 08:30 – 13:00 / 14:00 – 15:00</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Lunes a jueves: 08:30 – 16:00</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Viernes: 08:30 – 15:00</span></div>
         <p class="pagina-texto" style="margin-top:10px; color:#d94040; font-weight:600;">🛑 Cerrado el último día hábil de cada mes</p>
       </div>
       <div class="pagina-seccion" id="sec-Ubicación">
@@ -5237,8 +5237,8 @@ const PAGINAS = {
       <div class="pagina-seccion" id="sec-Lugar y horario">
         <div class="pagina-seccion-titulo-principal">Lugar y horario</div>
         <p class="pagina-texto">Retiro en <strong>Bodega de Alimentos</strong> (subterráneo).</p>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Lunes a jueves: 08:00 – 16:30 hrs</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Viernes: 08:00 – 15:30 hrs</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Lunes a jueves: 08:30 – 16:00 hrs</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Viernes: 08:30 – 15:00 hrs</span></div>
         <p class="pagina-texto" style="margin-top:10px; color:#d94040; font-weight:600;">🛑 Cerrado el último día hábil del mes</p>
       </div>
       <div class="pagina-seccion" id="sec-Encargada/o">
@@ -5287,8 +5287,8 @@ const PAGINAS = {
       <div class="pagina-seccion" id="sec-Entrega y horario">
         <div class="pagina-seccion-titulo-principal">Entrega y horario</div>
         <p class="pagina-texto">Retiro en <strong>Bodega de Alimentos</strong> (subterráneo).</p>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Lunes a jueves: 08:00 – 16:30 hrs</span></div>
-        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Viernes: 08:00 – 15:30 hrs</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Lunes a jueves: 08:30 – 16:00 hrs</span></div>
+        <div class="pagina-bullet"><div class="pagina-bullet-dot"></div><span>Viernes: 08:30 – 15:00 hrs</span></div>
         <p class="pagina-texto" style="margin-top:10px; color:#d94040; font-weight:600;">🛑 Cerrado el último día hábil del mes</p>
       </div>
       <div class="pagina-seccion" id="sec-Encargada/o">
