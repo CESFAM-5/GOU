@@ -1268,6 +1268,17 @@ function switchTab(tab,btn){
   if(tab==='buscar' && enResultados) volverInicio();
 }
 
+function ajustarHeader(){document.documentElement.style.setProperty('--header-h',document.querySelector('header').offsetHeight+'px');}
+window.addEventListener('load',ajustarHeader);
+window.addEventListener('resize',ajustarHeader);
+
+// Refresca el estado automáticamente mientras la pestaña "Estado" esté abierta
+setInterval(() => {
+  if (document.getElementById('view-estado').classList.contains('active')) {
+    renderEstado();
+  }
+}, 30000); // cada 30 segundos
+
 /* ── Índice ── */
 function renderIndice(){
   const letras=[...new Set(TEMAS.map(t=>t.letra))].sort();
