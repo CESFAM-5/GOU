@@ -7,6 +7,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>window.goatcounter = {no_onload: true};</script>
+<script data-goatcounter="https://cesfam5-gou.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
   <style>
   :root {
     --verde: #3B5F7A;
@@ -1262,6 +1265,8 @@ function switchTab(tab,btn){
   document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
   document.getElementById('view-'+tab).classList.add('active');
   btn.classList.add('active');
+  const TITULOS_TAB={buscar:'Buscar',indice:'Índice A–Z',estado:'Estado',ges:'Garantías GES'};
+  contarVisita('/tab/'+tab, TITULOS_TAB[tab]||tab);   // ← nueva línea
   if(tab==='indice') renderIndice();
   if(tab==='estado') renderEstado();
   if(tab==='ges') renderizarGES();
@@ -1269,6 +1274,12 @@ function switchTab(tab,btn){
 }
 
 function ajustarHeader(){document.documentElement.style.setProperty('--header-h',document.querySelector('header').offsetHeight+'px');}
+function contarVisita(path, titulo){
+if (window.goatcounter && window.goatcounter.count) {
+    window.goatcounter.count({ path: path, title: titulo, event: false });
+  }
+}
+window.addEventListener('load', () => contarVisita('/', 'Inicio — Buscar'));
 window.addEventListener('load',ajustarHeader);
 window.addEventListener('resize',ajustarHeader);
 
@@ -7543,6 +7554,7 @@ document.getElementById('paginaBody').innerHTML = `
   vista.classList.add('visible');
   vista.scrollTop = 0;
   history.pushState({vista:'pagina', id}, '');
+  contarVisita('/tema/'+id, pagina.titulo);   // ← nueva línea
 }
 
 function cerrarPagina() {
